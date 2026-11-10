@@ -1,0 +1,825 @@
+{
+ "team": "TV Wächtersbach II",
+ "erstellt": "2026-11-10T23:27",
+ "spiele": [
+  {
+   "nr": "6",
+   "datum": "2026-09-12",
+   "zeit": "16:00",
+   "ort": "Gesamtschule",
+   "heimspiel": true,
+   "gegner": "TV Altenhaßlau II",
+   "tore_eigene": 34,
+   "tore_gegner": 25,
+   "status": "genehmigt",
+   "halbzeit": "18:12",
+   "zweite_halbzeit": "16:13",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Faupel, Felix",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 4,
+     "name": "Jacobsen, Ian",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Appl, Martin",
+     "tore": 7,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 6,
+     "name": "Lach, Simon",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 8,
+     "name": "Dinkel, Paul",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Rieger, Rene",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 25,
+     "name": "Lehmann, Justin",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 33,
+     "name": "Lorbach, Eike",
+     "tore": 1,
+     "tore7": 1,
+     "versuche7": 1,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 66,
+     "name": "Nickels, Jonathan",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 71,
+     "name": "Grüll, Nils",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  {
+   "nr": "18",
+   "datum": "2026-09-27",
+   "zeit": "15:30",
+   "ort": "Gesamtschule",
+   "heimspiel": true,
+   "gegner": "TSG Offenbach-Bürgel III",
+   "tore_eigene": 25,
+   "tore_gegner": 17,
+   "status": "genehmigt",
+   "halbzeit": "11:9",
+   "zweite_halbzeit": "14:8",
+   "spieler": [
+    {
+     "nr": 3,
+     "name": "Houck, Maik",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 4,
+     "name": "Jacobsen, Ian",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Appl, Martin",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 6,
+     "name": "Lach, Simon",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Bös, Christoph",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 2,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Nickels, Jonathan",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Rieger, Rene",
+     "tore": 10,
+     "tore7": 3,
+     "versuche7": 3,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 25,
+     "name": "Lehmann, Justin",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 33,
+     "name": "Faupel, Felix",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 66,
+     "name": "Lorbach, Eike",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 71,
+     "name": "Grüll, Nils",
+     "tore": 1,
+     "tore7": 1,
+     "versuche7": 2,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  {
+   "nr": "21",
+   "datum": "2026-10-18",
+   "zeit": "16:00",
+   "ort": "Großsporthalle Steinau",
+   "heimspiel": false,
+   "gegner": "HSG Kinzigtal",
+   "tore_eigene": 27,
+   "tore_gegner": 24,
+   "status": "genehmigt",
+   "halbzeit": "14:14",
+   "zweite_halbzeit": "13:10",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Grüll, Nils",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 4,
+     "name": "Jacobsen, Ian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Appl, Martin",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 13,
+     "name": "Nickels, Jonathan",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Rieger, Rene",
+     "tore": 4,
+     "tore7": 1,
+     "versuche7": 1,
+     "gelb": true,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 21,
+     "name": "Rodewald, Lars",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Morina, Dren",
+     "tore": 8,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 33,
+     "name": "Dinkel, Paul",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  {
+   "nr": "30",
+   "datum": "2026-10-25",
+   "zeit": "17:30",
+   "ort": "Gesamtschule",
+   "heimspiel": true,
+   "gegner": "SG Hainhausen",
+   "tore_eigene": 26,
+   "tore_gegner": 36,
+   "status": "genehmigt",
+   "halbzeit": "10:18",
+   "zweite_halbzeit": "16:18",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Nickels, Jonathan",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 4,
+     "name": "Jacobsen, Ian",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 1,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Appl, Martin",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 8,
+     "name": "Rieger, Rene",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Huth, Jonas",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 13,
+     "name": "Porebska, Daniel",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Morina, Dren",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 17,
+     "name": "Storck, Julian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 25,
+     "name": "Lehmann, Justin",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 33,
+     "name": "Dinkel, Paul",
+     "tore": 4,
+     "tore7": 3,
+     "versuche7": 3,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 71,
+     "name": "Grüll, Nils",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  {
+   "nr": "42",
+   "datum": "2026-11-07",
+   "zeit": "15:30",
+   "ort": "Gesamtschule",
+   "heimspiel": true,
+   "gegner": "MSG Hanau/Erlensee",
+   "tore_eigene": 29,
+   "tore_gegner": 30,
+   "status": "genehmigt",
+   "halbzeit": "16:14",
+   "zweite_halbzeit": "13:16",
+   "spieler": [
+    {
+     "nr": 3,
+     "name": "Morina, Dren",
+     "tore": 7,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 4,
+     "name": "Jacobsen, Ian",
+     "tore": 7,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Appl, Martin",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 6,
+     "name": "Lach, Simon",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 7,
+     "name": "Rodewald, Lars",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Rieger, Rene",
+     "tore": 5,
+     "tore7": 1,
+     "versuche7": 1,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 18,
+     "name": "Lehmann, Justin",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 20,
+     "name": "Houck, Maik",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 27,
+     "name": "Grüll, Nils",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  }
+ ],
+ "spieler": [
+  {
+   "name": "Rieger, Rene",
+   "verein": "TV Wächtersbach II",
+   "spiele": 5,
+   "tore": 25,
+   "tore7": 5,
+   "versuche7": 5,
+   "zeitstrafen": 1,
+   "gelb": 3,
+   "rot": 0,
+   "tore_pro_spiel": 5.0
+  },
+  {
+   "name": "Jacobsen, Ian",
+   "verein": "TV Wächtersbach II",
+   "spiele": 5,
+   "tore": 24,
+   "tore7": 0,
+   "versuche7": 1,
+   "zeitstrafen": 1,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 4.8
+  },
+  {
+   "name": "Morina, Dren",
+   "verein": "TV Wächtersbach II",
+   "spiele": 3,
+   "tore": 20,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 1,
+   "rot": 0,
+   "tore_pro_spiel": 6.67
+  },
+  {
+   "name": "Appl, Martin",
+   "verein": "TV Wächtersbach II",
+   "spiele": 5,
+   "tore": 15,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 1,
+   "gelb": 1,
+   "rot": 0,
+   "tore_pro_spiel": 3.0
+  },
+  {
+   "name": "Dinkel, Paul",
+   "verein": "TV Wächtersbach II",
+   "spiele": 3,
+   "tore": 10,
+   "tore7": 3,
+   "versuche7": 3,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 3.33
+  },
+  {
+   "name": "Nickels, Jonathan",
+   "verein": "TV Wächtersbach II",
+   "spiele": 5,
+   "tore": 10,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 2.0
+  },
+  {
+   "name": "Grüll, Nils",
+   "verein": "TV Wächtersbach II",
+   "spiele": 5,
+   "tore": 8,
+   "tore7": 1,
+   "versuche7": 2,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 1.6
+  },
+  {
+   "name": "Lehmann, Justin",
+   "verein": "TV Wächtersbach II",
+   "spiele": 5,
+   "tore": 8,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 1,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 1.6
+  },
+  {
+   "name": "Lach, Simon",
+   "verein": "TV Wächtersbach II",
+   "spiele": 5,
+   "tore": 6,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 2,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 1.2
+  },
+  {
+   "name": "Rodewald, Lars",
+   "verein": "TV Wächtersbach II",
+   "spiele": 2,
+   "tore": 6,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 3.0
+  },
+  {
+   "name": "Faupel, Felix",
+   "verein": "TV Wächtersbach II",
+   "spiele": 2,
+   "tore": 3,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 1,
+   "rot": 0,
+   "tore_pro_spiel": 1.5
+  },
+  {
+   "name": "Houck, Maik",
+   "verein": "TV Wächtersbach II",
+   "spiele": 4,
+   "tore": 2,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.5
+  },
+  {
+   "name": "Huth, Jonas",
+   "verein": "TV Wächtersbach II",
+   "spiele": 1,
+   "tore": 1,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 1.0
+  },
+  {
+   "name": "Lorbach, Eike",
+   "verein": "TV Wächtersbach II",
+   "spiele": 3,
+   "tore": 1,
+   "tore7": 1,
+   "versuche7": 1,
+   "zeitstrafen": 1,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.33
+  },
+  {
+   "name": "Porebska, Daniel",
+   "verein": "TV Wächtersbach II",
+   "spiele": 1,
+   "tore": 1,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 1.0
+  },
+  {
+   "name": "Storck, Julian",
+   "verein": "TV Wächtersbach II",
+   "spiele": 3,
+   "tore": 1,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.33
+  },
+  {
+   "name": "Bös, Christoph",
+   "verein": "TV Wächtersbach II",
+   "spiele": 2,
+   "tore": 0,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 2,
+   "gelb": 1,
+   "rot": 0,
+   "tore_pro_spiel": 0.0
+  },
+  {
+   "name": "Fiebig, Benedikt",
+   "verein": "TV Wächtersbach II",
+   "spiele": 3,
+   "tore": 0,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.0
+  },
+  {
+   "name": "Hellwig, Kai",
+   "verein": "TV Wächtersbach II",
+   "spiele": 5,
+   "tore": 0,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.0
+  },
+  {
+   "name": "Klinger, Patric",
+   "verein": "TV Wächtersbach II",
+   "spiele": 2,
+   "tore": 0,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.0
+  },
+  {
+   "name": "Kunst, Patrick",
+   "verein": "TV Wächtersbach II",
+   "spiele": 2,
+   "tore": 0,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.0
+  }
+ ]
+}

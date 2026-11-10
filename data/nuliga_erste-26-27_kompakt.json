@@ -1,0 +1,1212 @@
+{
+ "team": "TV Wächtersbach",
+ "erstellt": "2026-11-10T23:26",
+ "spiele": [
+  {
+   "nr": "3",
+   "datum": "2026-09-12",
+   "zeit": "18:00",
+   "ort": "Gesamtschule",
+   "heimspiel": true,
+   "gegner": "HSG Oberhessen",
+   "tore_eigene": 28,
+   "tore_gegner": 35,
+   "status": "genehmigt",
+   "halbzeit": "15:15",
+   "zweite_halbzeit": "13:20",
+   "spieler": [
+    {
+     "nr": 5,
+     "name": "Grimm, Niklas",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Keil, Sebastian",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Wolf, Julian",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Weltle, Nils",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 15,
+     "name": "Wurst, Marius",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Kollmann, Frederik",
+     "tore": 8,
+     "tore7": 0,
+     "versuche7": 1,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 29,
+     "name": "Meyer, Moritz",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Sust, Ole",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  {
+   "nr": "11",
+   "datum": "2026-09-19",
+   "zeit": "16:00",
+   "ort": "Rudi-Lechleidner-Halle",
+   "heimspiel": false,
+   "gegner": "TV Gelnhausen II",
+   "tore_eigene": 28,
+   "tore_gegner": 33,
+   "status": "genehmigt",
+   "halbzeit": "10:20",
+   "zweite_halbzeit": "18:13",
+   "spieler": [
+    {
+     "nr": 1,
+     "name": "Seidel, Tobias",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 3,
+     "name": "Franke, Nils",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Grimm, Niklas",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 7,
+     "name": "Rodewald, Lars",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Wurst, Marius",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Keil, Sebastian",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 18,
+     "name": "Hartmann, Tim",
+     "tore": 3,
+     "tore7": 3,
+     "versuche7": 4,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Kollmann, Frederik",
+     "tore": 4,
+     "tore7": 1,
+     "versuche7": 1,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 71,
+     "name": "Schmidt, Merlin",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 3,
+     "rot": true
+    }
+   ]
+  },
+  {
+   "nr": "18",
+   "datum": "2026-09-27",
+   "zeit": "17:30",
+   "ort": "Gesamtschule",
+   "heimspiel": true,
+   "gegner": "TSG Offenbach-Bürgel II",
+   "tore_eigene": 27,
+   "tore_gegner": 27,
+   "status": "genehmigt",
+   "halbzeit": "12:15",
+   "zweite_halbzeit": "15:12",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Ziegler, Christian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Grimm, Niklas",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 7,
+     "name": "Franke, Nils",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Keil, Sebastian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Hartmann, Tim",
+     "tore": 3,
+     "tore7": 2,
+     "versuche7": 2,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Weltle, Nils",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 15,
+     "name": "Wurst, Marius",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 29,
+     "name": "Meyer, Moritz",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Sust, Ole",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  {
+   "nr": "26",
+   "datum": "2026-10-03",
+   "zeit": "18:00",
+   "ort": "Brentanohalle Altenhaßlau",
+   "heimspiel": false,
+   "gegner": "TV Altenhaßlau",
+   "tore_eigene": 26,
+   "tore_gegner": 25,
+   "status": "genehmigt",
+   "halbzeit": "13:13",
+   "zweite_halbzeit": "13:12",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Schmidt, Merlin",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 1,
+     "rot": true
+    },
+    {
+     "nr": 5,
+     "name": "Grimm, Niklas",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 7,
+     "name": "Franke, Nils",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 2,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Rodewald, Lars",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Keil, Sebastian",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Wolf, Julian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Weltle, Nils",
+     "tore": 7,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 15,
+     "name": "Ziegler, Christian",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 2,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Kollmann, Frederik",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 2,
+     "rot": false
+    },
+    {
+     "nr": 29,
+     "name": "Meyer, Moritz",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 71,
+     "name": "Hartmann, Tim",
+     "tore": 1,
+     "tore7": 1,
+     "versuche7": 1,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Sust, Ole",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    }
+   ]
+  },
+  {
+   "nr": "33",
+   "datum": "2026-10-18",
+   "zeit": "17:30",
+   "ort": "Gesamtschule",
+   "heimspiel": true,
+   "gegner": "HSG Dreieich",
+   "tore_eigene": 36,
+   "tore_gegner": 38,
+   "status": "genehmigt",
+   "halbzeit": "19:19",
+   "zweite_halbzeit": "17:19",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Schmidt, Merlin",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Grimm, Niklas",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 7,
+     "name": "Franke, Nils",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Keil, Sebastian",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Weltle, Nils",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 15,
+     "name": "Wurst, Marius",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Kollmann, Frederik",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 29,
+     "name": "Meyer, Moritz",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 71,
+     "name": "Hartmann, Tim",
+     "tore": 4,
+     "tore7": 3,
+     "versuche7": 3,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Sust, Ole",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  {
+   "nr": "41",
+   "datum": "2026-10-24",
+   "zeit": "19:30",
+   "ort": "Bulauhalle Niederrodenbach",
+   "heimspiel": false,
+   "gegner": "TGS Niederrodenbach",
+   "tore_eigene": 33,
+   "tore_gegner": 34,
+   "status": "genehmigt",
+   "halbzeit": "18:19",
+   "zweite_halbzeit": "15:15",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Schmidt, Merlin",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Grimm, Niklas",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 7,
+     "name": "Franke, Nils",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Wolf, Julian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Weltle, Nils",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 15,
+     "name": "Wurst, Marius",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 2,
+     "rot": false
+    },
+    {
+     "nr": 21,
+     "name": "Schlauch, Paul",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Kollmann, Frederik",
+     "tore": 8,
+     "tore7": 2,
+     "versuche7": 2,
+     "gelb": true,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 29,
+     "name": "Meyer, Moritz",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 71,
+     "name": "Hartmann, Tim",
+     "tore": 5,
+     "tore7": 4,
+     "versuche7": 5,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Sust, Ole",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  {
+   "nr": "48",
+   "datum": "2026-11-01",
+   "zeit": "17:30",
+   "ort": "Gesamtschule",
+   "heimspiel": true,
+   "gegner": "TGS Seligenstadt",
+   "tore_eigene": 36,
+   "tore_gegner": 27,
+   "status": "genehmigt",
+   "halbzeit": "14:16",
+   "zweite_halbzeit": "22:11",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Schmidt, Merlin",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Grimm, Niklas",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 7,
+     "name": "Franke, Nils",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Keil, Sebastian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Weltle, Nils",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 15,
+     "name": "Wurst, Marius",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 17,
+     "name": "Dehmer, Justin",
+     "tore": 1,
+     "tore7": 1,
+     "versuche7": 1,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 22,
+     "name": "Höhn, Timo",
+     "tore": 11,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Kollmann, Frederik",
+     "tore": 8,
+     "tore7": 1,
+     "versuche7": 1,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 29,
+     "name": "Meyer, Moritz",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 30,
+     "name": "Tittel, Loris",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Sust, Ole",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  {
+   "nr": "147",
+   "datum": "2026-11-07",
+   "zeit": "17:30",
+   "ort": "Gesamtschule",
+   "heimspiel": true,
+   "gegner": "HSG Preagberg",
+   "tore_eigene": 32,
+   "tore_gegner": 36,
+   "status": "genehmigt",
+   "halbzeit": "15:16",
+   "zweite_halbzeit": "17:20",
+   "spieler": [
+    {
+     "nr": 3,
+     "name": "Franke, Nils",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 2,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Grimm, Niklas",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Wurst, Marius",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Keil, Sebastian",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Wolf, Julian",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 13,
+     "name": "Meyer, Moritz",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 17,
+     "name": "Dehmer, Justin",
+     "tore": 2,
+     "tore7": 2,
+     "versuche7": 2,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 18,
+     "name": "Hartmann, Tim",
+     "tore": 3,
+     "tore7": 1,
+     "versuche7": 2,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 22,
+     "name": "Höhn, Timo",
+     "tore": 4,
+     "tore7": 1,
+     "versuche7": 1,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Kollmann, Frederik",
+     "tore": 10,
+     "tore7": 2,
+     "versuche7": 3,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Sust, Ole",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  }
+ ],
+ "spieler": [
+  {
+   "name": "Kollmann, Frederik",
+   "verein": "TV Wächtersbach",
+   "spiele": 7,
+   "tore": 49,
+   "tore7": 6,
+   "versuche7": 8,
+   "zeitstrafen": 3,
+   "gelb": 4,
+   "rot": 0,
+   "tore_pro_spiel": 7.0
+  },
+  {
+   "name": "Grimm, Niklas",
+   "verein": "TV Wächtersbach",
+   "spiele": 8,
+   "tore": 27,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 3.38
+  },
+  {
+   "name": "Keil, Sebastian",
+   "verein": "TV Wächtersbach",
+   "spiele": 7,
+   "tore": 22,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 2,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 3.14
+  },
+  {
+   "name": "Sust, Ole",
+   "verein": "TV Wächtersbach",
+   "spiele": 7,
+   "tore": 22,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 1,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 3.14
+  },
+  {
+   "name": "Weltle, Nils",
+   "verein": "TV Wächtersbach",
+   "spiele": 7,
+   "tore": 21,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 2,
+   "gelb": 2,
+   "rot": 0,
+   "tore_pro_spiel": 3.0
+  },
+  {
+   "name": "Hartmann, Tim",
+   "verein": "TV Wächtersbach",
+   "spiele": 7,
+   "tore": 19,
+   "tore7": 14,
+   "versuche7": 17,
+   "zeitstrafen": 1,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 2.71
+  },
+  {
+   "name": "Meyer, Moritz",
+   "verein": "TV Wächtersbach",
+   "spiele": 7,
+   "tore": 19,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 2,
+   "rot": 0,
+   "tore_pro_spiel": 2.71
+  },
+  {
+   "name": "Höhn, Timo",
+   "verein": "TV Wächtersbach",
+   "spiele": 2,
+   "tore": 15,
+   "tore7": 1,
+   "versuche7": 1,
+   "zeitstrafen": 1,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 7.5
+  },
+  {
+   "name": "Franke, Nils",
+   "verein": "TV Wächtersbach",
+   "spiele": 8,
+   "tore": 12,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 8,
+   "gelb": 2,
+   "rot": 0,
+   "tore_pro_spiel": 1.5
+  },
+  {
+   "name": "Wurst, Marius",
+   "verein": "TV Wächtersbach",
+   "spiele": 7,
+   "tore": 12,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 3,
+   "gelb": 1,
+   "rot": 0,
+   "tore_pro_spiel": 1.71
+  },
+  {
+   "name": "Schmidt, Merlin",
+   "verein": "TV Wächtersbach",
+   "spiele": 7,
+   "tore": 9,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 4,
+   "gelb": 2,
+   "rot": 2,
+   "tore_pro_spiel": 1.29
+  },
+  {
+   "name": "Wolf, Julian",
+   "verein": "TV Wächtersbach",
+   "spiele": 7,
+   "tore": 6,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.86
+  },
+  {
+   "name": "Rodewald, Lars",
+   "verein": "TV Wächtersbach",
+   "spiele": 4,
+   "tore": 4,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 1.0
+  },
+  {
+   "name": "Dehmer, Justin",
+   "verein": "TV Wächtersbach",
+   "spiele": 4,
+   "tore": 3,
+   "tore7": 3,
+   "versuche7": 3,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.75
+  },
+  {
+   "name": "Schlauch, Paul",
+   "verein": "TV Wächtersbach",
+   "spiele": 1,
+   "tore": 3,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 3.0
+  },
+  {
+   "name": "Seidel, Tobias",
+   "verein": "TV Wächtersbach",
+   "spiele": 4,
+   "tore": 1,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.25
+  },
+  {
+   "name": "Tittel, Loris",
+   "verein": "TV Wächtersbach",
+   "spiele": 7,
+   "tore": 1,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.14
+  },
+  {
+   "name": "Ziegler, Christian",
+   "verein": "TV Wächtersbach",
+   "spiele": 4,
+   "tore": 1,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 2,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.25
+  },
+  {
+   "name": "Grüll, Nils",
+   "verein": "TV Wächtersbach",
+   "spiele": 2,
+   "tore": 0,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.0
+  },
+  {
+   "name": "Huth, Jonas",
+   "verein": "TV Wächtersbach",
+   "spiele": 1,
+   "tore": 0,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.0
+  },
+  {
+   "name": "Kunst, Patrick",
+   "verein": "TV Wächtersbach",
+   "spiele": 4,
+   "tore": 0,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.0
+  },
+  {
+   "name": "Rinkenberger, Jonas",
+   "verein": "TV Wächtersbach",
+   "spiele": 1,
+   "tore": 0,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 0.0
+  }
+ ]
+}
