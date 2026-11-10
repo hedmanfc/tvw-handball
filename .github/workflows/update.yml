@@ -1,0 +1,58 @@
+name: Daten aktualisieren und veröffentlichen
+
+on:
+  schedule:
+    - cron: "30 20 * * 6,0"
+    - cron: "30 5 * * 1,2"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/app_template.html"
+      - "tools/build_app.py"
+      - "tools/static/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - name: Daten von nuLiga holen
+        run: python tools/nuliga_scraper.py --ordner data
+        continue-on-error: true
+      - name: App bauen
+        run: python tools/build_app.py data site/index.html --standalone
+      - name: Neue Daten im Repository speichern
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Daten aktualisiert"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
