@@ -2,20 +2,22 @@ name: Daten aktualisieren und veröffentlichen
 
 on:
   schedule:
-    - cron: "30 20 * * 6,0"
-    - cron: "30 5 * * 1,2"
-  workflow_dispatch:
+    - cron: "30 20 * * 6,0"   # Samstag und Sonntag abends (nach den Spielen)
+    - cron: "30 5 * * 1,2"    # Montag und Dienstag früh (Spielberichte werden nachträglich freigegeben)
+  workflow_dispatch:           # manuell starten: Reiter Actions > Run workflow
   push:
     branches: [main]
     paths:
       - "tools/app_template.html"
       - "tools/build_app.py"
+      - "tools/news_scraper.py"
       - "tools/static/**"
 
 permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: pages
@@ -32,20 +34,44 @@ jobs:
       - run: pip install requests beautifulsoup4
       - name: Daten von nuLiga holen
         run: python tools/nuliga_scraper.py --ordner data
-        continue-on-error: true
+        continue-on-error: true   # bei einem Fehler wird mit den vorhandenen Daten weitergebaut
       - name: App bauen
         run: python tools/build_app.py data site/index.html --standalone
       - name: Neue Daten im Repository speichern
+        id: speichern
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Daten aktualisiert"
-          git push
+          if git diff --cached --quiet; then
+            echo "geaendert=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Daten aktualisiert"
+            git pull --rebase
+            git push
+            echo "geaendert=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
+      - name: Meldung, wenn es neue Daten gab
+        if: success() && steps.speichern.outputs.geaendert == 'true' && github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          url=$(gh issue create --repo "$GITHUB_REPOSITORY" --assignee "$GITHUB_REPOSITORY_OWNER" \
+            --title "Daten aktualisiert ($(TZ=Europe/Berlin date '+%d.%m. %H:%M'))" \
+            --body "Neue nuLiga-Daten wurden geholt und die App wird veröffentlicht. @$GITHUB_REPOSITORY_OWNER")
+          gh issue close "$url" --reason completed
+      - name: Meldung bei Fehler
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --repo "$GITHUB_REPOSITORY" --assignee "$GITHUB_REPOSITORY_OWNER" \
+            --title "Aktualisierung fehlgeschlagen ($(TZ=Europe/Berlin date '+%d.%m. %H:%M'))" \
+            --body "Der automatische Lauf ist fehlgeschlagen. Protokoll: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID @$GITHUB_REPOSITORY_OWNER"
 
   deploy:
     needs: build
