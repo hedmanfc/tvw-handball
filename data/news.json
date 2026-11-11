@@ -2,10 +2,65 @@
  "stand": "2026-11-11",
  "quelle": "https://www.tvw-handballer.de/news/",
  "items": [
-  {"d":"2026-10-25","t":"TV Wächtersbach II - SG Hainhausen 26:36 (10:18)","u":"https://www.tvw-handballer.de/2026/10/25/tvw-ii-sg-hainhausen-26-36-10-18/","x":"Die Zweite verliert gegen den Tabellenführer. Hainhausen setzt sich früh ab, da der TVW in den ersten 15 Minuten nicht ins Spiel findet."},
-  {"d":"2026-10-18","t":"HSG Kinzigtal - TV Wächtersbach II 24:27","u":"https://www.tvw-handballer.de/2026/10/18/hsg-kinzigtal-tv-w%C3%A4chtersbach-ii-24-27/","x":"Auswärtssieg im Bezirksklassen-Duell nach ausgeglichener Partie. Zur Halbzeit steht es 14:14."},
-  {"d":"2026-09-27","t":"TV Wächtersbach II - TSG Offenbach-Bürgel 25:17 (11:9)","u":"https://www.tvw-handballer.de/2026/09/27/spielbericht-tvw-ii-tsg-offenbach-b%C3%BCrgel-25-17-11-9/","x":"Heimsieg dank starker Abwehr und einer deutlichen Steigerung nach der Pause. Der TVW führte früh 6:1."},
-  {"d":"2026-09-13","t":"Aufsteiger TV Wächtersbach II gewinnt Derby zum Saisonauftakt deutlich","u":"https://www.tvw-handballer.de/2026/09/14/aufsteiger-tv-w%C3%A4chtersbach-ii-gewinnt-derby-zum-saisonauftakt-deutlich/","x":"Derbysieg gegen den TV Altenhaßlau II mit 34:25 (18:12). Nach einem 3:5-Rückstand drehte die Mannschaft das Spiel."},
-  {"d":"2026-05-31","t":"B-Jugend qualifiziert sich für die ROL","u":"https://www.tvw-handballer.de/2026/05/31/b-jugend-qualifiziert-sich-f%C3%BCr-die-rol/","x":"Die B-Jugend qualifiziert sich an zwei Wochenenden für die neue Regionsoberliga und sichert sich Platz zwei."}
+  {
+   "d": "2026-10-25",
+   "t": "TV Wächtersbach II - SG Hainhausen 26:36 (10:18)",
+   "u": "https://www.tvw-handballer.de/2026/10/25/tvw-ii-sg-hainhausen-26-36-10-18/",
+   "x": "Die zweite Mannschaft des TV Wächtersbach musste sich am vergangenen Spieltag dem Tabellenführer SG Hainhausen mit 26:36 (10:18) geschlagen geben. Die Gäste aus Hainhausen zeigten von Beginn an, warum sie aktuell an …"
+  },
+  {
+   "d": "2026-10-18",
+   "t": "HSG Kinzigtal - TV Wächtersbach II 24:27",
+   "u": "https://www.tvw-handballer.de/2026/10/18/hsg-kinzigtal-tv-w%C3%A4chtersbach-ii-24-27/",
+   "x": "Die zweite Mannschaft des TV Wächtersbach konnte einen wichtigen Auswärtserfolg feiern. Im Bezirksklassen-Duell setzte sich das Team bei der HSG Kinzigtal mit 27:24 (14:14) durch. Von Beginn an entwickelte sich eine …"
+  },
+  {
+   "d": "2026-09-27",
+   "t": "TV Wächtersbach II - TSG Offenbach-Bürgel 25:17 (11:9)",
+   "u": "https://www.tvw-handballer.de/2026/09/27/spielbericht-tvw-ii-tsg-offenbach-b%C3%BCrgel-25-17-11-9/",
+   "x": "Mit einer starken Defensivleistung und einer deutlichen Leistungssteigerung nach der Pause setzte sich die zweite Mannschaft des TV Wächtersbach vor heimischem Publikum verdient mit 25:17 (11:9) gegen die TSG …"
+  },
+  {
+   "d": "2026-09-13",
+   "t": "Aufsteiger TV Wächtersbach II gewinnt Derby zum Saisonauftakt deutlich",
+   "u": "https://www.tvw-handballer.de/2026/09/14/aufsteiger-tv-w%C3%A4chtersbach-ii-gewinnt-derby-zum-saisonauftakt-deutlich/",
+   "x": "Für den TV Wächtersbach II hätte der Start in die neue Bezirksklassen-Saison kaum besser laufen können. Im ersten Saisonspiel nach dem Aufstieg setzte sich die Mannschaft im Derby gegen den TV Altenhaßlau II vor …"
+  },
+  {
+   "d": "2026-05-31",
+   "t": "B-Jugend qualifiziert sich für die ROL",
+   "u": "https://www.tvw-handballer.de/2026/05/31/b-jugend-qualifiziert-sich-f%C3%BCr-die-rol/",
+   "x": "Die B-Jugend des TVW hat sich an zwei Wochenenden (23.5. und 30.5.2026) für die neue ROL (Regionsoberliga) qualifiziert. Hier konnten sie sich den zweiten Platz vor dem TV Gelnhausen sichern, der zur Teilnahme zur …"
+  },
+  {
+   "d": "2026-03-22",
+   "t": "TVW II – TSG Offenbach Bürgel III 33:21 (16:9)",
+   "u": "https://www.tvw-handballer.de/2026/03/22/tvw-ii-tsg-offenbach-b%C3%BCrgel-iii-33-21-16-9/",
+   "x": "TV Wächtersbach II krönt perfekte Saison – 33:21 im letzten Spiel und Meistertitel gesichert! Was für ein Abschluss! Im letzten Saisonspiel der Männer‑2. Bezirksklasse hat der TV Wächtersbach II noch einmal …"
+  },
+  {
+   "d": "2026-03-08",
+   "t": "SG Hainhausen II - TVW II 24:39 (14:17)",
+   "u": "https://www.tvw-handballer.de/2026/03/08/sg-hainhausen-ii-tvw-ii-24-39-14-17/",
+   "x": "TV Wächtersbach II siegt deutlich mit 39:24 in Hainhausen Der TV Wächtersbach II hat seine starke Serie fortgesetzt und einen souveränen 39:24‑Auswärtssieg bei der SG Hainhausen II eingefahren. Nach einem zunächst …"
+  },
+  {
+   "d": "2026-02-21",
+   "t": "HSG Maintal II - TVW II 24:38 (14:18)",
+   "u": "https://www.tvw-handballer.de/2026/02/21/hsg-maintal-ii-tvw-ii-24-38-14-18/",
+   "x": "TV Wächtersbach II gewinnt torreiches Auswärtsspiel in Maintal mit 38:24 Der TV Wächtersbach II hat einen deutlichen Auswärtssieg eingefahren. Gegen die HSG Maintal II setzte sich die Mannschaft mit 38:24 (18:14) …"
+  },
+  {
+   "d": "2026-02-08",
+   "t": "TSG Offenbach-Bürgel III – TVW II 20:31 (9:14)",
+   "u": "https://www.tvw-handballer.de/2026/02/08/tsg-offenbach-b%C3%BCrgel-iii-tvw-ii-20-31-9-14/",
+   "x": "TV Wächtersbach II gewinnt auswärts klar mit 31:20 gegen Bürgel III Der TV Wächtersbach II hat einen wichtigen Auswärtssieg eingefahren. In der Sportfabrik Offenbach setzte sich die Mannschaft souverän mit 31:20 …"
+  },
+  {
+   "d": "2025-12-07",
+   "t": "TVW II – SG Hainhausen II 39:21 (18:12)",
+   "u": "https://www.tvw-handballer.de/2025/12/07/tvw-ii-sg-hainhausen-ii-39-21-18-12/",
+   "x": "TV Wächtersbach II gewinnt deutlich mit 39:21 gegen SG Hainhausen II Die zweite Herrenmannschaft des TV Wächtersbach feierte am 7. Dezember 2025 einen souveränen 39:21‑Heimsieg gegen die SG Hainhausen II. Bereits …"
+  }
  ]
 }
