@@ -81,8 +81,33 @@ def main():
         if (ORDNER / f"nuliga_{key}_alle.json").exists():
             ds[key] = dataset(key)
             print(f"{key}: {ds[key]['n']} Berichte, {len(ds[key]['G'])} Spiele im Plan")
+    def _san(o):
+        # Sicherheit: HTML-Sonderzeichen in allen Texten aus nuLiga entschärfen (die App baut Ansichten per innerHTML)
+        if isinstance(o, str):
+            return o.replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+        if isinstance(o, list):
+            return [_san(x) for x in o]
+        if isinstance(o, dict):
+            return {_san(k): _san(v) for k, v in o.items()}
+        return o
+    ds = _san(ds)
+    if STANDALONE:  # beim automatischen Bau auf GitHub: aktuelle News holen (Fehler sind unkritisch)
+        try:
+            sys.path.insert(0, str(HERE))
+            import news_scraper
+            news_scraper.hole(ORDNER)
+        except Exception as e:
+            print("news: übersprungen (%s)" % e)
+    news = {"items": []}
+    if (ORDNER / "news.json").exists():
+        try:
+            news = json.loads((ORDNER / "news.json").read_text(encoding="utf-8"))
+            news["items"] = [i for i in news.get("items", []) if str(i.get("u", "")).startswith("https://www.tvw-handballer.de/")][:12]
+        except Exception as e:
+            print("news.json unlesbar:", e)
+    news = _san(news)
     data = "var LOGO=" + json.dumps(logo) + ";\nvar DEFAULT=" + json.dumps(DEFAULT if DEFAULT in ds else next(iter(ds))) + \
-           ";\nvar DATASETS=" + json.dumps(ds, ensure_ascii=False, separators=(",", ":")) + ";"
+           ";\nvar DATASETS=" + json.dumps(ds, ensure_ascii=False, separators=(",", ":")) + ";\nvar NEWS=" + json.dumps(news, ensure_ascii=False, separators=(",", ":")) + ";"
     assert "/*@DATA@*/" in tpl
     html = tpl.replace("/*@DATA@*/", data.replace("</", "<\\/"))
     if STANDALONE:
@@ -91,6 +116,10 @@ def main():
                 '<meta name="theme-color" content="#0d0f13"><link rel="manifest" href="manifest.webmanifest">'
                 '<link rel="apple-touch-icon" href="icon-192.png"><link rel="icon" href="icon-192.png">'
                 '<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">'
+                '<meta name="robots" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer">'
+                '<meta http-equiv="Content-Security-Policy" content="default-src \'none\'; script-src \'unsafe-inline\'; '
+                'style-src \'unsafe-inline\' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; '
+                'img-src \'self\' data: blob:; manifest-src \'self\'; connect-src \'none\'; base-uri \'none\'; form-action \'none\'">'
                 '<style>:root{color-scheme:dark}[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style>')
         html = head + html + "</body></html>"
         AUS.parent.mkdir(parents=True, exist_ok=True)
