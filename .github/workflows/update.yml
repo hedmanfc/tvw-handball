@@ -39,16 +39,18 @@ jobs:
         run: python tools/build_app.py data site/index.html --standalone
       - name: Neue Daten im Repository speichern
         id: speichern
+        continue-on-error: true   # die Veröffentlichung soll auch klappen, wenn das Speichern der Rohdaten scheitert
         run: |
+          set -x
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add data
+          git add -A data
           if git diff --cached --quiet; then
             echo "geaendert=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Daten aktualisiert"
-            git pull --rebase
-            git push
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
             echo "geaendert=true" >> "$GITHUB_OUTPUT"
           fi
       - uses: actions/configure-pages@v5
