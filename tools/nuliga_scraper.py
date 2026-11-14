@@ -230,13 +230,20 @@ def dump(pfad, obj, indent=1):
     pfad.write_text(json.dumps(obj, ensure_ascii=False, indent=indent), encoding="utf-8")
 
 
-def staffel_holen(key, ordner, cache, cache_datei):
+def platzhalter(g):
+    """nuLiga legt Berichte schon vor dem Anpfiff mit 0:0 an. Solange nicht genehmigt, zählt das nicht als Ergebnis."""
+    return g.get("tore_heim") == 0 and g.get("tore_gast") == 0 and g.get("status") != "genehmigt"
+
+
+def staffel_holen(key, ordner, cache, cache_datei, nur_spielplan=False):
     champ, group, team, anzeige = STAFFELN[key]
     print(f"\n=== {anzeige} (Gruppe {group}) ===")
     plan = spielplan(champ, group)
     ids = sorted({p["meeting"] for p in plan if p["meeting"]})
     print(f"{len(plan)} Spiele im Spielplan, {len(ids)} Spielberichte.")
     dump(ordner / f"nuliga_{key}_spielplan.json", plan)
+    if nur_spielplan:  # schneller Lauf zum Anpfiff: nur der Spielplan (Ticker-IDs), keine Spielberichte
+        return
 
     todo = [i for i in ids if i not in cache or cache[i].get("status") != "genehmigt"]
     print(f"{len(todo)} davon werden neu geladen.")
@@ -247,7 +254,7 @@ def staffel_holen(key, ordner, cache, cache_datei):
             cache[i] = g
         cache_datei.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
 
-    spiele = [cache[i] for i in ids if i in cache]
+    spiele = [cache[i] for i in ids if i in cache and not platzhalter(cache[i])]
     dump(ordner / f"nuliga_{key}_alle.json", spiele)
     komp = kompakt(spiele, team)
     dump(ordner / f"nuliga_{key}_kompakt.json", komp)
@@ -260,6 +267,7 @@ def staffel_holen(key, ordner, cache, cache_datei):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--nur", choices=sorted(STAFFELN), help="nur diese Staffel holen")
+    ap.add_argument("--nur-spielplan", action="store_true", help="nur den Spielplan der laufenden Saison holen (wenig Abrufe)")
     ap.add_argument("--liste", action="store_true", help="Staffeln anzeigen")
     ap.add_argument("--ordner", help="Zielordner für die JSON-Dateien (Standard: Ordner des Skripts)")
     args = ap.parse_args()
@@ -272,8 +280,11 @@ def main():
     ordner.mkdir(parents=True, exist_ok=True)
     cache_datei = ordner / "nuliga_cache.json"
     cache = json.loads(cache_datei.read_text(encoding="utf-8")) if cache_datei.exists() else {}
-    for key in ([args.nur] if args.nur else list(STAFFELN)):
-        staffel_holen(key, ordner, cache, cache_datei)
+    keys = [args.nur] if args.nur else list(STAFFELN)
+    if args.nur_spielplan:
+        keys = [k for k in keys if k.endswith("-26-27")]
+    for key in keys:
+        staffel_holen(key, ordner, cache, cache_datei, args.nur_spielplan)
     print("\nFertig. Schick Claude die Dateien nuliga_*_alle.json (oder den ganzen Ordner als ZIP).")
 
 

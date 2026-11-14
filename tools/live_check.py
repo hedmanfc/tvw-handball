@@ -21,7 +21,7 @@ heute = jetzt.strftime("%Y-%m-%d")
 treffer = []
 for datei in sorted(ordner.glob("nuliga_*-26-27_spielplan.json")):  # nur die laufende Saison
     for p in json.loads(datei.read_text(encoding="utf-8")):
-        if p.get("datum") != heute or p.get("meeting") or p.get("tore_heim") is not None or not p.get("zeit"):
+        if p.get("datum") != heute or p.get("meeting") or not p.get("zeit"):
             continue
         try:
             h, m = map(int, p["zeit"].split(":"))

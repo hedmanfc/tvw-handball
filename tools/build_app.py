@@ -26,6 +26,8 @@ STAFFELN = {
     "erste-25-26":  ("2025/26", "1. Mannschaft", "Bezirksoberliga Männer"),
     "zweite-25-26": ("2025/26", "2. Mannschaft", "2. Bezirksklasse Männer"),
 }
+# nuLiga-Gruppen-IDs (für den Link zum Liveticker, nuScoreLive nutzt dieselbe Gruppen-ID)
+GRUPPEN = {"erste-26-27": "492715", "zweite-26-27": "492052", "erste-25-26": "421685", "zweite-25-26": "421487"}
 DEFAULT = "erste-26-27"
 TYP = {"Tor": 0, "7m mit Tor": 1, "7m ohne Tor": 2, "2 Minuten": 3, "Verwarnung": 4, "Auszeit Heim": 5, "Auszeit Gast": 5}
 
@@ -54,7 +56,8 @@ def dataset(key):
     alle = json.loads((ORDNER / f"nuliga_{key}_alle.json").read_text(encoding="utf-8"))
     plan = json.loads((ORDNER / f"nuliga_{key}_spielplan.json").read_text(encoding="utf-8"))
     komp = json.loads((ORDNER / f"nuliga_{key}_kompakt.json").read_text(encoding="utf-8"))
-    ok = [g for g in alle if "tore_heim" in g and "spieler" in g and "hz_heim" in g and g.get("datum")]
+    ok = [g for g in alle if "tore_heim" in g and "spieler" in g and "hz_heim" in g and g.get("datum")
+          and not (g["tore_heim"] == 0 and g["tore_gast"] == 0 and g.get("status") != "genehmigt")]  # 0:0 vor dem Anpfiff ist ein Platzhalter
     AL = [al_eintrag(g) for g in ok]
     ergebnis = {g["id"]: f'{g["tore_heim"]}:{g["tore_gast"]}' for g in ok}
     G = []
@@ -62,15 +65,15 @@ def dataset(key):
         if not p["datum"]:
             continue
         e = ergebnis.get(p["meeting"]) if p["meeting"] else None
-        if e is None and p["tore_heim"] is not None:
+        if e is None and p["tore_heim"] is not None and (p["tore_heim"], p["tore_gast"]) != (0, 0):
             e = f'{p["tore_heim"]}:{p["tore_gast"]}'
-        G.append([p["datum"], p["zeit"], p["heim"], p["gast"], e])
+        G.append([p["datum"], p["zeit"], p["heim"], p["gast"], e, p["meeting"] or ""])
     teams = sorted({x for g in G for x in (g[2], g[3])})
     D = {"team": komp["team"], "erstellt": komp["erstellt"],
          "spiele": [s for s in komp["spiele"] if "halbzeit" in s and "spieler" in s], "spieler": komp["spieler"]}
     return {"saison": saison, "team": f"{team_lbl} · TV Wächtersbach" if False else team_lbl, "liga": liga,
             "sub": f"{team_lbl} · {saison}", "W": komp["team"],
-            "n": len(AL), "D": D, "G": G, "AL": AL, "T": [[t] for t in teams]}
+            "grp": GRUPPEN.get(key, ""), "n": len(AL), "D": D, "G": G, "AL": AL, "T": [[t] for t in teams]}
 
 
 def _city(n):
@@ -114,7 +117,7 @@ def kalender(key, d):
          "X-WR-CALNAME:" + _esc(W + " Spielplan"), "X-WR-TIMEZONE:Europe/Berlin", "REFRESH-INTERVAL;VALUE=DURATION:PT6H",
          "X-PUBLISHED-TTL:PT6H"] + VTZ
     n = 0
-    for dat, zeit, h, a, e in sorted(d["G"], key=lambda g: (g[0], g[1])):
+    for dat, zeit, h, a, e, *_ in sorted(d["G"], key=lambda g: (g[0], g[1])):
         if W not in (h, a):
             continue
         n += 1
