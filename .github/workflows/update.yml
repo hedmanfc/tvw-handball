@@ -10,6 +10,9 @@ on:
       meldung:
         type: string
         default: "ja"
+      schnell:               # "ja" = nur Spielplan holen (Liveticker-IDs), wenig Abrufe bei nuLiga
+        type: string
+        default: "nein"
   push:
     branches: [main]
     paths:
@@ -38,7 +41,7 @@ jobs:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4
       - name: Daten von nuLiga holen
-        run: python tools/nuliga_scraper.py --ordner data
+        run: python tools/nuliga_scraper.py --ordner data ${{ inputs.schnell == 'ja' && '--nur-spielplan' || '' }}
         continue-on-error: true   # bei einem Fehler wird mit den vorhandenen Daten weitergebaut
       - name: App bauen
         run: python tools/build_app.py data site/index.html --standalone

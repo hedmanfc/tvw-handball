@@ -31,6 +31,7 @@ jobs:
     uses: ./.github/workflows/update.yml
     with:
       meldung: "nein"
+      schnell: "ja"
     permissions:
       contents: write
       pages: write
