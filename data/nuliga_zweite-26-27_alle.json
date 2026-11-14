@@ -11185,7 +11185,7 @@
  },
  {
   "id": "8259321",
-  "status": "offen",
+  "status": "genehmigt",
   "nr": "37",
   "datum": "2026-11-08",
   "zeit": "14:00",
@@ -13872,6 +13872,680 @@
     "ereignis": "Tor",
     "nr": 5,
     "name": "Meyer, Matthias"
+   }
+  ],
+  "saison": "Offenbach-Hanau 26/27",
+  "gruppe": "492052"
+ },
+ {
+  "id": "8259343",
+  "status": "genehmigt",
+  "nr": "45",
+  "datum": "2026-11-14",
+  "zeit": "19:00",
+  "ort": "Brentanohalle Altenhaßlau",
+  "heim": "TV Altenhaßlau II",
+  "gast": "HSG Kinzigtal",
+  "tore_heim": 20,
+  "tore_gast": 29,
+  "hz_heim": 10,
+  "hz_gast": 16,
+  "spieler": {
+   "heim": [
+    {
+     "nr": 7,
+     "name": "Hennig, Matthias",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Miketta, Johannes Karl",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Nguyen, Christian",
+     "tore": 6,
+     "tore7": 4,
+     "versuche7": 4,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Lippert, Florian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 16,
+     "name": "Schmalfuß, Max",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 28,
+     "name": "Surau, Robin Philipp",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 44,
+     "name": "Reuter, Dirk",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 52,
+     "name": "Schreiber, Stefan",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 71,
+     "name": "Hölzerkopf, Daniel",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ],
+   "gast": [
+    {
+     "nr": 3,
+     "name": "Drechsler, Luca",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 4,
+     "name": "Drechsler, Julian",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Grieß, Pascal",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 6,
+     "name": "Hadwiger, Christof",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 8,
+     "name": "Marburger, Emil Noel",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Bartholomä, Finn",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 17,
+     "name": "Seum, Jonas",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 20,
+     "name": "Weigand, Nico",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 30,
+     "name": "Heimer, Johannes",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 73,
+     "name": "Schlegel, Nick Patrick",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 91,
+     "name": "Heil, Mario",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 96,
+     "name": "Groteguth, Mark",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  "verlauf": [
+   {
+    "seite": "heim",
+    "zeit": "00:19",
+    "stand": "1:0",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Miketta, Johannes Karl"
+   },
+   {
+    "seite": "heim",
+    "zeit": "01:17",
+    "stand": "2:0",
+    "ereignis": "Tor",
+    "nr": 44,
+    "name": "Reuter, Dirk"
+   },
+   {
+    "seite": "gast",
+    "zeit": "02:40",
+    "stand": "2:1",
+    "ereignis": "Tor",
+    "nr": 4,
+    "name": "Drechsler, Julian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "03:36",
+    "stand": "2:2",
+    "ereignis": "Tor",
+    "nr": 17,
+    "name": "Seum, Jonas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "04:16",
+    "stand": "2:3",
+    "ereignis": "Tor",
+    "nr": 91,
+    "name": "Heil, Mario"
+   },
+   {
+    "seite": "heim",
+    "zeit": "06:46",
+    "stand": "3:3",
+    "ereignis": "7m mit Tor",
+    "nr": 10,
+    "name": "Nguyen, Christian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "07:58",
+    "stand": "3:4",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Drechsler, Luca"
+   },
+   {
+    "seite": "gast",
+    "zeit": "09:22",
+    "stand": "3:5",
+    "ereignis": "Tor",
+    "nr": 91,
+    "name": "Heil, Mario"
+   },
+   {
+    "seite": "heim",
+    "zeit": "10:04",
+    "stand": "4:5",
+    "ereignis": "Tor",
+    "nr": 44,
+    "name": "Reuter, Dirk"
+   },
+   {
+    "seite": "gast",
+    "zeit": "10:38",
+    "stand": "4:6",
+    "ereignis": "Tor",
+    "nr": 91,
+    "name": "Heil, Mario"
+   },
+   {
+    "seite": "heim",
+    "zeit": "11:02",
+    "stand": "5:6",
+    "ereignis": "7m mit Tor",
+    "nr": 10,
+    "name": "Nguyen, Christian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "14:15",
+    "stand": "5:7",
+    "ereignis": "Tor",
+    "nr": 91,
+    "name": "Heil, Mario"
+   },
+   {
+    "seite": "gast",
+    "zeit": "15:24",
+    "stand": "5:8",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Grieß, Pascal"
+   },
+   {
+    "seite": "gast",
+    "zeit": "16:14",
+    "stand": "5:9",
+    "ereignis": "Tor",
+    "nr": 17,
+    "name": "Seum, Jonas"
+   },
+   {
+    "seite": "",
+    "zeit": "16:23",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "16:40",
+    "stand": "6:9",
+    "ereignis": "Tor",
+    "nr": 28,
+    "name": "Surau, Robin Philipp"
+   },
+   {
+    "seite": "gast",
+    "zeit": "17:24",
+    "stand": "6:10",
+    "ereignis": "Tor",
+    "nr": 8,
+    "name": "Marburger, Emil Noel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "18:00",
+    "stand": "6:11",
+    "ereignis": "Tor",
+    "nr": 4,
+    "name": "Drechsler, Julian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "18:27",
+    "stand": "6:12",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Hadwiger, Christof"
+   },
+   {
+    "seite": "heim",
+    "zeit": "23:24",
+    "stand": "7:12",
+    "ereignis": "Tor",
+    "nr": 44,
+    "name": "Reuter, Dirk"
+   },
+   {
+    "seite": "",
+    "zeit": "23:31",
+    "stand": "",
+    "ereignis": "Auszeit Gast",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "gast",
+    "zeit": "23:50",
+    "stand": "7:13",
+    "ereignis": "Tor",
+    "nr": 91,
+    "name": "Heil, Mario"
+   },
+   {
+    "seite": "heim",
+    "zeit": "25:15",
+    "stand": "8:13",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Miketta, Johannes Karl"
+   },
+   {
+    "seite": "gast",
+    "zeit": "25:45",
+    "stand": "8:14",
+    "ereignis": "Tor",
+    "nr": 8,
+    "name": "Marburger, Emil Noel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "26:57",
+    "stand": "8:15",
+    "ereignis": "Tor",
+    "nr": 17,
+    "name": "Seum, Jonas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "27:34",
+    "stand": "9:15",
+    "ereignis": "Tor",
+    "nr": 7,
+    "name": "Hennig, Matthias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "29:22",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 30,
+    "name": "Heimer, Johannes"
+   },
+   {
+    "seite": "heim",
+    "zeit": "29:37",
+    "stand": "10:15",
+    "ereignis": "7m mit Tor",
+    "nr": 10,
+    "name": "Nguyen, Christian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "30:00",
+    "stand": "10:16",
+    "ereignis": "Tor",
+    "nr": 73,
+    "name": "Schlegel, Nick Patrick"
+   },
+   {
+    "seite": "heim",
+    "zeit": "31:36",
+    "stand": "11:16",
+    "ereignis": "Tor",
+    "nr": 28,
+    "name": "Surau, Robin Philipp"
+   },
+   {
+    "seite": "gast",
+    "zeit": "32:54",
+    "stand": "11:17",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Hadwiger, Christof"
+   },
+   {
+    "seite": "gast",
+    "zeit": "34:39",
+    "stand": "11:18",
+    "ereignis": "Tor",
+    "nr": 91,
+    "name": "Heil, Mario"
+   },
+   {
+    "seite": "heim",
+    "zeit": "36:06",
+    "stand": "12:18",
+    "ereignis": "Tor",
+    "nr": 28,
+    "name": "Surau, Robin Philipp"
+   },
+   {
+    "seite": "gast",
+    "zeit": "36:35",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 91,
+    "name": "Heil, Mario"
+   },
+   {
+    "seite": "gast",
+    "zeit": "37:27",
+    "stand": "12:19",
+    "ereignis": "Tor",
+    "nr": 8,
+    "name": "Marburger, Emil Noel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "39:15",
+    "stand": "13:19",
+    "ereignis": "Tor",
+    "nr": 44,
+    "name": "Reuter, Dirk"
+   },
+   {
+    "seite": "gast",
+    "zeit": "40:23",
+    "stand": "13:20",
+    "ereignis": "Tor",
+    "nr": 4,
+    "name": "Drechsler, Julian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "42:35",
+    "stand": "14:20",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Miketta, Johannes Karl"
+   },
+   {
+    "seite": "gast",
+    "zeit": "44:47",
+    "stand": "14:21",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Grieß, Pascal"
+   },
+   {
+    "seite": "heim",
+    "zeit": "45:07",
+    "stand": "15:21",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Lippert, Florian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "45:40",
+    "stand": "15:22",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Bartholomä, Finn"
+   },
+   {
+    "seite": "gast",
+    "zeit": "46:12",
+    "stand": "15:23",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Grieß, Pascal"
+   },
+   {
+    "seite": "gast",
+    "zeit": "48:15",
+    "stand": "15:24",
+    "ereignis": "Tor",
+    "nr": 4,
+    "name": "Drechsler, Julian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "49:15",
+    "stand": "16:24",
+    "ereignis": "Tor",
+    "nr": 44,
+    "name": "Reuter, Dirk"
+   },
+   {
+    "seite": "",
+    "zeit": "50:08",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "52:04",
+    "stand": "17:24",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Nguyen, Christian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "53:04",
+    "stand": "18:24",
+    "ereignis": "Tor",
+    "nr": 44,
+    "name": "Reuter, Dirk"
+   },
+   {
+    "seite": "gast",
+    "zeit": "53:35",
+    "stand": "18:25",
+    "ereignis": "Tor",
+    "nr": 73,
+    "name": "Schlegel, Nick Patrick"
+   },
+   {
+    "seite": "gast",
+    "zeit": "54:34",
+    "stand": "18:26",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Bartholomä, Finn"
+   },
+   {
+    "seite": "heim",
+    "zeit": "54:55",
+    "stand": "19:26",
+    "ereignis": "7m mit Tor",
+    "nr": 10,
+    "name": "Nguyen, Christian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "55:37",
+    "stand": "19:27",
+    "ereignis": "Tor",
+    "nr": 4,
+    "name": "Drechsler, Julian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "55:51",
+    "stand": "19:28",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Hadwiger, Christof"
+   },
+   {
+    "seite": "heim",
+    "zeit": "56:34",
+    "stand": "20:28",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Nguyen, Christian"
+   },
+   {
+    "seite": "",
+    "zeit": "58:04",
+    "stand": "",
+    "ereignis": "Auszeit Gast",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "gast",
+    "zeit": "58:26",
+    "stand": "20:29",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Drechsler, Luca"
    }
   ],
   "saison": "Offenbach-Hanau 26/27",

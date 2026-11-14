@@ -690,9 +690,9 @@
   "nr": "63",
   "heim": "HSG Hanau III",
   "gast": "TV Wächtersbach",
-  "ergebnis_roh": "10:6",
-  "tore_heim": 10,
-  "tore_gast": 6,
+  "ergebnis_roh": "39:35",
+  "tore_heim": 39,
+  "tore_gast": 35,
   "meeting": "8259132"
  },
  {
@@ -702,10 +702,10 @@
   "nr": "58",
   "heim": "SG Hainburg",
   "gast": "TGS Niederrodenbach",
-  "ergebnis_roh": "Beau/Erka.",
-  "tore_heim": null,
-  "tore_gast": null,
-  "meeting": null
+  "ergebnis_roh": "25:24",
+  "tore_heim": 25,
+  "tore_gast": 24,
+  "meeting": "8259106"
  },
  {
   "datum": "2026-11-14",
@@ -714,10 +714,10 @@
   "nr": "57",
   "heim": "HSG Dietzenbach",
   "gast": "TGS Seligenstadt",
-  "ergebnis_roh": "Meye./Reis.",
-  "tore_heim": null,
-  "tore_gast": null,
-  "meeting": null
+  "ergebnis_roh": "37:30",
+  "tore_heim": 37,
+  "tore_gast": 30,
+  "meeting": "8259051"
  },
  {
   "datum": "2026-11-14",
@@ -726,10 +726,10 @@
   "nr": "60",
   "heim": "HSG Oberhessen",
   "gast": "TV Altenhaßlau",
-  "ergebnis_roh": "Lind./Pach.",
-  "tore_heim": null,
-  "tore_gast": null,
-  "meeting": null
+  "ergebnis_roh": "31:26",
+  "tore_heim": 31,
+  "tore_gast": 26,
+  "meeting": "8259071"
  },
  {
   "datum": "2026-11-15",

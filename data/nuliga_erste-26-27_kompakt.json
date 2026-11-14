@@ -1,6 +1,6 @@
 {
  "team": "TV Wächtersbach",
- "erstellt": "2026-11-14T12:42",
+ "erstellt": "2026-11-14T21:00",
  "spiele": [
   {
    "nr": "3",
@@ -941,62 +941,165 @@
      "rot": false
     }
    ]
+  },
+  {
+   "nr": "63",
+   "datum": "2026-11-14",
+   "zeit": "16:00",
+   "ort": "Doorner Halle Steinheim",
+   "heimspiel": false,
+   "gegner": "HSG Hanau III",
+   "tore_eigene": 35,
+   "tore_gegner": 39,
+   "status": "offen",
+   "halbzeit": "15:21",
+   "zweite_halbzeit": "20:18",
+   "spieler": [
+    {
+     "nr": 3,
+     "name": "Franke, Nils",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Grimm, Niklas",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Keil, Sebastian",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Wolf, Julian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 13,
+     "name": "Meyer, Moritz",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Weltle, Nils",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 18,
+     "name": "Hartmann, Tim",
+     "tore": 4,
+     "tore7": 4,
+     "versuche7": 5,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 22,
+     "name": "Höhn, Timo",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Kollmann, Frederik",
+     "tore": 12,
+     "tore7": 3,
+     "versuche7": 3,
+     "gelb": true,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Sust, Ole",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
   }
  ],
  "spieler": [
   {
    "name": "Kollmann, Frederik",
    "verein": "TV Wächtersbach",
-   "spiele": 7,
-   "tore": 49,
-   "tore7": 6,
-   "versuche7": 8,
-   "zeitstrafen": 3,
-   "gelb": 4,
+   "spiele": 8,
+   "tore": 61,
+   "tore7": 9,
+   "versuche7": 11,
+   "zeitstrafen": 4,
+   "gelb": 5,
    "rot": 0,
-   "tore_pro_spiel": 7.0
+   "tore_pro_spiel": 7.62
   },
   {
    "name": "Grimm, Niklas",
    "verein": "TV Wächtersbach",
-   "spiele": 8,
-   "tore": 27,
+   "spiele": 9,
+   "tore": 32,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 0,
    "gelb": 0,
    "rot": 0,
-   "tore_pro_spiel": 3.38
+   "tore_pro_spiel": 3.56
   },
   {
    "name": "Keil, Sebastian",
    "verein": "TV Wächtersbach",
-   "spiele": 7,
-   "tore": 22,
+   "spiele": 8,
+   "tore": 25,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 2,
    "gelb": 0,
    "rot": 0,
-   "tore_pro_spiel": 3.14
-  },
-  {
-   "name": "Sust, Ole",
-   "verein": "TV Wächtersbach",
-   "spiele": 7,
-   "tore": 22,
-   "tore7": 0,
-   "versuche7": 0,
-   "zeitstrafen": 1,
-   "gelb": 0,
-   "rot": 0,
-   "tore_pro_spiel": 3.14
+   "tore_pro_spiel": 3.12
   },
   {
    "name": "Weltle, Nils",
    "verein": "TV Wächtersbach",
-   "spiele": 7,
-   "tore": 21,
+   "spiele": 8,
+   "tore": 24,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 2,
@@ -1007,86 +1110,98 @@
   {
    "name": "Hartmann, Tim",
    "verein": "TV Wächtersbach",
-   "spiele": 7,
-   "tore": 19,
-   "tore7": 14,
-   "versuche7": 17,
+   "spiele": 8,
+   "tore": 23,
+   "tore7": 18,
+   "versuche7": 22,
+   "zeitstrafen": 2,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 2.88
+  },
+  {
+   "name": "Sust, Ole",
+   "verein": "TV Wächtersbach",
+   "spiele": 8,
+   "tore": 23,
+   "tore7": 0,
+   "versuche7": 0,
    "zeitstrafen": 1,
    "gelb": 0,
    "rot": 0,
-   "tore_pro_spiel": 2.71
+   "tore_pro_spiel": 2.88
   },
   {
    "name": "Meyer, Moritz",
    "verein": "TV Wächtersbach",
-   "spiele": 7,
-   "tore": 19,
+   "spiele": 8,
+   "tore": 22,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 0,
-   "gelb": 2,
+   "gelb": 3,
    "rot": 0,
-   "tore_pro_spiel": 2.71
+   "tore_pro_spiel": 2.75
   },
   {
    "name": "Höhn, Timo",
    "verein": "TV Wächtersbach",
-   "spiele": 2,
-   "tore": 15,
+   "spiele": 3,
+   "tore": 17,
    "tore7": 1,
    "versuche7": 1,
    "zeitstrafen": 1,
    "gelb": 0,
    "rot": 0,
-   "tore_pro_spiel": 7.5
+   "tore_pro_spiel": 5.67
   },
   {
    "name": "Franke, Nils",
    "verein": "TV Wächtersbach",
-   "spiele": 8,
-   "tore": 12,
+   "spiele": 9,
+   "tore": 13,
    "tore7": 0,
    "versuche7": 0,
-   "zeitstrafen": 8,
+   "zeitstrafen": 9,
    "gelb": 2,
    "rot": 0,
-   "tore_pro_spiel": 1.5
+   "tore_pro_spiel": 1.44
   },
   {
    "name": "Wurst, Marius",
    "verein": "TV Wächtersbach",
-   "spiele": 7,
+   "spiele": 8,
    "tore": 12,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 3,
    "gelb": 1,
    "rot": 0,
-   "tore_pro_spiel": 1.71
+   "tore_pro_spiel": 1.5
   },
   {
    "name": "Schmidt, Merlin",
    "verein": "TV Wächtersbach",
-   "spiele": 7,
+   "spiele": 8,
    "tore": 9,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 4,
    "gelb": 2,
    "rot": 2,
-   "tore_pro_spiel": 1.29
+   "tore_pro_spiel": 1.12
   },
   {
    "name": "Wolf, Julian",
    "verein": "TV Wächtersbach",
-   "spiele": 7,
-   "tore": 6,
+   "spiele": 8,
+   "tore": 7,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 0,
    "gelb": 0,
    "rot": 0,
-   "tore_pro_spiel": 0.86
+   "tore_pro_spiel": 0.88
   },
   {
    "name": "Rodewald, Lars",
@@ -1103,14 +1218,14 @@
   {
    "name": "Dehmer, Justin",
    "verein": "TV Wächtersbach",
-   "spiele": 4,
+   "spiele": 5,
    "tore": 3,
    "tore7": 3,
    "versuche7": 3,
    "zeitstrafen": 0,
    "gelb": 0,
    "rot": 0,
-   "tore_pro_spiel": 0.75
+   "tore_pro_spiel": 0.6
   },
   {
    "name": "Schlauch, Paul",
@@ -1127,26 +1242,26 @@
   {
    "name": "Seidel, Tobias",
    "verein": "TV Wächtersbach",
-   "spiele": 4,
+   "spiele": 5,
    "tore": 1,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 0,
    "gelb": 0,
    "rot": 0,
-   "tore_pro_spiel": 0.25
+   "tore_pro_spiel": 0.2
   },
   {
    "name": "Tittel, Loris",
    "verein": "TV Wächtersbach",
-   "spiele": 7,
+   "spiele": 8,
    "tore": 1,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 0,
    "gelb": 0,
    "rot": 0,
-   "tore_pro_spiel": 0.14
+   "tore_pro_spiel": 0.12
   },
   {
    "name": "Ziegler, Christian",

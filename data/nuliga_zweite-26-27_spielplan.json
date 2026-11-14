@@ -462,10 +462,10 @@
   "nr": "45",
   "heim": "TV Altenhaßlau II",
   "gast": "HSG Kinzigtal",
-  "ergebnis_roh": "Berg",
-  "tore_heim": null,
-  "tore_gast": null,
-  "meeting": null
+  "ergebnis_roh": "20:29",
+  "tore_heim": 20,
+  "tore_gast": 29,
+  "meeting": "8259343"
  },
  {
   "datum": "2026-11-15",

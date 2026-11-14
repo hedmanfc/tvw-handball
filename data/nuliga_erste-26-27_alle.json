@@ -20076,6 +20076,920 @@
   ]
  },
  {
+  "id": "8259051",
+  "status": "offen",
+  "nr": "57",
+  "datum": "2026-11-14",
+  "zeit": "19:30",
+  "ort": "Philipp-Fenn-Halle",
+  "heim": "HSG Dietzenbach",
+  "gast": "TGS Seligenstadt",
+  "tore_heim": 37,
+  "tore_gast": 30,
+  "hz_heim": 22,
+  "hz_gast": 15,
+  "spieler": {
+   "heim": [
+    {
+     "nr": 3,
+     "name": "Lang, Andreas",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 4,
+     "name": "Subay, Can",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Kampe, Lars",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 7,
+     "name": "Jager, Niklas",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Raab, Sebastian",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Diehl, Marcel",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 16,
+     "name": "Lega, Alessandro",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 22,
+     "name": "Probanowski, Felix",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Wilkens, Lars",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 34,
+     "name": "Kevin, Waßermeyer",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 55,
+     "name": "Nath, Michael",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 66,
+     "name": "Keckeis, Henry",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 92,
+     "name": "Kreckovic, Milos",
+     "tore": 8,
+     "tore7": 2,
+     "versuche7": 2,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Rueen, Nawied",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ],
+   "gast": [
+    {
+     "nr": 5,
+     "name": "Thomas, Filip",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 8,
+     "name": "Keil, Kevin",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 1,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 12,
+     "name": "Bernhard, Lukas",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 18,
+     "name": "Gutmann, Kevin",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 19,
+     "name": "Bechtel, Luca",
+     "tore": 10,
+     "tore7": 2,
+     "versuche7": 2,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 20,
+     "name": "Stöhrer, Gabriel",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 27,
+     "name": "Geißler, Leonard",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 29,
+     "name": "Zilch, Moritz",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 36,
+     "name": "Jordan, Dennis",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 50,
+     "name": "Schönwetter, Christopher",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Beike, Louis",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 1,
+     "rot": false
+    }
+   ]
+  },
+  "verlauf": [
+   {
+    "seite": "heim",
+    "zeit": "01:03",
+    "stand": "1:0",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Wilkens, Lars"
+   },
+   {
+    "seite": "heim",
+    "zeit": "03:33",
+    "stand": "2:0",
+    "ereignis": "Tor",
+    "nr": 55,
+    "name": "Nath, Michael"
+   },
+   {
+    "seite": "heim",
+    "zeit": "04:50",
+    "stand": "3:0",
+    "ereignis": "Tor",
+    "nr": 92,
+    "name": "Kreckovic, Milos"
+   },
+   {
+    "seite": "heim",
+    "zeit": "05:21",
+    "stand": "4:0",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Probanowski, Felix"
+   },
+   {
+    "seite": "gast",
+    "zeit": "05:32",
+    "stand": "4:1",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Thomas, Filip"
+   },
+   {
+    "seite": "gast",
+    "zeit": "05:58",
+    "stand": "4:2",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Thomas, Filip"
+   },
+   {
+    "seite": "gast",
+    "zeit": "06:26",
+    "stand": "4:3",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Stöhrer, Gabriel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "06:41",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 9,
+    "name": "Raab, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "07:43",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 27,
+    "name": "Geißler, Leonard"
+   },
+   {
+    "seite": "gast",
+    "zeit": "08:51",
+    "stand": "4:4",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Bechtel, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "09:05",
+    "stand": "5:4",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Raab, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "09:17",
+    "stand": "5:5",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Stöhrer, Gabriel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "09:36",
+    "stand": "6:5",
+    "ereignis": "Tor",
+    "nr": 92,
+    "name": "Kreckovic, Milos"
+   },
+   {
+    "seite": "gast",
+    "zeit": "09:55",
+    "stand": "6:6",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Thomas, Filip"
+   },
+   {
+    "seite": "heim",
+    "zeit": "10:28",
+    "stand": "7:6",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Probanowski, Felix"
+   },
+   {
+    "seite": "gast",
+    "zeit": "11:07",
+    "stand": "7:6",
+    "ereignis": "7m ohne Tor",
+    "nr": 8,
+    "name": "Keil, Kevin"
+   },
+   {
+    "seite": "heim",
+    "zeit": "11:42",
+    "stand": "8:6",
+    "ereignis": "Tor",
+    "nr": 55,
+    "name": "Nath, Michael"
+   },
+   {
+    "seite": "gast",
+    "zeit": "12:34",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 20,
+    "name": "Stöhrer, Gabriel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "12:46",
+    "stand": "9:6",
+    "ereignis": "7m mit Tor",
+    "nr": 92,
+    "name": "Kreckovic, Milos"
+   },
+   {
+    "seite": "gast",
+    "zeit": "13:08",
+    "stand": "9:7",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Bechtel, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "13:48",
+    "stand": "10:7",
+    "ereignis": "Tor",
+    "nr": 55,
+    "name": "Nath, Michael"
+   },
+   {
+    "seite": "heim",
+    "zeit": "14:53",
+    "stand": "11:7",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Wilkens, Lars"
+   },
+   {
+    "seite": "gast",
+    "zeit": "15:23",
+    "stand": "11:8",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Bechtel, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "15:43",
+    "stand": "12:8",
+    "ereignis": "Tor",
+    "nr": 34,
+    "name": "Kevin, Waßermeyer"
+   },
+   {
+    "seite": "heim",
+    "zeit": "17:48",
+    "stand": "13:8",
+    "ereignis": "7m mit Tor",
+    "nr": 92,
+    "name": "Kreckovic, Milos"
+   },
+   {
+    "seite": "heim",
+    "zeit": "18:27",
+    "stand": "14:8",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Wilkens, Lars"
+   },
+   {
+    "seite": "heim",
+    "zeit": "19:24",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 7,
+    "name": "Jager, Niklas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "19:54",
+    "stand": "14:9",
+    "ereignis": "7m mit Tor",
+    "nr": 19,
+    "name": "Bechtel, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "20:28",
+    "stand": "15:9",
+    "ereignis": "Tor",
+    "nr": 92,
+    "name": "Kreckovic, Milos"
+   },
+   {
+    "seite": "heim",
+    "zeit": "20:48",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 5,
+    "name": "Kampe, Lars"
+   },
+   {
+    "seite": "gast",
+    "zeit": "21:08",
+    "stand": "15:10",
+    "ereignis": "Tor",
+    "nr": 36,
+    "name": "Jordan, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "21:38",
+    "stand": "16:10",
+    "ereignis": "Tor",
+    "nr": 34,
+    "name": "Kevin, Waßermeyer"
+   },
+   {
+    "seite": "gast",
+    "zeit": "21:57",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 94,
+    "name": "Beike, Louis"
+   },
+   {
+    "seite": "gast",
+    "zeit": "22:20",
+    "stand": "16:11",
+    "ereignis": "Tor",
+    "nr": 36,
+    "name": "Jordan, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "22:56",
+    "stand": "17:11",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Lang, Andreas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "23:10",
+    "stand": "17:12",
+    "ereignis": "Tor",
+    "nr": 27,
+    "name": "Geißler, Leonard"
+   },
+   {
+    "seite": "heim",
+    "zeit": "23:50",
+    "stand": "18:12",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Wilkens, Lars"
+   },
+   {
+    "seite": "gast",
+    "zeit": "24:05",
+    "stand": "18:13",
+    "ereignis": "Tor",
+    "nr": 27,
+    "name": "Geißler, Leonard"
+   },
+   {
+    "seite": "heim",
+    "zeit": "24:47",
+    "stand": "19:13",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Lang, Andreas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "27:18",
+    "stand": "20:13",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Lang, Andreas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "27:47",
+    "stand": "21:13",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Diehl, Marcel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "29:35",
+    "stand": "21:14",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Thomas, Filip"
+   },
+   {
+    "seite": "",
+    "zeit": "29:42",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "gast",
+    "zeit": "29:48",
+    "stand": "21:15",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Stöhrer, Gabriel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "30:00",
+    "stand": "22:15",
+    "ereignis": "Tor",
+    "nr": 34,
+    "name": "Kevin, Waßermeyer"
+   },
+   {
+    "seite": "heim",
+    "zeit": "30:25",
+    "stand": "23:15",
+    "ereignis": "Tor",
+    "nr": 55,
+    "name": "Nath, Michael"
+   },
+   {
+    "seite": "gast",
+    "zeit": "32:15",
+    "stand": "23:16",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Thomas, Filip"
+   },
+   {
+    "seite": "heim",
+    "zeit": "32:32",
+    "stand": "24:16",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Raab, Sebastian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "34:17",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 23,
+    "name": "Wilkens, Lars"
+   },
+   {
+    "seite": "gast",
+    "zeit": "34:43",
+    "stand": "24:17",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Bechtel, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "35:13",
+    "stand": "25:17",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Kampe, Lars"
+   },
+   {
+    "seite": "gast",
+    "zeit": "35:22",
+    "stand": "25:18",
+    "ereignis": "Tor",
+    "nr": 27,
+    "name": "Geißler, Leonard"
+   },
+   {
+    "seite": "heim",
+    "zeit": "36:10",
+    "stand": "26:18",
+    "ereignis": "Tor",
+    "nr": 55,
+    "name": "Nath, Michael"
+   },
+   {
+    "seite": "heim",
+    "zeit": "37:49",
+    "stand": "27:18",
+    "ereignis": "Tor",
+    "nr": 92,
+    "name": "Kreckovic, Milos"
+   },
+   {
+    "seite": "gast",
+    "zeit": "38:10",
+    "stand": "27:19",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Stöhrer, Gabriel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "38:24",
+    "stand": "28:19",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Kampe, Lars"
+   },
+   {
+    "seite": "heim",
+    "zeit": "38:31",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 66,
+    "name": "Keckeis, Henry"
+   },
+   {
+    "seite": "gast",
+    "zeit": "39:02",
+    "stand": "28:20",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Stöhrer, Gabriel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "41:29",
+    "stand": "28:21",
+    "ereignis": "Tor",
+    "nr": 8,
+    "name": "Keil, Kevin"
+   },
+   {
+    "seite": "gast",
+    "zeit": "42:39",
+    "stand": "28:22",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Bechtel, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "42:52",
+    "stand": "29:22",
+    "ereignis": "Tor",
+    "nr": 92,
+    "name": "Kreckovic, Milos"
+   },
+   {
+    "seite": "heim",
+    "zeit": "43:56",
+    "stand": "30:22",
+    "ereignis": "Tor",
+    "nr": 55,
+    "name": "Nath, Michael"
+   },
+   {
+    "seite": "gast",
+    "zeit": "44:30",
+    "stand": "30:23",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Bechtel, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "46:05",
+    "stand": "31:23",
+    "ereignis": "Tor",
+    "nr": 34,
+    "name": "Kevin, Waßermeyer"
+   },
+   {
+    "seite": "heim",
+    "zeit": "47:07",
+    "stand": "32:23",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Lang, Andreas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "47:34",
+    "stand": "33:23",
+    "ereignis": "Tor",
+    "nr": 92,
+    "name": "Kreckovic, Milos"
+   },
+   {
+    "seite": "gast",
+    "zeit": "48:58",
+    "stand": "33:24",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Stöhrer, Gabriel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "50:09",
+    "stand": "33:25",
+    "ereignis": "Tor",
+    "nr": 36,
+    "name": "Jordan, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "50:44",
+    "stand": "34:25",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Wilkens, Lars"
+   },
+   {
+    "seite": "gast",
+    "zeit": "51:04",
+    "stand": "34:26",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Bechtel, Luca"
+   },
+   {
+    "seite": "gast",
+    "zeit": "51:45",
+    "stand": "34:27",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Bechtel, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "52:13",
+    "stand": "35:27",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Diehl, Marcel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "52:37",
+    "stand": "35:28",
+    "ereignis": "Tor",
+    "nr": 36,
+    "name": "Jordan, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "54:20",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 3,
+    "name": "Lang, Andreas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "56:13",
+    "stand": "36:28",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Wilkens, Lars"
+   },
+   {
+    "seite": "heim",
+    "zeit": "57:10",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 55,
+    "name": "Nath, Michael"
+   },
+   {
+    "seite": "gast",
+    "zeit": "57:10",
+    "stand": "36:29",
+    "ereignis": "7m mit Tor",
+    "nr": 19,
+    "name": "Bechtel, Luca"
+   },
+   {
+    "seite": "gast",
+    "zeit": "58:31",
+    "stand": "36:30",
+    "ereignis": "Tor",
+    "nr": 8,
+    "name": "Keil, Kevin"
+   },
+   {
+    "seite": "gast",
+    "zeit": "59:12",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 94,
+    "name": "Beike, Louis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "59:32",
+    "stand": "37:30",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Diehl, Marcel"
+   }
+  ],
+  "saison": "Offenbach-Hanau 26/27",
+  "gruppe": "492715"
+ },
+ {
   "id": "8259060",
   "status": "genehmigt",
   "nr": "6",
@@ -25374,6 +26288,848 @@
     "name": "Maikranz, Marco"
    }
   ]
+ },
+ {
+  "id": "8259071",
+  "status": "offen",
+  "nr": "60",
+  "datum": "2026-11-14",
+  "zeit": "19:30",
+  "ort": "Wilhelm-Lückert-Halle",
+  "heim": "HSG Oberhessen",
+  "gast": "TV Altenhaßlau",
+  "tore_heim": 31,
+  "tore_gast": 26,
+  "hz_heim": 15,
+  "hz_gast": 13,
+  "spieler": {
+   "heim": [
+    {
+     "nr": 10,
+     "name": "Wenzel, Michel",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Hanauske, Moritz",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 21,
+     "name": "Schildger, Christoph",
+     "tore": 7,
+     "tore7": 2,
+     "versuche7": 3,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 22,
+     "name": "Hees, Jakob",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 2,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Walterhöfer, Bastian-Max",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 25,
+     "name": "Schmück, Sam",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 31,
+     "name": "Leonhardt, Rolf-Patrick",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 40,
+     "name": "Vogel, Jan Niklas",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 44,
+     "name": "Klier, Max",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 46,
+     "name": "Baatz, Florian",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 68,
+     "name": "Hergert, Uwe",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 69,
+     "name": "Pöperny, Florian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 77,
+     "name": "Teubner, Jonas",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 82,
+     "name": "Hees, Moritz",
+     "tore": 10,
+     "tore7": 3,
+     "versuche7": 4,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ],
+   "gast": [
+    {
+     "nr": 7,
+     "name": "Pfeifer, Leon",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Habenstein, Julian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Haack, Sascha",
+     "tore": 8,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Busch, Jonathan",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 19,
+     "name": "Seybold, Jan",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 26,
+     "name": "Lippert, Kai",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 27,
+     "name": "Thum, Lukas",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 28,
+     "name": "Ullmann, Mark",
+     "tore": 3,
+     "tore7": 1,
+     "versuche7": 1,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 30,
+     "name": "Born, Fabian",
+     "tore": 6,
+     "tore7": 2,
+     "versuche7": 3,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 89,
+     "name": "Bremer, Dennis",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 96,
+     "name": "Häfner, Niklas",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  "verlauf": [
+   {
+    "seite": "heim",
+    "zeit": "00:46",
+    "stand": "1:0",
+    "ereignis": "Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "gast",
+    "zeit": "01:33",
+    "stand": "1:1",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Busch, Jonathan"
+   },
+   {
+    "seite": "heim",
+    "zeit": "02:16",
+    "stand": "2:1",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Vogel, Jan Niklas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "02:55",
+    "stand": "2:2",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Haack, Sascha"
+   },
+   {
+    "seite": "gast",
+    "zeit": "03:59",
+    "stand": "2:3",
+    "ereignis": "Tor",
+    "nr": 30,
+    "name": "Born, Fabian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "05:08",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 69,
+    "name": "Pöperny, Florian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "05:14",
+    "stand": "2:4",
+    "ereignis": "7m mit Tor",
+    "nr": 30,
+    "name": "Born, Fabian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "07:29",
+    "stand": "2:4",
+    "ereignis": "7m ohne Tor",
+    "nr": 21,
+    "name": "Schildger, Christoph"
+   },
+   {
+    "seite": "heim",
+    "zeit": "07:58",
+    "stand": "3:4",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Hees, Jakob"
+   },
+   {
+    "seite": "heim",
+    "zeit": "09:22",
+    "stand": "4:4",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Vogel, Jan Niklas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "10:24",
+    "stand": "4:5",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Haack, Sascha"
+   },
+   {
+    "seite": "",
+    "zeit": "10:39",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "10:59",
+    "stand": "5:5",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Walterhöfer, Bastian-Max"
+   },
+   {
+    "seite": "gast",
+    "zeit": "11:09",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 19,
+    "name": "Seybold, Jan"
+   },
+   {
+    "seite": "heim",
+    "zeit": "13:04",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 22,
+    "name": "Hees, Jakob"
+   },
+   {
+    "seite": "gast",
+    "zeit": "13:04",
+    "stand": "5:6",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Haack, Sascha"
+   },
+   {
+    "seite": "gast",
+    "zeit": "13:53",
+    "stand": "5:7",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Haack, Sascha"
+   },
+   {
+    "seite": "gast",
+    "zeit": "15:10",
+    "stand": "5:8",
+    "ereignis": "Tor",
+    "nr": 30,
+    "name": "Born, Fabian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "15:24",
+    "stand": "6:8",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Schildger, Christoph"
+   },
+   {
+    "seite": "gast",
+    "zeit": "15:44",
+    "stand": "6:9",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Seybold, Jan"
+   },
+   {
+    "seite": "heim",
+    "zeit": "16:24",
+    "stand": "6:9",
+    "ereignis": "7m ohne Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "heim",
+    "zeit": "17:56",
+    "stand": "7:9",
+    "ereignis": "Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "heim",
+    "zeit": "18:38",
+    "stand": "8:9",
+    "ereignis": "Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "heim",
+    "zeit": "19:12",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 46,
+    "name": "Baatz, Florian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "19:41",
+    "stand": "8:10",
+    "ereignis": "Tor",
+    "nr": 27,
+    "name": "Thum, Lukas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "21:28",
+    "stand": "9:10",
+    "ereignis": "Tor",
+    "nr": 69,
+    "name": "Pöperny, Florian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "23:00",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 14,
+    "name": "Busch, Jonathan"
+   },
+   {
+    "seite": "heim",
+    "zeit": "23:26",
+    "stand": "10:10",
+    "ereignis": "7m mit Tor",
+    "nr": 21,
+    "name": "Schildger, Christoph"
+   },
+   {
+    "seite": "",
+    "zeit": "23:34",
+    "stand": "",
+    "ereignis": "Auszeit Gast",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "25:50",
+    "stand": "11:10",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Schildger, Christoph"
+   },
+   {
+    "seite": "heim",
+    "zeit": "26:20",
+    "stand": "12:10",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Schildger, Christoph"
+   },
+   {
+    "seite": "heim",
+    "zeit": "26:56",
+    "stand": "13:10",
+    "ereignis": "Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "gast",
+    "zeit": "27:28",
+    "stand": "13:11",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Haack, Sascha"
+   },
+   {
+    "seite": "gast",
+    "zeit": "27:49",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 28,
+    "name": "Ullmann, Mark"
+   },
+   {
+    "seite": "heim",
+    "zeit": "28:31",
+    "stand": "14:11",
+    "ereignis": "7m mit Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "gast",
+    "zeit": "29:05",
+    "stand": "14:12",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Haack, Sascha"
+   },
+   {
+    "seite": "gast",
+    "zeit": "29:47",
+    "stand": "14:13",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Haack, Sascha"
+   },
+   {
+    "seite": "heim",
+    "zeit": "30:00",
+    "stand": "15:13",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Hees, Jakob"
+   },
+   {
+    "seite": "heim",
+    "zeit": "31:17",
+    "stand": "16:13",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Schildger, Christoph"
+   },
+   {
+    "seite": "gast",
+    "zeit": "33:04",
+    "stand": "16:14",
+    "ereignis": "Tor",
+    "nr": 30,
+    "name": "Born, Fabian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "34:20",
+    "stand": "16:15",
+    "ereignis": "7m mit Tor",
+    "nr": 30,
+    "name": "Born, Fabian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "35:29",
+    "stand": "16:16",
+    "ereignis": "Tor",
+    "nr": 27,
+    "name": "Thum, Lukas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "36:22",
+    "stand": "17:16",
+    "ereignis": "Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "heim",
+    "zeit": "36:56",
+    "stand": "18:16",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Schildger, Christoph"
+   },
+   {
+    "seite": "heim",
+    "zeit": "39:20",
+    "stand": "19:16",
+    "ereignis": "7m mit Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "gast",
+    "zeit": "39:48",
+    "stand": "19:17",
+    "ereignis": "Tor",
+    "nr": 30,
+    "name": "Born, Fabian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "40:20",
+    "stand": "20:17",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Hees, Jakob"
+   },
+   {
+    "seite": "gast",
+    "zeit": "41:10",
+    "stand": "20:18",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Busch, Jonathan"
+   },
+   {
+    "seite": "heim",
+    "zeit": "41:22",
+    "stand": "21:18",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Hees, Jakob"
+   },
+   {
+    "seite": "heim",
+    "zeit": "42:33",
+    "stand": "22:18",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Hees, Jakob"
+   },
+   {
+    "seite": "",
+    "zeit": "44:12",
+    "stand": "",
+    "ereignis": "Auszeit Gast",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "44:46",
+    "stand": "23:18",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Wenzel, Michel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "46:20",
+    "stand": "23:19",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Haack, Sascha"
+   },
+   {
+    "seite": "heim",
+    "zeit": "46:34",
+    "stand": "24:19",
+    "ereignis": "Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "gast",
+    "zeit": "48:04",
+    "stand": "24:19",
+    "ereignis": "7m ohne Tor",
+    "nr": 30,
+    "name": "Born, Fabian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "48:40",
+    "stand": "25:19",
+    "ereignis": "7m mit Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "heim",
+    "zeit": "50:09",
+    "stand": "26:19",
+    "ereignis": "Tor",
+    "nr": 46,
+    "name": "Baatz, Florian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "51:05",
+    "stand": "26:20",
+    "ereignis": "7m mit Tor",
+    "nr": 28,
+    "name": "Ullmann, Mark"
+   },
+   {
+    "seite": "heim",
+    "zeit": "51:12",
+    "stand": "27:20",
+    "ereignis": "Tor",
+    "nr": 46,
+    "name": "Baatz, Florian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "51:13",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 30,
+    "name": "Born, Fabian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "51:54",
+    "stand": "28:20",
+    "ereignis": "Tor",
+    "nr": 82,
+    "name": "Hees, Moritz"
+   },
+   {
+    "seite": "gast",
+    "zeit": "54:17",
+    "stand": "28:21",
+    "ereignis": "Tor",
+    "nr": 26,
+    "name": "Lippert, Kai"
+   },
+   {
+    "seite": "heim",
+    "zeit": "54:55",
+    "stand": "29:21",
+    "ereignis": "7m mit Tor",
+    "nr": 21,
+    "name": "Schildger, Christoph"
+   },
+   {
+    "seite": "gast",
+    "zeit": "55:58",
+    "stand": "29:22",
+    "ereignis": "Tor",
+    "nr": 28,
+    "name": "Ullmann, Mark"
+   },
+   {
+    "seite": "gast",
+    "zeit": "56:59",
+    "stand": "29:23",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Busch, Jonathan"
+   },
+   {
+    "seite": "gast",
+    "zeit": "58:36",
+    "stand": "29:24",
+    "ereignis": "Tor",
+    "nr": 28,
+    "name": "Ullmann, Mark"
+   },
+   {
+    "seite": "heim",
+    "zeit": "58:48",
+    "stand": "30:24",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Wenzel, Michel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "59:17",
+    "stand": "30:25",
+    "ereignis": "Tor",
+    "nr": 26,
+    "name": "Lippert, Kai"
+   },
+   {
+    "seite": "heim",
+    "zeit": "59:19",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 22,
+    "name": "Hees, Jakob"
+   },
+   {
+    "seite": "heim",
+    "zeit": "59:42",
+    "stand": "31:25",
+    "ereignis": "Tor",
+    "nr": 25,
+    "name": "Schmück, Sam"
+   },
+   {
+    "seite": "gast",
+    "zeit": "60:00",
+    "stand": "31:26",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Habenstein, Julian"
+   }
+  ],
+  "saison": "Offenbach-Hanau 26/27",
+  "gruppe": "492715"
  },
  {
   "id": "8259074",
@@ -32050,7 +33806,954 @@
  {
   "id": "8259103",
   "status": "offen",
-  "verlauf": [],
+  "nr": "61",
+  "datum": "2026-11-14",
+  "zeit": "13:00",
+  "ort": "Rudi-Lechleidner-Halle",
+  "heim": "TV Gelnhausen II",
+  "gast": "TSG Offenbach-Bürgel II",
+  "tore_heim": 38,
+  "tore_gast": 38,
+  "hz_heim": 18,
+  "hz_gast": 17,
+  "spieler": {
+   "heim": [
+    {
+     "nr": 1,
+     "name": "Pilgrim, Noah",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 3,
+     "name": "Mocken, Marco",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 6,
+     "name": "Hofmann, Ben",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Basermann, Ole",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Ruth, Anton",
+     "tore": 10,
+     "tore7": 2,
+     "versuche7": 2,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 18,
+     "name": "O´Toole, Liam",
+     "tore": 8,
+     "tore7": 1,
+     "versuche7": 2,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 19,
+     "name": "Maul, Niklas",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 22,
+     "name": "Joh, Matthias",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Grimm, Luca",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 33,
+     "name": "Sust, Janne",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 77,
+     "name": "Altscher, Nils",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Prager, Nils",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ],
+   "gast": [
+    {
+     "nr": 1,
+     "name": "Dins, Vincent",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 6,
+     "name": "Wenzel, Ruben",
+     "tore": 8,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Waldmann, Iven",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Zahn, Denis",
+     "tore": 2,
+     "tore7": 2,
+     "versuche7": 2,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Feldmann, Markus",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Wenzel, Torben",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 19,
+     "name": "Nast, Sven",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 20,
+     "name": "Kvashchenko, Dennis",
+     "tore": 13,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 21,
+     "name": "Hänneschen, Eddy",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 22,
+     "name": "Kaiser, Mario",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Morgano, Luca",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 24,
+     "name": "Ritz, Marius",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 31,
+     "name": "Schultz, Lauro-David",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  "verlauf": [
+   {
+    "seite": "heim",
+    "zeit": "00:46",
+    "stand": "1:0",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Grimm, Luca"
+   },
+   {
+    "seite": "gast",
+    "zeit": "00:51",
+    "stand": "1:1",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Waldmann, Iven"
+   },
+   {
+    "seite": "heim",
+    "zeit": "01:18",
+    "stand": "2:1",
+    "ereignis": "7m mit Tor",
+    "nr": 18,
+    "name": "O´Toole, Liam"
+   },
+   {
+    "seite": "heim",
+    "zeit": "02:10",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 77,
+    "name": "Altscher, Nils"
+   },
+   {
+    "seite": "gast",
+    "zeit": "02:30",
+    "stand": "2:2",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Wenzel, Ruben"
+   },
+   {
+    "seite": "heim",
+    "zeit": "03:07",
+    "stand": "3:2",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "O´Toole, Liam"
+   },
+   {
+    "seite": "gast",
+    "zeit": "03:46",
+    "stand": "3:3",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "04:58",
+    "stand": "4:3",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Ruth, Anton"
+   },
+   {
+    "seite": "gast",
+    "zeit": "05:51",
+    "stand": "4:4",
+    "ereignis": "7m mit Tor",
+    "nr": 10,
+    "name": "Zahn, Denis"
+   },
+   {
+    "seite": "gast",
+    "zeit": "06:35",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 6,
+    "name": "Wenzel, Ruben"
+   },
+   {
+    "seite": "heim",
+    "zeit": "06:41",
+    "stand": "5:4",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "O´Toole, Liam"
+   },
+   {
+    "seite": "heim",
+    "zeit": "07:49",
+    "stand": "6:4",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Ruth, Anton"
+   },
+   {
+    "seite": "heim",
+    "zeit": "08:16",
+    "stand": "7:4",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Joh, Matthias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "08:22",
+    "stand": "7:5",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Wenzel, Torben"
+   },
+   {
+    "seite": "gast",
+    "zeit": "09:20",
+    "stand": "7:6",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Morgano, Luca"
+   },
+   {
+    "seite": "gast",
+    "zeit": "10:36",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 21,
+    "name": "Hänneschen, Eddy"
+   },
+   {
+    "seite": "heim",
+    "zeit": "10:43",
+    "stand": "7:6",
+    "ereignis": "7m ohne Tor",
+    "nr": 18,
+    "name": "O´Toole, Liam"
+   },
+   {
+    "seite": "gast",
+    "zeit": "11:24",
+    "stand": "7:7",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Feldmann, Markus"
+   },
+   {
+    "seite": "gast",
+    "zeit": "12:00",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 11,
+    "name": "Feldmann, Markus"
+   },
+   {
+    "seite": "gast",
+    "zeit": "13:07",
+    "stand": "7:8",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Morgano, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "13:33",
+    "stand": "8:8",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Ruth, Anton"
+   },
+   {
+    "seite": "heim",
+    "zeit": "14:15",
+    "stand": "9:8",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Joh, Matthias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "14:23",
+    "stand": "9:9",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Wenzel, Torben"
+   },
+   {
+    "seite": "heim",
+    "zeit": "16:02",
+    "stand": "10:9",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Basermann, Ole"
+   },
+   {
+    "seite": "gast",
+    "zeit": "16:40",
+    "stand": "10:10",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "17:54",
+    "stand": "11:10",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Mocken, Marco"
+   },
+   {
+    "seite": "gast",
+    "zeit": "18:01",
+    "stand": "11:11",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Wenzel, Torben"
+   },
+   {
+    "seite": "heim",
+    "zeit": "18:38",
+    "stand": "12:11",
+    "ereignis": "Tor",
+    "nr": 33,
+    "name": "Sust, Janne"
+   },
+   {
+    "seite": "heim",
+    "zeit": "19:53",
+    "stand": "13:11",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Grimm, Luca"
+   },
+   {
+    "seite": "gast",
+    "zeit": "20:19",
+    "stand": "13:12",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Morgano, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "20:28",
+    "stand": "14:12",
+    "ereignis": "Tor",
+    "nr": 33,
+    "name": "Sust, Janne"
+   },
+   {
+    "seite": "gast",
+    "zeit": "21:06",
+    "stand": "14:13",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "",
+    "zeit": "21:58",
+    "stand": "",
+    "ereignis": "Auszeit Gast",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "22:53",
+    "stand": "15:13",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Maul, Niklas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "23:03",
+    "stand": "15:14",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Wenzel, Ruben"
+   },
+   {
+    "seite": "heim",
+    "zeit": "23:59",
+    "stand": "16:14",
+    "ereignis": "7m mit Tor",
+    "nr": 11,
+    "name": "Ruth, Anton"
+   },
+   {
+    "seite": "gast",
+    "zeit": "24:50",
+    "stand": "16:15",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "25:00",
+    "stand": "17:15",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Mocken, Marco"
+   },
+   {
+    "seite": "gast",
+    "zeit": "27:15",
+    "stand": "17:16",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "28:52",
+    "stand": "18:16",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "O´Toole, Liam"
+   },
+   {
+    "seite": "",
+    "zeit": "29:11",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "gast",
+    "zeit": "29:34",
+    "stand": "18:17",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Wenzel, Ruben"
+   },
+   {
+    "seite": "heim",
+    "zeit": "31:23",
+    "stand": "19:17",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Maul, Niklas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "31:37",
+    "stand": "20:17",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Ruth, Anton"
+   },
+   {
+    "seite": "gast",
+    "zeit": "31:44",
+    "stand": "20:18",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Morgano, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "32:11",
+    "stand": "21:18",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Ruth, Anton"
+   },
+   {
+    "seite": "gast",
+    "zeit": "32:27",
+    "stand": "21:19",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "gast",
+    "zeit": "32:48",
+    "stand": "21:20",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Wenzel, Torben"
+   },
+   {
+    "seite": "gast",
+    "zeit": "33:31",
+    "stand": "21:21",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Wenzel, Ruben"
+   },
+   {
+    "seite": "heim",
+    "zeit": "34:37",
+    "stand": "22:21",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Basermann, Ole"
+   },
+   {
+    "seite": "gast",
+    "zeit": "35:11",
+    "stand": "22:22",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Morgano, Luca"
+   },
+   {
+    "seite": "heim",
+    "zeit": "35:20",
+    "stand": "23:22",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Ruth, Anton"
+   },
+   {
+    "seite": "gast",
+    "zeit": "35:28",
+    "stand": "23:23",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Hänneschen, Eddy"
+   },
+   {
+    "seite": "heim",
+    "zeit": "37:06",
+    "stand": "24:23",
+    "ereignis": "Tor",
+    "nr": 77,
+    "name": "Altscher, Nils"
+   },
+   {
+    "seite": "heim",
+    "zeit": "38:23",
+    "stand": "25:23",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "O´Toole, Liam"
+   },
+   {
+    "seite": "gast",
+    "zeit": "38:27",
+    "stand": "25:24",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "39:04",
+    "stand": "26:24",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Basermann, Ole"
+   },
+   {
+    "seite": "heim",
+    "zeit": "40:17",
+    "stand": "27:24",
+    "ereignis": "Tor",
+    "nr": 77,
+    "name": "Altscher, Nils"
+   },
+   {
+    "seite": "gast",
+    "zeit": "41:16",
+    "stand": "27:25",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Wenzel, Ruben"
+   },
+   {
+    "seite": "gast",
+    "zeit": "42:22",
+    "stand": "27:26",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Feldmann, Markus"
+   },
+   {
+    "seite": "heim",
+    "zeit": "44:22",
+    "stand": "28:26",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Ruth, Anton"
+   },
+   {
+    "seite": "heim",
+    "zeit": "45:15",
+    "stand": "29:26",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Joh, Matthias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "45:42",
+    "stand": "29:27",
+    "ereignis": "7m mit Tor",
+    "nr": 10,
+    "name": "Zahn, Denis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "46:01",
+    "stand": "30:27",
+    "ereignis": "Tor",
+    "nr": 77,
+    "name": "Altscher, Nils"
+   },
+   {
+    "seite": "gast",
+    "zeit": "46:17",
+    "stand": "30:28",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "gast",
+    "zeit": "46:43",
+    "stand": "30:29",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "47:59",
+    "stand": "31:29",
+    "ereignis": "7m mit Tor",
+    "nr": 11,
+    "name": "Ruth, Anton"
+   },
+   {
+    "seite": "gast",
+    "zeit": "48:44",
+    "stand": "31:30",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Wenzel, Ruben"
+   },
+   {
+    "seite": "heim",
+    "zeit": "49:15",
+    "stand": "32:30",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Hofmann, Ben"
+   },
+   {
+    "seite": "heim",
+    "zeit": "50:54",
+    "stand": "33:30",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "O´Toole, Liam"
+   },
+   {
+    "seite": "gast",
+    "zeit": "51:36",
+    "stand": "33:31",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Wenzel, Torben"
+   },
+   {
+    "seite": "gast",
+    "zeit": "52:31",
+    "stand": "33:32",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "53:17",
+    "stand": "34:32",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Joh, Matthias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "54:14",
+    "stand": "34:33",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "gast",
+    "zeit": "54:57",
+    "stand": "34:34",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "gast",
+    "zeit": "55:38",
+    "stand": "34:35",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Wenzel, Ruben"
+   },
+   {
+    "seite": "",
+    "zeit": "56:11",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "56:35",
+    "stand": "35:35",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "O´Toole, Liam"
+   },
+   {
+    "seite": "gast",
+    "zeit": "56:44",
+    "stand": "35:36",
+    "ereignis": "Tor",
+    "nr": 6,
+    "name": "Wenzel, Ruben"
+   },
+   {
+    "seite": "heim",
+    "zeit": "57:28",
+    "stand": "36:36",
+    "ereignis": "Tor",
+    "nr": 77,
+    "name": "Altscher, Nils"
+   },
+   {
+    "seite": "gast",
+    "zeit": "58:12",
+    "stand": "36:37",
+    "ereignis": "Tor",
+    "nr": 20,
+    "name": "Kvashchenko, Dennis"
+   },
+   {
+    "seite": "heim",
+    "zeit": "58:19",
+    "stand": "37:37",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Ruth, Anton"
+   },
+   {
+    "seite": "heim",
+    "zeit": "58:55",
+    "stand": "38:37",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "O´Toole, Liam"
+   },
+   {
+    "seite": "gast",
+    "zeit": "59:03",
+    "stand": "38:38",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Wenzel, Torben"
+   },
+   {
+    "seite": "",
+    "zeit": "60:00",
+    "stand": "",
+    "ereignis": "Auszeit Gast",
+    "nr": null,
+    "name": ""
+   }
+  ],
   "saison": "Offenbach-Hanau 26/27",
   "gruppe": "492715"
  },
@@ -33031,6 +35734,834 @@
     "name": "Seybold, Jan"
    }
   ]
+ },
+ {
+  "id": "8259106",
+  "status": "offen",
+  "nr": "58",
+  "datum": "2026-11-14",
+  "zeit": "19:00",
+  "ort": "Sporthalle Hainstadt",
+  "heim": "SG Hainburg",
+  "gast": "TGS Niederrodenbach",
+  "tore_heim": 25,
+  "tore_gast": 24,
+  "hz_heim": 15,
+  "hz_gast": 11,
+  "spieler": {
+   "heim": [
+    {
+     "nr": 1,
+     "name": "Kujawski, Daniel",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 3,
+     "name": "Staab, Patrick",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Heide, Tim",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Schild, Adrian",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 1,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Maier, Jannik",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Pennewitz, Julian",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 13,
+     "name": "Maikranz, Marco",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 1,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Lehmann, Yannick",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 16,
+     "name": "Beez, Philipp",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 22,
+     "name": "Lotz, Finn",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 33,
+     "name": "Dobiasch, Linus",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 93,
+     "name": "Laber, Jonas",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ],
+   "gast": [
+    {
+     "nr": 5,
+     "name": "Schwab, Stefan",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Bopp, Luis",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 26,
+     "name": "Königshausen, Theo",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 27,
+     "name": "Römer, Bennet",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 29,
+     "name": "Koppenhöfer, Oskar",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 31,
+     "name": "Täufer, Marcel",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 38,
+     "name": "Schaack, Maximilian",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 46,
+     "name": "Standfest, Marc",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 47,
+     "name": "Günes, Aydin",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 1,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 66,
+     "name": "Steinel, Sascha",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 69,
+     "name": "Hüttig, Jürgen",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 72,
+     "name": "Kraft, Noel",
+     "tore": 7,
+     "tore7": 2,
+     "versuche7": 4,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 77,
+     "name": "Amend, Maurice",
+     "tore": 9,
+     "tore7": 6,
+     "versuche7": 6,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 98,
+     "name": "Schade, Johannes",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  "verlauf": [
+   {
+    "seite": "gast",
+    "zeit": "01:38",
+    "stand": "0:1",
+    "ereignis": "Tor",
+    "nr": 47,
+    "name": "Günes, Aydin"
+   },
+   {
+    "seite": "heim",
+    "zeit": "01:58",
+    "stand": "1:1",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Staab, Patrick"
+   },
+   {
+    "seite": "gast",
+    "zeit": "03:06",
+    "stand": "1:2",
+    "ereignis": "Tor",
+    "nr": 72,
+    "name": "Kraft, Noel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "04:16",
+    "stand": "2:2",
+    "ereignis": "Tor",
+    "nr": 13,
+    "name": "Maikranz, Marco"
+   },
+   {
+    "seite": "heim",
+    "zeit": "05:39",
+    "stand": "3:2",
+    "ereignis": "Tor",
+    "nr": 13,
+    "name": "Maikranz, Marco"
+   },
+   {
+    "seite": "gast",
+    "zeit": "06:30",
+    "stand": "3:3",
+    "ereignis": "7m mit Tor",
+    "nr": 72,
+    "name": "Kraft, Noel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "07:32",
+    "stand": "3:4",
+    "ereignis": "Tor",
+    "nr": 72,
+    "name": "Kraft, Noel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "10:12",
+    "stand": "3:4",
+    "ereignis": "7m ohne Tor",
+    "nr": 72,
+    "name": "Kraft, Noel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "10:41",
+    "stand": "3:5",
+    "ereignis": "Tor",
+    "nr": 72,
+    "name": "Kraft, Noel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "11:30",
+    "stand": "3:5",
+    "ereignis": "7m ohne Tor",
+    "nr": 9,
+    "name": "Schild, Adrian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "12:29",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 22,
+    "name": "Lotz, Finn"
+   },
+   {
+    "seite": "gast",
+    "zeit": "12:48",
+    "stand": "3:6",
+    "ereignis": "7m mit Tor",
+    "nr": 72,
+    "name": "Kraft, Noel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "13:30",
+    "stand": "3:7",
+    "ereignis": "Tor",
+    "nr": 38,
+    "name": "Schaack, Maximilian"
+   },
+   {
+    "seite": "",
+    "zeit": "13:33",
+    "stand": "",
+    "ereignis": "Auszeit Gast",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "14:07",
+    "stand": "4:7",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Staab, Patrick"
+   },
+   {
+    "seite": "heim",
+    "zeit": "14:35",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 22,
+    "name": "Lotz, Finn"
+   },
+   {
+    "seite": "gast",
+    "zeit": "14:44",
+    "stand": "4:7",
+    "ereignis": "7m ohne Tor",
+    "nr": 72,
+    "name": "Kraft, Noel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "15:09",
+    "stand": "5:7",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Staab, Patrick"
+   },
+   {
+    "seite": "heim",
+    "zeit": "15:58",
+    "stand": "6:7",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Staab, Patrick"
+   },
+   {
+    "seite": "gast",
+    "zeit": "16:40",
+    "stand": "6:8",
+    "ereignis": "Tor",
+    "nr": 38,
+    "name": "Schaack, Maximilian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "17:43",
+    "stand": "7:8",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Maier, Jannik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "18:37",
+    "stand": "8:8",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Lehmann, Yannick"
+   },
+   {
+    "seite": "heim",
+    "zeit": "19:37",
+    "stand": "9:8",
+    "ereignis": "Tor",
+    "nr": 93,
+    "name": "Laber, Jonas"
+   },
+   {
+    "seite": "",
+    "zeit": "20:59",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "gast",
+    "zeit": "21:23",
+    "stand": "9:9",
+    "ereignis": "Tor",
+    "nr": 72,
+    "name": "Kraft, Noel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "21:32",
+    "stand": "10:9",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Lehmann, Yannick"
+   },
+   {
+    "seite": "gast",
+    "zeit": "21:46",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 31,
+    "name": "Täufer, Marcel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "23:33",
+    "stand": "11:9",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Schild, Adrian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "24:02",
+    "stand": "12:9",
+    "ereignis": "Tor",
+    "nr": 93,
+    "name": "Laber, Jonas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "25:13",
+    "stand": "12:10",
+    "ereignis": "Tor",
+    "nr": 77,
+    "name": "Amend, Maurice"
+   },
+   {
+    "seite": "heim",
+    "zeit": "26:49",
+    "stand": "13:10",
+    "ereignis": "Tor",
+    "nr": 93,
+    "name": "Laber, Jonas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "26:49",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 46,
+    "name": "Standfest, Marc"
+   },
+   {
+    "seite": "heim",
+    "zeit": "27:30",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 14,
+    "name": "Lehmann, Yannick"
+   },
+   {
+    "seite": "gast",
+    "zeit": "27:37",
+    "stand": "13:10",
+    "ereignis": "7m ohne Tor",
+    "nr": 47,
+    "name": "Günes, Aydin"
+   },
+   {
+    "seite": "heim",
+    "zeit": "28:00",
+    "stand": "14:10",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Lotz, Finn"
+   },
+   {
+    "seite": "gast",
+    "zeit": "28:00",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 47,
+    "name": "Günes, Aydin"
+   },
+   {
+    "seite": "heim",
+    "zeit": "28:43",
+    "stand": "15:10",
+    "ereignis": "Tor",
+    "nr": 13,
+    "name": "Maikranz, Marco"
+   },
+   {
+    "seite": "gast",
+    "zeit": "29:25",
+    "stand": "15:11",
+    "ereignis": "Tor",
+    "nr": 77,
+    "name": "Amend, Maurice"
+   },
+   {
+    "seite": "gast",
+    "zeit": "30:00",
+    "stand": "",
+    "ereignis": "Offizieller wird Spieler",
+    "nr": 5,
+    "name": "Schwab, Stefan"
+   },
+   {
+    "seite": "heim",
+    "zeit": "30:39",
+    "stand": "16:11",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Lotz, Finn"
+   },
+   {
+    "seite": "gast",
+    "zeit": "32:08",
+    "stand": "16:12",
+    "ereignis": "Tor",
+    "nr": 72,
+    "name": "Kraft, Noel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "33:34",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 10,
+    "name": "Maier, Jannik"
+   },
+   {
+    "seite": "gast",
+    "zeit": "33:41",
+    "stand": "16:13",
+    "ereignis": "7m mit Tor",
+    "nr": 77,
+    "name": "Amend, Maurice"
+   },
+   {
+    "seite": "heim",
+    "zeit": "35:02",
+    "stand": "17:13",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Staab, Patrick"
+   },
+   {
+    "seite": "gast",
+    "zeit": "35:55",
+    "stand": "17:14",
+    "ereignis": "7m mit Tor",
+    "nr": 77,
+    "name": "Amend, Maurice"
+   },
+   {
+    "seite": "heim",
+    "zeit": "36:44",
+    "stand": "18:14",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Maier, Jannik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "37:56",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 11,
+    "name": "Pennewitz, Julian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "38:01",
+    "stand": "18:15",
+    "ereignis": "7m mit Tor",
+    "nr": 77,
+    "name": "Amend, Maurice"
+   },
+   {
+    "seite": "gast",
+    "zeit": "38:50",
+    "stand": "18:16",
+    "ereignis": "7m mit Tor",
+    "nr": 77,
+    "name": "Amend, Maurice"
+   },
+   {
+    "seite": "heim",
+    "zeit": "39:33",
+    "stand": "19:16",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Lotz, Finn"
+   },
+   {
+    "seite": "heim",
+    "zeit": "40:37",
+    "stand": "19:16",
+    "ereignis": "7m ohne Tor",
+    "nr": 13,
+    "name": "Maikranz, Marco"
+   },
+   {
+    "seite": "gast",
+    "zeit": "42:43",
+    "stand": "19:17",
+    "ereignis": "Tor",
+    "nr": 29,
+    "name": "Koppenhöfer, Oskar"
+   },
+   {
+    "seite": "heim",
+    "zeit": "43:09",
+    "stand": "20:17",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Lotz, Finn"
+   },
+   {
+    "seite": "gast",
+    "zeit": "45:48",
+    "stand": "20:18",
+    "ereignis": "Tor",
+    "nr": 47,
+    "name": "Günes, Aydin"
+   },
+   {
+    "seite": "heim",
+    "zeit": "46:14",
+    "stand": "21:18",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Lotz, Finn"
+   },
+   {
+    "seite": "gast",
+    "zeit": "47:05",
+    "stand": "21:19",
+    "ereignis": "7m mit Tor",
+    "nr": 77,
+    "name": "Amend, Maurice"
+   },
+   {
+    "seite": "heim",
+    "zeit": "47:33",
+    "stand": "22:19",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Lotz, Finn"
+   },
+   {
+    "seite": "gast",
+    "zeit": "49:34",
+    "stand": "22:20",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Bopp, Luis"
+   },
+   {
+    "seite": "gast",
+    "zeit": "49:45",
+    "stand": "22:21",
+    "ereignis": "7m mit Tor",
+    "nr": 77,
+    "name": "Amend, Maurice"
+   },
+   {
+    "seite": "gast",
+    "zeit": "50:06",
+    "stand": "22:22",
+    "ereignis": "Tor",
+    "nr": 77,
+    "name": "Amend, Maurice"
+   },
+   {
+    "seite": "gast",
+    "zeit": "53:26",
+    "stand": "22:23",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Schwab, Stefan"
+   },
+   {
+    "seite": "heim",
+    "zeit": "53:54",
+    "stand": "23:23",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Schild, Adrian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "54:06",
+    "stand": "23:24",
+    "ereignis": "Tor",
+    "nr": 46,
+    "name": "Standfest, Marc"
+   },
+   {
+    "seite": "heim",
+    "zeit": "55:52",
+    "stand": "24:24",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Schild, Adrian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "56:22",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 13,
+    "name": "Maikranz, Marco"
+   },
+   {
+    "seite": "gast",
+    "zeit": "58:09",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 29,
+    "name": "Koppenhöfer, Oskar"
+   },
+   {
+    "seite": "",
+    "zeit": "59:57",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "60:00",
+    "stand": "25:24",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Schild, Adrian"
+   }
+  ],
+  "saison": "Offenbach-Hanau 26/27",
+  "gruppe": "492715"
  },
  {
   "id": "8259111",
@@ -41963,6 +45494,994 @@
     "name": "Dobiasch, Linus"
    }
   ]
+ },
+ {
+  "id": "8259132",
+  "status": "offen",
+  "nr": "63",
+  "datum": "2026-11-14",
+  "zeit": "16:00",
+  "ort": "Doorner Halle Steinheim",
+  "heim": "HSG Hanau III",
+  "gast": "TV Wächtersbach",
+  "tore_heim": 39,
+  "tore_gast": 35,
+  "hz_heim": 21,
+  "hz_gast": 15,
+  "spieler": {
+   "heim": [
+    {
+     "nr": 1,
+     "name": "Thiel, Michael",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 2,
+     "name": "Niederhüfner, Julian",
+     "tore": 9,
+     "tore7": 1,
+     "versuche7": 2,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 4,
+     "name": "Winter, Sören",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 2,
+     "rot": false
+    },
+    {
+     "nr": 7,
+     "name": "Meyer, Nils Christian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 8,
+     "name": "Just, Adrian",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 15,
+     "name": "Faust, Jonas",
+     "tore": 7,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 16,
+     "name": "Bondkirch, Felix",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 17,
+     "name": "Siegmund, Sebastian",
+     "tore": 10,
+     "tore7": 4,
+     "versuche7": 5,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 19,
+     "name": "Schwade, Marius",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 21,
+     "name": "Vazquez Velazquez, Tristen Gabriel",
+     "tore": 6,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 22,
+     "name": "Pose, Oliver",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ],
+   "gast": [
+    {
+     "nr": 1,
+     "name": "Seidel, Tobias",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 3,
+     "name": "Franke, Nils",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Grimm, Niklas",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Wurst, Marius",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 10,
+     "name": "Keil, Sebastian",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Wolf, Julian",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 13,
+     "name": "Meyer, Moritz",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Weltle, Nils",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 17,
+     "name": "Dehmer, Justin",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 18,
+     "name": "Hartmann, Tim",
+     "tore": 4,
+     "tore7": 4,
+     "versuche7": 5,
+     "gelb": false,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 22,
+     "name": "Höhn, Timo",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 23,
+     "name": "Kollmann, Frederik",
+     "tore": 12,
+     "tore7": 3,
+     "versuche7": 3,
+     "gelb": true,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 30,
+     "name": "Tittel, Loris",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 71,
+     "name": "Schmidt, Merlin",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Sust, Ole",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  "verlauf": [
+   {
+    "seite": "heim",
+    "zeit": "01:09",
+    "stand": "1:0",
+    "ereignis": "Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "01:28",
+    "stand": "1:1",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "02:00",
+    "stand": "2:1",
+    "ereignis": "Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "03:25",
+    "stand": "3:1",
+    "ereignis": "Tor",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "03:47",
+    "stand": "3:2",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "04:14",
+    "stand": "4:2",
+    "ereignis": "Tor",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "04:57",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "05:02",
+    "stand": "4:3",
+    "ereignis": "7m mit Tor",
+    "nr": 18,
+    "name": "Hartmann, Tim"
+   },
+   {
+    "seite": "gast",
+    "zeit": "05:35",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 13,
+    "name": "Meyer, Moritz"
+   },
+   {
+    "seite": "heim",
+    "zeit": "05:56",
+    "stand": "5:3",
+    "ereignis": "Tor",
+    "nr": 15,
+    "name": "Faust, Jonas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "06:25",
+    "stand": "5:4",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "07:11",
+    "stand": "6:4",
+    "ereignis": "Tor",
+    "nr": 15,
+    "name": "Faust, Jonas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "07:56",
+    "stand": "6:5",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "08:36",
+    "stand": "7:5",
+    "ereignis": "Tor",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "09:03",
+    "stand": "7:6",
+    "ereignis": "7m mit Tor",
+    "nr": 18,
+    "name": "Hartmann, Tim"
+   },
+   {
+    "seite": "heim",
+    "zeit": "09:45",
+    "stand": "8:6",
+    "ereignis": "Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "11:04",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "11:19",
+    "stand": "9:6",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Pose, Oliver"
+   },
+   {
+    "seite": "heim",
+    "zeit": "12:19",
+    "stand": "10:6",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Vazquez Velazquez, Tristen Gabriel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "13:01",
+    "stand": "11:6",
+    "ereignis": "Tor",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "13:38",
+    "stand": "12:6",
+    "ereignis": "Tor",
+    "nr": 15,
+    "name": "Faust, Jonas"
+   },
+   {
+    "seite": "",
+    "zeit": "13:47",
+    "stand": "",
+    "ereignis": "Auszeit Gast",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "gast",
+    "zeit": "14:24",
+    "stand": "12:7",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "15:00",
+    "stand": "13:7",
+    "ereignis": "Tor",
+    "nr": 4,
+    "name": "Winter, Sören"
+   },
+   {
+    "seite": "heim",
+    "zeit": "16:24",
+    "stand": "14:7",
+    "ereignis": "Tor",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "17:00",
+    "stand": "15:7",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Vazquez Velazquez, Tristen Gabriel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "17:18",
+    "stand": "15:8",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "18:03",
+    "stand": "16:8",
+    "ereignis": "7m mit Tor",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "18:20",
+    "stand": "16:9",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Keil, Sebastian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "19:35",
+    "stand": "17:9",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Vazquez Velazquez, Tristen Gabriel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "19:57",
+    "stand": "17:10",
+    "ereignis": "7m mit Tor",
+    "nr": 18,
+    "name": "Hartmann, Tim"
+   },
+   {
+    "seite": "gast",
+    "zeit": "21:20",
+    "stand": "17:11",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "gast",
+    "zeit": "24:50",
+    "stand": "17:12",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "25:14",
+    "stand": "18:12",
+    "ereignis": "Tor",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "25:32",
+    "stand": "18:12",
+    "ereignis": "7m ohne Tor",
+    "nr": 18,
+    "name": "Hartmann, Tim"
+   },
+   {
+    "seite": "gast",
+    "zeit": "27:16",
+    "stand": "18:13",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Keil, Sebastian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "27:47",
+    "stand": "19:13",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Schwade, Marius"
+   },
+   {
+    "seite": "gast",
+    "zeit": "28:15",
+    "stand": "19:14",
+    "ereignis": "7m mit Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "28:47",
+    "stand": "20:14",
+    "ereignis": "Tor",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "29:00",
+    "stand": "20:15",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Grimm, Niklas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "29:32",
+    "stand": "21:15",
+    "ereignis": "Tor",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "",
+    "zeit": "29:51",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "30:00",
+    "stand": "21:15",
+    "ereignis": "7m ohne Tor",
+    "nr": 2,
+    "name": "Niederhüfner, Julian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "31:11",
+    "stand": "22:15",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Vazquez Velazquez, Tristen Gabriel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "31:29",
+    "stand": "22:16",
+    "ereignis": "7m mit Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "32:24",
+    "stand": "23:16",
+    "ereignis": "Tor",
+    "nr": 4,
+    "name": "Winter, Sören"
+   },
+   {
+    "seite": "gast",
+    "zeit": "32:31",
+    "stand": "23:17",
+    "ereignis": "Tor",
+    "nr": 94,
+    "name": "Sust, Ole"
+   },
+   {
+    "seite": "heim",
+    "zeit": "34:19",
+    "stand": "24:17",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Vazquez Velazquez, Tristen Gabriel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "34:58",
+    "stand": "25:17",
+    "ereignis": "Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "35:06",
+    "stand": "25:18",
+    "ereignis": "Tor",
+    "nr": 13,
+    "name": "Meyer, Moritz"
+   },
+   {
+    "seite": "gast",
+    "zeit": "36:02",
+    "stand": "25:19",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Weltle, Nils"
+   },
+   {
+    "seite": "heim",
+    "zeit": "36:42",
+    "stand": "26:19",
+    "ereignis": "7m mit Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "37:21",
+    "stand": "26:20",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Weltle, Nils"
+   },
+   {
+    "seite": "gast",
+    "zeit": "38:51",
+    "stand": "26:21",
+    "ereignis": "Tor",
+    "nr": 13,
+    "name": "Meyer, Moritz"
+   },
+   {
+    "seite": "gast",
+    "zeit": "39:15",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 18,
+    "name": "Hartmann, Tim"
+   },
+   {
+    "seite": "heim",
+    "zeit": "39:18",
+    "stand": "27:21",
+    "ereignis": "7m mit Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "40:18",
+    "stand": "27:22",
+    "ereignis": "Tor",
+    "nr": 13,
+    "name": "Meyer, Moritz"
+   },
+   {
+    "seite": "heim",
+    "zeit": "40:43",
+    "stand": "28:22",
+    "ereignis": "Tor",
+    "nr": 7,
+    "name": "Meyer, Nils Christian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "41:29",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 4,
+    "name": "Winter, Sören"
+   },
+   {
+    "seite": "gast",
+    "zeit": "41:45",
+    "stand": "28:23",
+    "ereignis": "Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "42:19",
+    "stand": "29:23",
+    "ereignis": "Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "42:27",
+    "stand": "29:24",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Grimm, Niklas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "43:20",
+    "stand": "29:25",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Weltle, Nils"
+   },
+   {
+    "seite": "heim",
+    "zeit": "43:53",
+    "stand": "30:25",
+    "ereignis": "Tor",
+    "nr": 15,
+    "name": "Faust, Jonas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "45:09",
+    "stand": "31:25",
+    "ereignis": "7m mit Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "46:09",
+    "stand": "31:26",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Franke, Nils"
+   },
+   {
+    "seite": "gast",
+    "zeit": "47:28",
+    "stand": "31:27",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Grimm, Niklas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "48:10",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 4,
+    "name": "Winter, Sören"
+   },
+   {
+    "seite": "gast",
+    "zeit": "48:10",
+    "stand": "31:28",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Grimm, Niklas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "48:43",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 3,
+    "name": "Franke, Nils"
+   },
+   {
+    "seite": "heim",
+    "zeit": "48:54",
+    "stand": "32:28",
+    "ereignis": "Tor",
+    "nr": 15,
+    "name": "Faust, Jonas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "50:46",
+    "stand": "32:29",
+    "ereignis": "7m mit Tor",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "heim",
+    "zeit": "50:46",
+    "stand": "33:29",
+    "ereignis": "7m mit Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "51:38",
+    "stand": "33:30",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Höhn, Timo"
+   },
+   {
+    "seite": "heim",
+    "zeit": "52:30",
+    "stand": "34:30",
+    "ereignis": "Tor",
+    "nr": 15,
+    "name": "Faust, Jonas"
+   },
+   {
+    "seite": "gast",
+    "zeit": "53:44",
+    "stand": "34:31",
+    "ereignis": "Tor",
+    "nr": 22,
+    "name": "Höhn, Timo"
+   },
+   {
+    "seite": "heim",
+    "zeit": "54:49",
+    "stand": "34:31",
+    "ereignis": "7m ohne Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "55:27",
+    "stand": "35:31",
+    "ereignis": "Tor",
+    "nr": 17,
+    "name": "Siegmund, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "55:41",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 23,
+    "name": "Kollmann, Frederik"
+   },
+   {
+    "seite": "gast",
+    "zeit": "55:45",
+    "stand": "35:32",
+    "ereignis": "7m mit Tor",
+    "nr": 18,
+    "name": "Hartmann, Tim"
+   },
+   {
+    "seite": "heim",
+    "zeit": "56:11",
+    "stand": "36:32",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Vazquez Velazquez, Tristen Gabriel"
+   },
+   {
+    "seite": "heim",
+    "zeit": "56:16",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 21,
+    "name": "Vazquez Velazquez, Tristen Gabriel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "56:38",
+    "stand": "36:33",
+    "ereignis": "Tor",
+    "nr": 5,
+    "name": "Grimm, Niklas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "57:03",
+    "stand": "37:33",
+    "ereignis": "Tor",
+    "nr": 19,
+    "name": "Schwade, Marius"
+   },
+   {
+    "seite": "gast",
+    "zeit": "57:26",
+    "stand": "37:34",
+    "ereignis": "Tor",
+    "nr": 10,
+    "name": "Keil, Sebastian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "58:03",
+    "stand": "37:35",
+    "ereignis": "Tor",
+    "nr": 11,
+    "name": "Wolf, Julian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "59:00",
+    "stand": "38:35",
+    "ereignis": "Tor",
+    "nr": 15,
+    "name": "Faust, Jonas"
+   },
+   {
+    "seite": "heim",
+    "zeit": "59:29",
+    "stand": "39:35",
+    "ereignis": "Tor",
+    "nr": 4,
+    "name": "Winter, Sören"
+   }
+  ],
+  "saison": "Offenbach-Hanau 26/27",
+  "gruppe": "492715"
  },
  {
   "id": "8259133",
