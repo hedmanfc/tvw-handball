@@ -67,10 +67,13 @@ a{color:inherit}
 .tr .k{text-align:center}.tr .p{text-align:right;font:700 20px/1 var(--disp)}
 .tr.me{background:color-mix(in srgb,var(--acc) 14%,transparent);border-radius:10px}
 .th{color:var(--mut);font-size:11px;letter-spacing:.06em;text-transform:uppercase;min-height:0;padding-block:4px}
-.cmp{display:grid;grid-template-columns:44px 1fr 44px;gap:8px;align-items:center;margin-top:12px}
-.cmp .cv{font-weight:700;font-size:15px}.cmp .cv:last-of-type{text-align:right}
-.cmp .ct{height:10px;border-radius:5px;background:var(--surf2);border:1px solid var(--line);overflow:hidden;direction:rtl}
-.cmp .ct i{display:block;height:100%;background:var(--acc);border-radius:5px;direction:ltr;margin-left:auto}
+.cmp{display:grid;grid-template-columns:44px 1fr 1fr 44px;gap:0 3px;align-items:center;margin-top:12px}
+.cmp .cv{font-weight:500;font-size:15px;color:var(--mut)}.cmp .cv.w{font-weight:800;color:var(--fg)}.cmp .cv:last-of-type{text-align:right}
+.cmp .ct{height:10px;background:var(--surf2);display:flex;overflow:hidden}
+.cmp .ct.l{border-radius:5px 0 0 5px;justify-content:flex-end}.cmp .ct.r{border-radius:0 5px 5px 0}
+.cmp .ct i{display:block;height:100%;background:var(--mut);opacity:.45}.cmp .ct i.w{background:var(--acc);opacity:1}
+.cmp .ct.l i{border-radius:5px 0 0 5px}.cmp .ct.r i{border-radius:0 5px 5px 0}
+.ld{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--acc);margin-right:6px;animation:lp 1.4s ease-in-out infinite}@keyframes lp{50%{opacity:.25}}.lv{display:inline-flex;align-items:center;font-size:12px;font-weight:700;color:var(--acc);text-decoration:none;padding:0 6px;white-space:nowrap}.btn .ld{background:#ff4753}@media (prefers-reduced-motion:reduce){.ld{animation:none}}
 .cmp .cl{grid-column:1/-1;text-align:center;font-size:12px;color:var(--mut);margin-top:-4px}
 .ch2{width:100%;height:auto;display:block}
 .ch2 text{fill:var(--mut);font:10px var(--body)}
@@ -221,7 +224,11 @@ var TB=(function(){var m={};T.forEach(function(t){m[t[0]]={n:t[0],sp:0,s:0,u:0,n
  AL.forEach(function(g){[[g.h,g.e[0],g.e[1]],[g.a,g.e[1],g.e[0]]].forEach(function(x){var q=m[x[0]];q.sp++;q.tf+=x[1];q.tg+=x[2];if(x[1]>x[2])q.s++;else if(x[1]<x[2])q.nn++;else q.u++})});
  return Object.keys(m).map(function(k){var q=m[k];q.d=q.tf-q.tg;q.pn=q.s*2+q.u;q.pk=q.pn+":"+(q.sp*2-q.pn);return q}).sort(function(a,b){return b.pn-a.pn||b.d-a.d||b.tf-a.tf}).map(function(q,i){q.i=i;return q})})();
 var tbi=function(n){return TB.filter(function(x){return x.n===n})[0]};
-var LG=G.map(function(g){return{d:g[0],t:g[1],h:g[2],a:g[3],e:g[4]}});
+var LG=G.map(function(g){return{d:g[0],t:g[1],h:g[2],a:g[3],e:g[4],m:g[5]||""}});
+/* Liveticker (nuLiga nuScoreLive): ab Anwurf bis 2,5 Std. danach (ca. 1 Std. nach Abpfiff, dann liegt der Spielbericht vor). Mit Spiel-ID direkt zum Spiel, sonst zur Gruppenübersicht */
+function liveUrl(d,tm,h,a){if(!DS.grp||d!==TODAY||!tm)return"";var n=new Date(),mi=n.getHours()*60+n.getMinutes(),st=+tm.slice(0,2)*60+ +tm.slice(3,5);if(mi<st||mi>st+150)return"";
+  var l=LG.filter(function(x){return x.d===d&&x.h===h&&x.a===a})[0],m=l&&l.m;return"https://hbde-live.liga.nu/nuScoreLive/#/groups/"+DS.grp+(m?"/meetings/"+m:"")}
+var LIVE=function(u,cls){return u?'<a class="'+cls+'" href="'+u+'" target="_blank" rel="noopener"><i class="ld"></i>Liveticker</a>':""}
 var HALL={};AL.forEach(function(g){if(g.o&&!HALL[g.h])HALL[g.h]=g.o});
 var CITY=function(n){return n.replace(/^(TV|TGS|HSG|SG|TSG|MSG)\s+/,"").replace(/\s+I{1,3}$/,"").replace(/\/.*$/,"").replace(/-.*$/,"")};
 var navQ=function(team,hall){var hl=hall||HALL[team],c=CITY(team);return hl?(hl.toLowerCase().indexOf(c.toLowerCase())>-1?hl:hl+" "+c):c+" Sporthalle"};
@@ -342,8 +349,14 @@ function vbars(cols,h,mxv){h=h||140;var w=320,pl=4,pr=4,pt=18,pb=20,n=cols.lengt
       s+='<text class="tv" x="'+cx+'" y="'+(y-4)+'" text-anchor="middle">'+tot+'</text>'}
     if(n<=9||showL(i,n))s+='<text x="'+cx+'" y="'+(h-6)+'" text-anchor="middle">'+c.l+'</text>'});
   return s+'<line class="gl" x1="0" x2="'+w+'" y1="'+(h-pb)+'" y2="'+(h-pb)+'"/></svg>'}
-function cmp(label,a,b,fmt,low){fmt=fmt||f1;var t=(a+b)||1,sa=low?b/t:a/t;sa=Math.max(.08,Math.min(.92,sa));
-  return'<div class="cmp"><span class="cv">'+fmt(a)+'</span><div class="ct"><i style="width:'+(sa*100).toFixed(0)+'%"></i></div><span class="cv">'+fmt(b)+'</span><div class="cl">'+label+'</div></div>'}
+function cmpRow(label,a,b,fmt,sa,sb,win){
+  var w=function(x){return x<=0?0:Math.max(3,Math.round(x*100))};
+  return'<div class="cmp"><span class="cv'+(win===1?" w":"")+'">'+fmt(a)+'</span><div class="ct l"><i class="'+(win===1?"w":"")+'" style="width:'+w(sa)+'%"></i></div><div class="ct r"><i class="'+(win===2?"w":"")+'" style="width:'+w(sb)+'%"></i></div><span class="cv'+(win===2?" w":"")+'">'+fmt(b)+'</span><div class="cl">'+label+'</div></div>'}
+/* Balken: maßstabsgetreu, vom Mittelpunkt nach außen. Länger = besser; das bessere Team ist farbig. low=true: kleinerer Wert ist besser */
+function cmp(label,a,b,fmt,low){fmt=fmt||f1;var sa,sb,win=a===b?0:((low?a<b:a>b)?1:2);
+  if(low){var m=Math.min(a,b);sa=a===b?1:(a===m?1:(a>0?m/a:0));sb=a===b?1:(b===m?1:(b>0?m/b:0));if(m<=0&&a!==b){sa=a===0?1:0;sb=b===0?1:0}}
+  else{var mx=Math.max(a,b)||1;sa=a/mx;sb=b/mx}
+  return cmpRow(label,a,b,fmt,sa,sb,win)}
 function hbars(rows,max){max=max||Math.max.apply(0,rows.map(function(r){return r.v}))||1;
   return'<div class="bars">'+rows.map(function(r){return'<div class="br'+(r.me?" me":"")+'"><span class="n">'+r.n+'</span><span class="t"><i style="width:'+(r.v/max*100).toFixed(0)+'%"></i></span><span class="v">'+(r.l!=null?r.l:r.v)+'</span></div>'}).join("")+'</div>'}
 var ICON={
@@ -360,7 +373,7 @@ var ST={tab:"start",flt:"alle",srt:"tore",q:"",c:[0,1],sub:{team:"ueb",spieler:"
 function gameRow(g){var open=g.e==null,late=open&&g.d<TODAY,act=open?'data-a="cmpg" data-v="'+(g.home?W+"|"+g.opp:g.opp+"|"+W)+"|"+g.d+"|"+g.t+'"':'data-a="game" data-i="'+g.gi+'"';
   return'<div class="row"><button class="rb" '+act+'><span class="d"><b>'+WD[new Date(g.d+"T12:00:00").getDay()]+'</b>'+dm(g.d)+'</span><span class="g"><b>'+g.opp+'</b><small>'+(g.home?"Heim":"Auswärts")+(g.ort?" · "+g.ort:"")+" · "+g.t+' Uhr</small></span>'+
    (open?'<span class="r" style="color:var(--mut);font-size:15px;font-family:var(--body);font-weight:600">'+(late?"offen":"Vorschau")+'</span>':'<span class="r '+g.r+'">'+g.e+':'+g.o+'</span>')+'</button>'+
-   (open&&!late?'<a class="nb" href="'+gmap(g)+'" target="_blank" rel="noopener" aria-label="Navigation zur Halle, Spiel gegen '+g.opp+'">'+NAVI+'</a>':'')+'</div>'}
+   (open&&!late&&liveUrl(g.d,g.t,g.home?W:g.opp,g.home?g.opp:W)?LIVE(liveUrl(g.d,g.t,g.home?W:g.opp,g.home?g.opp:W),"nb lv"):'')+(open&&!late?'<a class="nb" href="'+gmap(g)+'" target="_blank" rel="noopener" aria-label="Navigation zur Halle, Spiel gegen '+g.opp+'">'+NAVI+'</a>':'')+'</div>'}
 function pills(arr){return'<div class="pills">'+arr.map(function(r){return'<span class="pl '+r+'" title="'+RL[r]+'">'+r+'</span>'}).join("")+'</div>'}
 function secH(t,r){return'<div class="sec"><h2>'+t+'</h2>'+(r?'<span>'+r+'</span>':"")+'</div>'}
 function tabRow(t,head){return'<button class="tr'+(t.n===W?" me":"")+'" data-a="team" data-v="'+t.n+'"><span class="k">'+(t.i+1)+'</span><span><b>'+t.n+'</b><small>'+t.s+"-"+t.u+"-"+t.nn+" · "+t.tf+":"+t.tg+'</small></span><span class="k">'+t.sp+'</span><span class="k">'+sg(t.d)+'</span><span class="p">'+t.pn+'</span></button>'}
@@ -378,7 +391,7 @@ var SVG_G='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-wid
 function linksRow(){return'<div class="lks"><a href="'+WEB+'" target="_blank" rel="noopener noreferrer">'+SVG_G+'Webseite</a><a href="'+IGU+'" target="_blank" rel="noopener noreferrer">'+SVG_I+'Instagram</a></div>'}
 function vStart(){
   var h="",last=GM[GM.length-1];
-  if(NEXT){var g=NEXT;h+='<section class="hero"><div class="eb">Nächstes Spiel · '+cdn(g)+'</div><h2>'+(g.home?"":"@ ")+g.opp+'</h2><div class="meta"><span>'+wdm(g.d)+' · '+g.t+' Uhr</span><span>'+(g.home?"Heimspiel":"Auswärts")+" · "+(g.ort||"Halle noch unbekannt")+'</span></div><div class="btns"><button class="btn p" data-a="cmpg" data-v="'+(g.home?W+"|"+g.opp:g.opp+"|"+W)+"|"+g.d+"|"+g.t+'">Teamvergleich</button><a class="btn" href="'+gmap(g)+'" target="_blank" rel="noopener">Navigation starten</a><button class="btn" data-a="cal">In Kalender</button></div></section>'}
+  if(NEXT){var g=NEXT;h+='<section class="hero"><div class="eb">Nächstes Spiel · '+cdn(g)+'</div><h2>'+(g.home?"":"@ ")+g.opp+'</h2><div class="meta"><span>'+wdm(g.d)+' · '+g.t+' Uhr</span><span>'+(g.home?"Heimspiel":"Auswärts")+" · "+(g.ort||"Halle noch unbekannt")+'</span></div><div class="btns"><button class="btn p" data-a="cmpg" data-v="'+(g.home?W+"|"+g.opp:g.opp+"|"+W)+"|"+g.d+"|"+g.t+'">Teamvergleich</button><a class="btn" href="'+gmap(g)+'" target="_blank" rel="noopener">Navigation starten</a><button class="btn" data-a="cal">In Kalender</button>'+LIVE(liveUrl(g.d,g.t,g.home?W:g.opp,g.home?g.opp:W),"btn")+'</div></section>'}
   else{var offen=WL.some(function(x){return x.e==null});h+='<section class="hero"><div class="eb">Saison '+DS.saison+(offen?"":" · abgeschlossen")+'</div><h2>'+(offen?"Keine anstehenden Spiele":"Platz "+(ME.i+1))+'</h2><div class="meta"><span>'+DS.team+' · '+DS.liga+'</span><span>'+ME.pk+' Punkte · '+ME.tf+':'+ME.tg+' Tore</span></div></section>'}
   h+=qaRow();h+=linksRow();
   h+='<div class="tiles"><div class="tile"><small>Tabellenplatz</small><span class="num" data-n="'+(ME.i+1)+'">'+(ME.i+1)+'</span><small>'+(RR.length>1&&RR[RR.length-2].rank!==ME.i+1?(RR[RR.length-2].rank>ME.i+1?'▲ ':'▼ ')+'zuvor Platz '+RR[RR.length-2].rank:'von '+TB.length+' Teams')+'</small></div><div class="tile"><small>Punkte</small><span class="num" data-n="'+ME.pn+'">'+ME.pn+'</span><small>'+ME.pk+' Punkte</small></div><div class="tile"><small>Tordifferenz</small><span class="num" data-n="'+ME.d+'" data-sg="1">'+sg(ME.d)+'</span><small>'+ME.tf+':'+ME.tg+' Tore</small></div><div class="tile"><small>Tore pro Spiel</small><span class="num" data-n="'+(S.tf/S.sp).toFixed(1)+'" data-d="1">'+f1(S.tf/S.sp)+'</span><small>Angriff Rang '+RA+' · Abwehr Rang '+RD+'</small></div></div>';
@@ -397,7 +410,7 @@ function lgRow(g){var pl=!!g.e,s=pl?g.e.split(":").map(Number):[0,0],me=g.h===W|
   cls=function(i){return pl?(s[i]>s[1-i]?" w":s[i]<s[1-i]?" l":""):""},
   tn=function(n,i){return'<button class="tn'+cls(i)+'" data-a="team" data-v="'+n+'"><span>'+n+'</span><span class="sc">'+(pl?s[i]:"")+'</span></button>'},
   wg=me&&pl?WL.filter(function(x){return x.d===g.d&&x.e!=null&&(x.opp===g.h||x.opp===g.a)&&x.opp!==W})[0]:null,ai=ALI[g.d+"|"+g.h+"|"+g.a];
-  return'<div class="lg'+(me?" me":"")+'"><span class="tm">'+(pl?"Ende":g.t)+'</span><span class="tt">'+tn(g.h,0)+tn(g.a,1)+'</span>'+(wg?'<button class="go" data-a="game" data-i="'+wg.gi+'" aria-label="Spieldetails">›</button>':(pl&&ai!=null?'<button class="go" data-a="gl" data-i="'+ai+'" aria-label="Spielanalyse">›</button>':(!pl?'<button class="go" data-a="cmpg" data-v="'+g.h+"|"+g.a+"|"+g.d+"|"+g.t+'" aria-label="Teamvergleich">›</button>':"")))+'</div>'}
+  var lu=!pl?liveUrl(g.d,g.t,g.h,g.a):"";return'<div class="lg'+(me?" me":"")+'"><span class="tm">'+(pl?"Ende":g.t)+'</span><span class="tt">'+tn(g.h,0)+tn(g.a,1)+'</span>'+LIVE(lu,"lv")+(wg?'<button class="go" data-a="game" data-i="'+wg.gi+'" aria-label="Spieldetails">›</button>':(pl&&ai!=null?'<button class="go" data-a="gl" data-i="'+ai+'" aria-label="Spielanalyse">›</button>':(!pl?'<button class="go" data-a="cmpg" data-v="'+g.h+"|"+g.a+"|"+g.d+"|"+g.t+'" aria-label="Teamvergleich">›</button>':"")))+'</div>'}
 function ligaCtl(){var ts=T.map(function(t){return t[0]}).sort();
   return'<div class="lf"><select id="lt" data-a="lt" aria-label="Team wählen"><option value="">Alle Teams</option>'+ts.map(function(t){return'<option value="'+t+'"'+(ST.lt===t?" selected":"")+'>'+t+'</option>'}).join("")+'</select></div>'+(ST.lt?subRow("lh",[["all","Alle Spiele"],["h","Heim"],["a","Auswärts"]]):"")}
 function vLigaT(){var t=ST.lt,hm=ST.sub.lh||"all",gs=LG.filter(function(g){return g.d&&(g.h===t||g.a===t)&&(hm==="all"||(hm==="h"?g.h===t:g.a===t))}).sort(function(a,b){return a.d.localeCompare(b.d)||a.t.localeCompare(b.t)}),
@@ -431,7 +444,7 @@ function vTabelle(){
   if(md==="h"||md==="a")return sb+'<div class="c" style="padding:6px 12px">'+THEAD+tabHA(md).map(function(t){return tabRow(t)}).join("")+'</div><p class="nt">Nur '+(md==="h"?"Heimspiele":"Auswärtsspiele")+', aus allen vorliegenden Spielberichten berechnet. Tippe auf ein Team für die Vorschau.</p>';
   return sb+'<div class="c" style="padding:6px 12px">'+THEAD+TB.map(function(t){return tabRow(t)}).join("")+'</div>'+
    secH("Angriff","Ø Tore pro Spiel")+'<div class="c">'+hbars(TB.slice().sort(function(a,b){return b.tf/b.sp-a.tf/a.sp}).map(function(t){return{n:t.n,v:t.tf/t.sp,l:f1(t.tf/t.sp),me:t.n===W}}))+'</div>'+
-   secH("Abwehr","Ø Gegentore, weniger ist besser")+'<div class="c">'+hbars(TB.slice().sort(function(a,b){return a.tg/a.sp-b.tg/b.sp}).map(function(t){return{n:t.n,v:t.tg/t.sp,l:f1(t.tg/t.sp),me:t.n===W}}))+'</div><p class="nt">Tippe auf ein Team für die Vorschau. Die Tabelle ist aus allen Spielberichten berechnet. Bei Punktgleichheit zählt hier die Tordifferenz, offiziell kann der direkte Vergleich entscheiden.</p>'}
+   secH("Abwehr","Ø Gegentore")+'<div class="c">'+hbars(TB.slice().sort(function(a,b){return a.tg/a.sp-b.tg/b.sp}).map(function(t){return{n:t.n,v:t.tg/t.sp,l:f1(t.tg/t.sp),me:t.n===W}}))+'</div><p class="nt">Tippe auf ein Team für die Vorschau. Die Tabelle ist aus allen Spielberichten berechnet. Bei Punktgleichheit zählt hier die Tordifferenz, offiziell kann der direkte Vergleich entscheiden.</p>'}
 function vTeam(){
   var dl=GM.map(function(g){return dm(g.datum).slice(0,5)});
   var P={ueb:"",ver:"",tor:"",lig:""};
@@ -444,7 +457,7 @@ function vTeam(){
   var hm=GM.filter(function(g){return g.heimspiel}),aw=GM.filter(function(g){return!g.heimspiel}),rc=function(a){return a.filter(function(g){return g.r==="S"}).length+"-"+a.filter(function(g){return g.r==="U"}).length+"-"+a.filter(function(g){return g.r==="N"}).length};
   P.ueb+=secH("Heim und Auswärts")+'<div class="tiles"><div class="tile"><small>Heim ('+hm.length+' Spiele)</small><span class="num">'+rc(hm)+'</span><small>'+sum(hm,function(g){return g.e})+':'+sum(hm,function(g){return g.o})+' Tore</small></div><div class="tile"><small>Auswärts ('+aw.length+' Spiele)</small><span class="num">'+rc(aw)+'</span><small>'+sum(aw,function(g){return g.e})+':'+sum(aw,function(g){return g.o})+' Tore</small></div></div>';
   P.tor+=secH("Torverteilung","Anteil an euren Toren")+'<div class="c">'+hbars(PL.filter(function(p){return p.tore>0}).slice(0,9).map(function(p){return{n:nm(p.name),v:p.tore,l:p.tore+" · "+Math.round(p.tore/S.tf*100)+" %"}}))+'<p class="nt" style="margin:12px 0 0">Feldtore '+(S.tf-S.t7)+' · 7m-Tore '+S.t7+'</p></div>';
-  P.lig+=secH("Liga-Vergleich")+'<div class="c">'+cmp("Ø Tore: ihr / Liga",S.tf/S.sp,LAVG)+cmp("Ø Gegentore: ihr / Liga (weniger ist besser)",S.tg/S.sp,LAVG,f1,true)+'</div>';
+  P.lig+=secH("Liga-Vergleich")+'<div class="c">'+cmp("Ø Tore: ihr / Liga",S.tf/S.sp,LAVG)+cmp("Ø Gegentore: ihr / Liga",S.tg/S.sp,LAVG,f1,true)+'</div>';
   P.lig+=rangSec();
   return subRow("team",[["ueb","Überblick"],["ver","Verlauf"],["tor","Tore"],["lig","Liga"]])+P[ST.sub.team]}
 function plist(){
@@ -595,7 +608,7 @@ function sTeam(n){
   h+='<div class="c"><span class="eb">'+(isW?"Form":"Form des Gegners")+'</span><div style="margin-top:10px">'+pills(form)+'</div><p class="nt" style="margin:10px 0 0">Letzte '+form.length+' Spiele</p></div>';
   if(isW)h+='<div class="btns"><button class="btn p" data-a="tab" data-v="team">Zur Team-Statistik</button></div>';
   else{
-    h+='<div class="c"><span class="eb">Ihr gegen '+n+'</span>'+cmp("Ø Tore pro Spiel",S.tf/S.sp,t.tf/sp)+cmp("Ø Gegentore (weniger ist besser)",S.tg/S.sp,t.tg/sp,f1,true)+cmp("Punkte pro Spiel",ME.pn/ME.sp,t.pn/sp)+cmp("Zeitstrafen pro Spiel (weniger ist besser)",S.zs/S.sp,zsN/(gs.length||1),f1,true)+'<div class="btns"><button class="btn" data-a="cmpg" data-v="'+W+"|"+n+'">Teams im Detail vergleichen</button></div></div>';
+    h+='<div class="c"><span class="eb">Ihr gegen '+n+'</span>'+cmp("Ø Tore pro Spiel",S.tf/S.sp,t.tf/sp)+cmp("Ø Gegentore",S.tg/S.sp,t.tg/sp,f1,true)+cmp("Punkte pro Spiel",ME.pn/ME.sp,t.pn/sp)+cmp("Zeitstrafen pro Spiel",S.zs/S.sp,zsN/(gs.length||1),f1,true)+'<div class="btns"><button class="btn" data-a="cmpg" data-v="'+W+"|"+n+'">Teams im Detail vergleichen</button></div></div>';
     h+='<div class="c"><span class="eb">Direkter Vergleich</span>'+(h2h.length?h2h.map(function(g){return'<div class="lr"><span class="n"><b>'+(g.h===W?"Heim":"Auswärts")+'</b><small>'+wdm(g.d)+" · "+g.t+' Uhr'+(g.e?"":" · "+(HALL[g.h]||"Halle unbekannt"))+'</small></span>'+(g.e?'<span class="x '+res(g,W)+'">'+(g.h===W?g.e:g.e.split(":").reverse().join(":"))+'</span>':'<a class="nb" href="'+navUrl(g.h)+'" target="_blank" rel="noopener" aria-label="Navigation zur Halle">'+NAVI+'</a>')+'</div>'}).join(""):'<p class="nt" style="margin:8px 0 0">Noch keine Begegnung bekannt.</p>')+'</div>'}
   h+='<div class="c"><span class="eb">'+(isW?"Spielstil":"Spielstil des Gegners")+'</span><p class="nt" style="margin:6px 0 0">Tore pro 10 Minuten</p>'+gbars(ag.blk)+'<div class="lgd"><span><i class="i-a"></i>'+n+'</span><span><i class="i-b"></i>Gegentore</span></div></div>'+phaseTiles(ag.blk,ag.best);
   h+='<div class="c"><span class="eb">'+(isW?"Beste Torschützen":"Gefährlichste Spieler")+'</span>'+pl.slice(0,5).map(function(p,i){return'<div class="lr"><span class="x">'+(i+1)+'</span><span class="n"><b>'+lkP(p.name,n,nm(p.name))+'</b><small>'+p.sp+' Spiele'+(p.v7?" · 7m "+p.t7+"/"+p.v7:"")+(p.zs?" · "+p.zs+" Zeitstrafen":"")+'</small></span><span class="x">'+p.t+' Tore</span></div>'}).join("")+'</div>';
@@ -612,8 +625,8 @@ function thz(n){var a=0,b=0,c=0;tgames(n).forEach(function(g){var s=tside(g,n);a
 function tclose(n){var c=0,w=0;tgames(n).forEach(function(g){var s=tside(g,n);if(Math.abs(s.m-s.o)<=2){c++;if(s.m>s.o)w++}});return{c:c,w:w}}
 function tcommon(a,b){var rs=function(t,o){return tgames(t).filter(function(g){return g.h===o||g.a===o}).map(function(g){return tside(g,t)})},out=[];
   TB.forEach(function(x){if(x.n===a||x.n===b)return;var ra=rs(a,x.n),rb=rs(b,x.n);if(ra.length&&rb.length)out.push({n:x.n,a:ra,b:rb})});return out}
-function cmpd(label,a,b,fmt){var t=Math.abs(a)+Math.abs(b),sa=t?.5+(a-b)/(2*t):.5;sa=Math.max(.08,Math.min(.92,sa));
-  return'<div class="cmp"><span class="cv">'+fmt(a)+'</span><div class="ct"><i style="width:'+(sa*100).toFixed(0)+'%"></i></div><span class="cv">'+fmt(b)+'</span><div class="cl">'+label+'</div></div>'}
+function cmpd(label,a,b,fmt){var mx=Math.max(Math.abs(a),Math.abs(b))||1,win=a===b?0:(a>b?1:2);
+  return cmpRow(label,a,b,fmt,Math.max(0,a)/mx,Math.max(0,b)/mx,win)}
 function sCmpT(){
   var A=tbi(ST.ct[0])||TB[0],B=tbi(ST.ct[1])||TB[1],ma=tmetrics(A),mb=tmetrics(B),iv=function(v){return v},pc=function(v){return Math.round(v*100)+" %"},cg=ST.cg&&ST.cg.h===A.n&&ST.cg.a===B.n?ST.cg:null;
   var opts=function(sel){return TB.map(function(t){return'<option value="'+t.n+'"'+(t.n===sel?" selected":"")+'>'+t.n+'</option>'}).join("")};
@@ -624,10 +637,10 @@ function sCmpT(){
   var col=function(t){return'<div style="min-width:0"><b style="display:block;overflow-wrap:anywhere">'+t.n+'</b><span class="nt" style="display:block;margin:2px 0 8px">Platz '+(t.i+1)+' · '+t.pn+' Punkte</span>'+pills(tform(t.n))+'</div>'};
   h+='<div class="c dv"><div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">'+col(A)+col(B)+'</div><p class="nt" style="margin:12px 0 0">Form: die letzten 5 Spiele, links das älteste.</p></div>';
   /* Auf einen Blick */
-  h+=secH("Auf einen Blick")+'<div class="c">'+cmp("Tabellenplatz (niedriger ist besser)",A.i+1,B.i+1,iv,true)+cmp("Punkte pro Spiel",ma.pps,mb.pps)+cmp("Ø Tore pro Spiel",ma.att,mb.att)+cmp("Ø Gegentore (weniger ist besser)",ma.def,mb.def,f1,true)+cmpd("Ø Tordifferenz pro Spiel",ma.dpg,mb.dpg,sf)+cmp("7m-Quote",ma.q7,mb.q7,pc)+cmp("Zeitstrafen pro Spiel (weniger ist besser)",ma.zsp,mb.zsp,f1,true)+'</div>';
+  h+=secH("Auf einen Blick")+'<div class="c">'+cmp("Tabellenplatz",A.i+1,B.i+1,iv,true)+cmp("Punkte pro Spiel",ma.pps,mb.pps)+cmp("Ø Tore pro Spiel",ma.att,mb.att)+cmp("Ø Gegentore",ma.def,mb.def,f1,true)+cmpd("Ø Tordifferenz pro Spiel",ma.dpg,mb.dpg,sf)+cmp("7m-Quote",ma.q7,mb.q7,pc)+cmp("Zeitstrafen pro Spiel",ma.zsp,mb.zsp,f1,true)+'</div>';
   /* Heim und Auswärts: Heimteam daheim gegen Gast auswärts */
   var ra=trec(A.n,true),rb=trec(B.n,false),pp=function(r){return r.sp?r.pn/r.sp:0},av=function(r,k){return r.sp?r[k]/r.sp:0};
-  h+=secH("Heim gegen Auswärts",A.n+" daheim, "+B.n+" auswärts")+'<div class="c">'+cmp("Punkte pro Spiel ("+ra.sp+" und "+rb.sp+" Spiele)",pp(ra),pp(rb))+cmp("Ø Tore",av(ra,"tf"),av(rb,"tf"))+cmp("Ø Gegentore (weniger ist besser)",av(ra,"tg"),av(rb,"tg"),f1,true)+'</div>';
+  h+=secH("Heim gegen Auswärts",A.n+" daheim, "+B.n+" auswärts")+'<div class="c">'+cmp("Punkte pro Spiel ("+ra.sp+" und "+rb.sp+" Spiele)",pp(ra),pp(rb))+cmp("Ø Tore",av(ra,"tf"),av(rb,"tf"))+cmp("Ø Gegentore",av(ra,"tg"),av(rb,"tg"),f1,true)+'</div>';
   /* Halbzeiten */
   var za=thz(A.n),zb=thz(B.n),ka=tclose(A.n),kb=tclose(B.n);
   h+=secH("Halbzeiten und enge Spiele")+'<div class="c">'+cmpd("Ø Tordifferenz in der 1. Halbzeit",za.h1,zb.h1,sf)+cmpd("Ø Tordifferenz in der 2. Halbzeit",za.h2,zb.h2,sf)+
@@ -674,7 +687,7 @@ function sCmp(){
   var A=PL[ST.c[0]],B=PL[ST.c[1]],pc=function(v){return Math.round(v*100)+" %"},iv=function(v){return v};
   var opts=function(sel){return PL.map(function(p){return'<option value="'+p.i+'"'+(p.i===sel?" selected":"")+'>'+nm(p.name)+'</option>'}).join("")};
   return'<h3>Vergleich</h3><label class="eb" for="c0">Spieler 1</label><select id="c0" data-a="sel" data-v="0">'+opts(ST.c[0])+'</select><label class="eb" for="c1">Spieler 2</label><select id="c1" data-a="sel" data-v="1">'+opts(ST.c[1])+'</select><div class="c"><div style="display:flex;justify-content:space-between;gap:12px"><b style="min-width:0;overflow-wrap:anywhere">'+nm(A.name)+'</b><b style="min-width:0;text-align:right;overflow-wrap:anywhere">'+nm(B.name)+'</b></div>'+
-   cmp("Spiele",A.spiele,B.spiele,iv)+cmp("Tore",A.tore,B.tore,iv)+cmp("Tore pro Spiel",A.tpg,B.tpg)+cmp("Feldtore",A.ft,B.ft,iv)+cmp("7m-Tore",A.tore7,B.tore7,iv)+cmp("7m-Quote",A.q7||0,B.q7||0,pc)+cmp("Anteil an den Teamtoren",A.share,B.share,pc)+cmp("Zeitstrafen (weniger ist besser)",A.zeitstrafen,B.zeitstrafen,iv,true)+'</div>'}
+   cmp("Spiele",A.spiele,B.spiele,iv)+cmp("Tore",A.tore,B.tore,iv)+cmp("Tore pro Spiel",A.tpg,B.tpg)+cmp("Feldtore",A.ft,B.ft,iv)+cmp("7m-Tore",A.tore7,B.tore7,iv)+cmp("7m-Quote",A.q7||0,B.q7||0,pc)+cmp("Anteil an den Teamtoren",A.share,B.share,pc)+cmp("Zeitstrafen",A.zeitstrafen,B.zeitstrafen,iv,true)+'</div>'}
 /* ---------- Teilen-Karte ---------- */
 function card(i){var g=GM[i],c=document.createElement("canvas");c.width=1080;c.height=1350;var x=c.getContext("2d");
   var gr=x.createLinearGradient(0,0,1080,1350);gr.addColorStop(0,"#15181d");gr.addColorStop(.65,"#2f1115");gr.addColorStop(1,"#7a1620");x.fillStyle=gr;x.fillRect(0,0,1080,1350);
