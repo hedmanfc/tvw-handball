@@ -678,9 +678,9 @@
   "nr": "61",
   "heim": "TV Gelnhausen II",
   "gast": "TSG Offenbach-Bürgel II",
-  "ergebnis_roh": "Marz./Seib",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
@@ -691,18 +691,6 @@
   "heim": "HSG Hanau III",
   "gast": "TV Wächtersbach",
   "ergebnis_roh": "Thom",
-  "tore_heim": null,
-  "tore_gast": null,
-  "meeting": null
- },
- {
-  "datum": "2026-11-14",
-  "zeit": "17:30",
-  "halle_code": "17154",
-  "nr": "62",
-  "heim": "HSG Rodgau/N.-Roden III",
-  "gast": "HSG Preagberg",
-  "ergebnis_roh": "Czik./Czik.",
   "tore_heim": null,
   "tore_gast": null,
   "meeting": null
@@ -906,7 +894,7 @@
   "nr": "74",
   "heim": "HSG Oberhessen",
   "gast": "TGS Niederrodenbach",
-  "ergebnis_roh": "Lebh.",
+  "ergebnis_roh": "Bezi.",
   "tore_heim": null,
   "tore_gast": null,
   "meeting": null
@@ -1087,6 +1075,18 @@
   "heim": "TSG Offenbach-Bürgel II",
   "gast": "TGS Niederrodenbach",
   "ergebnis_roh": "Jung/Kell.",
+  "tore_heim": null,
+  "tore_gast": null,
+  "meeting": null
+ },
+ {
+  "datum": "2026-12-31",
+  "zeit": "23:59",
+  "halle_code": "17154",
+  "nr": "62",
+  "heim": "HSG Rodgau/N.-Roden III",
+  "gast": "HSG Preagberg",
+  "ergebnis_roh": "",
   "tore_heim": null,
   "tore_gast": null,
   "meeting": null
