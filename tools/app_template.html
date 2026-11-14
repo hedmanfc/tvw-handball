@@ -226,7 +226,8 @@ var TB=(function(){var m={};T.forEach(function(t){m[t[0]]={n:t[0],sp:0,s:0,u:0,n
 var tbi=function(n){return TB.filter(function(x){return x.n===n})[0]};
 var LG=G.map(function(g){return{d:g[0],t:g[1],h:g[2],a:g[3],e:g[4],m:g[5]||""}});
 /* Liveticker (nuLiga nuScoreLive): ab Anwurf bis 2,5 Std. danach (ca. 1 Std. nach Abpfiff, dann liegt der Spielbericht vor). Mit Spiel-ID direkt zum Spiel, sonst zur Gruppenübersicht */
-function liveUrl(d,tm,h,a){if(!DS.grp||d!==TODAY||!tm)return"";var n=new Date(),mi=n.getHours()*60+n.getMinutes(),st=+tm.slice(0,2)*60+ +tm.slice(3,5);if(mi<st||mi>st+150)return"";
+function inWin(d,tm){if(d!==TODAY||!tm)return false;var n=new Date(),mi=n.getHours()*60+n.getMinutes(),st=+tm.slice(0,2)*60+ +tm.slice(3,5);return mi>=st&&mi<=st+150}
+function liveUrl(d,tm,h,a){if(!DS.grp||!inWin(d,tm))return"";
   var l=LG.filter(function(x){return x.d===d&&x.h===h&&x.a===a})[0],m=l&&l.m;return"https://hbde-live.liga.nu/nuScoreLive/#/groups/"+DS.grp+(m?"/meetings/"+m:"")}
 var gEnded=function(d,tm){if(d!==TODAY||!tm)return false;var n=new Date();return n.getHours()*60+n.getMinutes()>+tm.slice(0,2)*60+ +tm.slice(3,5)+150};
 var LIVE=function(u,cls){return u?'<a class="'+cls+'" href="'+u+'" target="_blank" rel="noopener"><i class="ld"></i>Liveticker</a>':""}
@@ -256,10 +257,10 @@ var rankBy=function(f,asc){return TB.slice().sort(function(a,b){return asc?f(a)-
 var RA=rankBy(function(t){return t.tf/t.sp}),RD=rankBy(function(t){return t.tg/t.sp},true);
 var LAVG=sum(TB,function(t){return t.tf})/sum(TB,function(t){return t.sp});
 var WL=GM.map(function(g){return{d:g.datum,t:g.zeit,opp:g.gegner,home:g.heimspiel,e:g.e,o:g.o,gi:g.i,ort:g.ort,r:g.r}})
- .concat(LG.filter(function(g){return(g.h===W||g.a===W)&&!g.e}).map(function(g){return{d:g.d,t:g.t,opp:g.h===W?g.a:g.h,home:g.h===W,e:null,o:null,gi:-1,ort:HALL[g.h]||"",r:""}}))
+ .concat(LG.filter(function(g){return(g.h===W||g.a===W)&&(!g.e||(inWin(g.d,g.t)&&!GM.some(function(x){return x.datum===g.d&&x.gegner===(g.h===W?g.a:g.h)})))}).map(function(g){return{d:g.d,t:g.t,opp:g.h===W?g.a:g.h,home:g.h===W,e:null,o:null,gi:-1,ort:HALL[g.h]||"",r:""}}))
  .sort(function(a,b){return a.d.localeCompare(b.d)||a.t.localeCompare(b.t)});
 var NEXT=WL.filter(function(g){return g.e==null&&g.d>=TODAY})[0];
-var cdn=function(g){var ms=new Date(g.d+"T"+g.t+":00")-new Date();if(ms<=0)return"heute";var m=Math.floor(ms/6e4),d=Math.floor(m/1440),h=Math.floor(m%1440/60);return d>0?"in "+d+(d===1?" Tag ":" Tagen ")+h+" Std.":"in "+h+" Std. "+(m%60)+" Min."};
+var cdn=function(g){var ms=new Date(g.d+"T"+g.t+":00")-new Date();if(ms<=0)return inWin(g.d,g.t)?"läuft gerade":"heute";var m=Math.floor(ms/6e4),d=Math.floor(m/1440),h=Math.floor(m%1440/60);return d>0?"in "+d+(d===1?" Tag ":" Tagen ")+h+" Std.":"in "+h+" Std. "+(m%60)+" Min."};
 var VTZ=["BEGIN:VTIMEZONE","TZID:Europe/Berlin","BEGIN:DAYLIGHT","TZOFFSETFROM:+0100","TZOFFSETTO:+0200","TZNAME:CEST","DTSTART:19700329T020000","RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU","END:DAYLIGHT","BEGIN:STANDARD","TZOFFSETFROM:+0200","TZOFFSETTO:+0100","TZNAME:CET","DTSTART:19701025T030000","RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU","END:STANDARD","END:VTIMEZONE"];
 function icsGames(mode){return LG.filter(function(g){return g.d&&(g.h===W||g.a===W)&&!g.e&&g.d>=TODAY&&(mode!=="home"||g.h===W)}).sort(function(a,b){return a.d.localeCompare(b.d)||a.t.localeCompare(b.t)})}
 function icsEsc(t){return String(t).replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\n/g,"\\n")}
@@ -410,8 +411,8 @@ var wkG=function(k){return LG.filter(function(g){return g.d&&wkOf(g.d)===k}).sor
 function lgRow(g){var pl=!!g.e,s=pl?g.e.split(":").map(Number):[0,0],me=g.h===W||g.a===W,
   cls=function(i){return pl?(s[i]>s[1-i]?" w":s[i]<s[1-i]?" l":""):""},
   tn=function(n,i){return'<button class="tn'+cls(i)+'" data-a="team" data-v="'+n+'"><span>'+n+'</span><span class="sc">'+(pl?s[i]:"")+'</span></button>'},
-  wg=me&&pl?WL.filter(function(x){return x.d===g.d&&x.e!=null&&(x.opp===g.h||x.opp===g.a)&&x.opp!==W})[0]:null,ai=ALI[g.d+"|"+g.h+"|"+g.a];
-  var lu=!pl?liveUrl(g.d,g.t,g.h,g.a):"",rf=!pl&&!lu&&gEnded(g.d,g.t);return'<div class="lg'+(me?" me":"")+'"><span class="tm">'+(pl?"Ende":g.t)+'</span><span class="tt">'+tn(g.h,0)+tn(g.a,1)+'</span>'+LIVE(lu,"lv")+(rf?'<span class="lv" style="color:var(--mut)">Ergebnis folgt</span>':"")+(wg?'<button class="go" data-a="game" data-i="'+wg.gi+'" aria-label="Spieldetails">›</button>':(pl&&ai!=null?'<button class="go" data-a="gl" data-i="'+ai+'" aria-label="Spielanalyse">›</button>':(!pl?'<button class="go" data-a="cmpg" data-v="'+g.h+"|"+g.a+"|"+g.d+"|"+g.t+'" aria-label="Teamvergleich">›</button>':"")))+'</div>'}
+  wg=me&&pl&&!inWin(g.d,g.t)?WL.filter(function(x){return x.d===g.d&&x.e!=null&&(x.opp===g.h||x.opp===g.a)&&x.opp!==W})[0]:null,ai=ALI[g.d+"|"+g.h+"|"+g.a];
+  var lu=liveUrl(g.d,g.t,g.h,g.a),rf=!pl&&!lu&&gEnded(g.d,g.t);return'<div class="lg'+(me?" me":"")+'"><span class="tm">'+(lu?'<b style="color:var(--acc)">Live</b>':pl?"Ende":g.t)+'</span><span class="tt">'+tn(g.h,0)+tn(g.a,1)+'</span>'+LIVE(lu,"lv")+(rf?'<span class="lv" style="color:var(--mut)">Ergebnis folgt</span>':"")+(wg?'<button class="go" data-a="game" data-i="'+wg.gi+'" aria-label="Spieldetails">›</button>':(lu?'<button class="go" data-a="cmpg" data-v="'+g.h+"|"+g.a+"|"+g.d+"|"+g.t+'" aria-label="Teamvergleich">›</button>':pl&&ai!=null?'<button class="go" data-a="gl" data-i="'+ai+'" aria-label="Spielanalyse">›</button>':(!pl?'<button class="go" data-a="cmpg" data-v="'+g.h+"|"+g.a+"|"+g.d+"|"+g.t+'" aria-label="Teamvergleich">›</button>':"")))+'</div>'}
 function ligaCtl(){var ts=T.map(function(t){return t[0]}).sort();
   return'<div class="lf"><select id="lt" data-a="lt" aria-label="Team wählen"><option value="">Alle Teams</option>'+ts.map(function(t){return'<option value="'+t+'"'+(ST.lt===t?" selected":"")+'>'+t+'</option>'}).join("")+'</select></div>'+(ST.lt?subRow("lh",[["all","Alle Spiele"],["h","Heim"],["a","Auswärts"]]):"")}
 function vLigaT(){var t=ST.lt,hm=ST.sub.lh||"all",gs=LG.filter(function(g){return g.d&&(g.h===t||g.a===t)&&(hm==="all"||(hm==="h"?g.h===t:g.a===t))}).sort(function(a,b){return a.d.localeCompare(b.d)||a.t.localeCompare(b.t)}),

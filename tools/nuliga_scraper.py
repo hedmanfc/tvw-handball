@@ -230,9 +230,23 @@ def dump(pfad, obj, indent=1):
     pfad.write_text(json.dumps(obj, ensure_ascii=False, indent=indent), encoding="utf-8")
 
 
-def platzhalter(g):
-    """nuLiga legt Berichte schon vor dem Anpfiff mit 0:0 an. Solange nicht genehmigt, zählt das nicht als Ergebnis."""
-    return g.get("tore_heim") == 0 and g.get("tore_gast") == 0 and g.get("status") != "genehmigt"
+def unfertig(g):
+    """Spielbericht ohne Genehmigung, der noch nichts Endgültiges enthält: 0:0 vor dem Anpfiff oder Zwischenstand während des Spiels
+    (bis 2,5 Std. nach Anpfiff). nuLiga trägt den laufenden Spielstand schon in Spielplan und Bericht ein."""
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    if g.get("status") == "genehmigt":
+        return False
+    if g.get("tore_heim") == 0 and g.get("tore_gast") == 0:
+        return True
+    n = datetime.now(ZoneInfo("Europe/Berlin"))
+    if g.get("datum") != n.strftime("%Y-%m-%d") or not g.get("zeit"):
+        return False
+    try:
+        h, m = map(int, g["zeit"].split(":"))
+    except ValueError:
+        return False
+    return n.hour * 60 + n.minute < h * 60 + m + 150
 
 
 def staffel_holen(key, ordner, cache, cache_datei, nur_spielplan=False):
@@ -254,7 +268,7 @@ def staffel_holen(key, ordner, cache, cache_datei, nur_spielplan=False):
             cache[i] = g
         cache_datei.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
 
-    spiele = [cache[i] for i in ids if i in cache and not platzhalter(cache[i])]
+    spiele = [cache[i] for i in ids if i in cache and not unfertig(cache[i])]
     dump(ordner / f"nuliga_{key}_alle.json", spiele)
     komp = kompakt(spiele, team)
     dump(ordner / f"nuliga_{key}_kompakt.json", komp)

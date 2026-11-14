@@ -51,13 +51,32 @@ def al_eintrag(g):
             "hz": [g["hz_heim"], g["hz_gast"]], "s": s, "v": v}
 
 
+def unfertig(g):
+    """Spielbericht ohne Genehmigung, der noch nichts Endgültiges enthält: 0:0 vor dem Anpfiff oder Zwischenstand während des Spiels
+    (bis 2,5 Std. nach Anpfiff). nuLiga trägt den laufenden Spielstand schon in Spielplan und Bericht ein."""
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    if g.get("status") == "genehmigt":
+        return False
+    if g.get("tore_heim") == 0 and g.get("tore_gast") == 0:
+        return True
+    n = datetime.now(ZoneInfo("Europe/Berlin"))
+    if g.get("datum") != n.strftime("%Y-%m-%d") or not g.get("zeit"):
+        return False
+    try:
+        h, m = map(int, g["zeit"].split(":"))
+    except ValueError:
+        return False
+    return n.hour * 60 + n.minute < h * 60 + m + 150
+
+
 def dataset(key):
     saison, team_lbl, liga = STAFFELN[key]
     alle = json.loads((ORDNER / f"nuliga_{key}_alle.json").read_text(encoding="utf-8"))
     plan = json.loads((ORDNER / f"nuliga_{key}_spielplan.json").read_text(encoding="utf-8"))
     komp = json.loads((ORDNER / f"nuliga_{key}_kompakt.json").read_text(encoding="utf-8"))
     ok = [g for g in alle if "tore_heim" in g and "spieler" in g and "hz_heim" in g and g.get("datum")
-          and not (g["tore_heim"] == 0 and g["tore_gast"] == 0 and g.get("status") != "genehmigt")]  # 0:0 vor dem Anpfiff ist ein Platzhalter
+          and not unfertig(g)]  # 0:0 und Zwischenstände laufender Spiele zählen noch nicht
     AL = [al_eintrag(g) for g in ok]
     ergebnis = {g["id"]: f'{g["tore_heim"]}:{g["tore_gast"]}' for g in ok}
     G = []
