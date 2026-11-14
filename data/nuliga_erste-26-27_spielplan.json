@@ -678,9 +678,9 @@
   "nr": "61",
   "heim": "TV Gelnhausen II",
   "gast": "TSG Offenbach-Bürgel II",
-  "ergebnis_roh": "18:17",
-  "tore_heim": 18,
-  "tore_gast": 17,
+  "ergebnis_roh": "38:38",
+  "tore_heim": 38,
+  "tore_gast": 38,
   "meeting": "8259103"
  },
  {
@@ -690,10 +690,10 @@
   "nr": "63",
   "heim": "HSG Hanau III",
   "gast": "TV Wächtersbach",
-  "ergebnis_roh": "Thom",
-  "tore_heim": null,
-  "tore_gast": null,
-  "meeting": null
+  "ergebnis_roh": "10:6",
+  "tore_heim": 10,
+  "tore_gast": 6,
+  "meeting": "8259132"
  },
  {
   "datum": "2026-11-14",
