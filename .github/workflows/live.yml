@@ -1,0 +1,38 @@
+name: Liveticker-Links holen
+
+# Donnerstag bis Sonntag alle 5 Minuten eine kurze Prüfung (wenige Sekunden).
+# Nur wenn gerade ein Spiel angepfiffen wurde und die Ticker-ID noch fehlt, läuft das komplette Update.
+on:
+  schedule:
+    - cron: "*/5 6-21 * * 4,5,6,0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    outputs:
+      go: ${{ steps.check.outputs.go }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: check
+        run: python tools/live_check.py data
+  update:
+    needs: pruefen
+    if: needs.pruefen.outputs.go == 'true'
+    uses: ./.github/workflows/update.yml
+    with:
+      meldung: "nein"
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+      issues: write

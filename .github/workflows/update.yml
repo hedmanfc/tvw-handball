@@ -5,6 +5,11 @@ on:
     - cron: "30 20 * * 6,0"   # Samstag und Sonntag abends (nach den Spielen)
     - cron: "30 5 * * 1,2"    # Montag und Dienstag früh (Spielberichte werden nachträglich freigegeben)
   workflow_dispatch:           # manuell starten: Reiter Actions > Run workflow
+  workflow_call:               # wird auch vom Liveticker-Workflow (live.yml) aufgerufen
+    inputs:
+      meldung:
+        type: string
+        default: "ja"
   push:
     branches: [main]
     paths:
@@ -58,7 +63,7 @@ jobs:
         with:
           path: site
       - name: Meldung, wenn es neue Daten gab
-        if: success() && steps.speichern.outputs.geaendert == 'true' && github.event_name != 'push'
+        if: success() && steps.speichern.outputs.geaendert == 'true' && github.event_name != 'push' && inputs.meldung != 'nein'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
