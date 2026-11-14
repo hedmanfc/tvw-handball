@@ -678,10 +678,10 @@
   "nr": "61",
   "heim": "TV Gelnhausen II",
   "gast": "TSG Offenbach-Bürgel II",
-  "ergebnis_roh": "0:0",
-  "tore_heim": 0,
-  "tore_gast": 0,
-  "meeting": null
+  "ergebnis_roh": "17:15",
+  "tore_heim": 17,
+  "tore_gast": 15,
+  "meeting": "8259103"
  },
  {
   "datum": "2026-11-14",
