@@ -474,9 +474,9 @@
   "nr": "48",
   "heim": "MSG Hanau/Erlensee",
   "gast": "HSG Preagberg III",
-  "ergebnis_roh": "25:23",
-  "tore_heim": 25,
-  "tore_gast": 23,
+  "ergebnis_roh": "38:35",
+  "tore_heim": 38,
+  "tore_gast": 35,
   "meeting": "8259327"
  },
  {
@@ -486,10 +486,10 @@
   "nr": "46",
   "heim": "TV Langenselbold III",
   "gast": "HSG Dietesh./Mühlh. II",
-  "ergebnis_roh": "0:0",
-  "tore_heim": 0,
-  "tore_gast": 0,
-  "meeting": null
+  "ergebnis_roh": "27:26",
+  "tore_heim": 27,
+  "tore_gast": 26,
+  "meeting": "8259342"
  },
  {
   "datum": "2026-11-15",
@@ -498,10 +498,10 @@
   "nr": "44",
   "heim": "TSG Offenbach-Bürgel III",
   "gast": "SG Hainburg II",
-  "ergebnis_roh": "0:0",
-  "tore_heim": 0,
-  "tore_gast": 0,
-  "meeting": null
+  "ergebnis_roh": "28:33",
+  "tore_heim": 28,
+  "tore_gast": 33,
+  "meeting": "8259289"
  },
  {
   "datum": "2026-11-15",
@@ -510,9 +510,9 @@
   "nr": "113",
   "heim": "TV Wächtersbach II",
   "gast": "SG Bruchköbel III",
-  "ergebnis_roh": "Vazq.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
@@ -522,9 +522,9 @@
   "nr": "43",
   "heim": "SG Hainhausen",
   "gast": "HSG Dietzenbach II",
-  "ergebnis_roh": "Haus.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
