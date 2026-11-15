@@ -510,9 +510,9 @@
   "nr": "113",
   "heim": "TV Wächtersbach II",
   "gast": "SG Bruchköbel III",
-  "ergebnis_roh": "15:13",
-  "tore_heim": 15,
-  "tore_gast": 13,
+  "ergebnis_roh": "31:31",
+  "tore_heim": 31,
+  "tore_gast": 31,
   "meeting": "8259355"
  },
  {
@@ -522,10 +522,10 @@
   "nr": "43",
   "heim": "SG Hainhausen",
   "gast": "HSG Dietzenbach II",
-  "ergebnis_roh": "0:0",
-  "tore_heim": 0,
-  "tore_gast": 0,
-  "meeting": null
+  "ergebnis_roh": "35:31",
+  "tore_heim": 35,
+  "tore_gast": 31,
+  "meeting": "8259315"
  },
  {
   "datum": "2026-11-22",

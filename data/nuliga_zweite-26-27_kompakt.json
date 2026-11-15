@@ -1,6 +1,6 @@
 {
  "team": "TV Wächtersbach II",
- "erstellt": "2026-11-15T10:59",
+ "erstellt": "2026-11-15T21:02",
  "spiele": [
   {
    "nr": "6",
@@ -566,14 +566,131 @@
      "rot": false
     }
    ]
+  },
+  {
+   "nr": "113",
+   "datum": "2026-11-15",
+   "zeit": "17:30",
+   "ort": "Gesamtschule",
+   "heimspiel": true,
+   "gegner": "SG Bruchköbel III",
+   "tore_eigene": 31,
+   "tore_gegner": 31,
+   "status": "genehmigt",
+   "halbzeit": "15:14",
+   "zweite_halbzeit": "16:17",
+   "spieler": [
+    {
+     "nr": 3,
+     "name": "Morina, Dren",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 4,
+     "name": "Jacobsen, Ian",
+     "tore": 9,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 5,
+     "name": "Rodewald, Lars",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 6,
+     "name": "Lach, Simon",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 8,
+     "name": "Huth, Jonas",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Rieger, Rene",
+     "tore": 5,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 17,
+     "name": "Storck, Julian",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 18,
+     "name": "Lehmann, Justin",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 27,
+     "name": "Grüll, Nils",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
   }
  ],
  "spieler": [
   {
+   "name": "Jacobsen, Ian",
+   "verein": "TV Wächtersbach II",
+   "spiele": 6,
+   "tore": 33,
+   "tore7": 0,
+   "versuche7": 1,
+   "zeitstrafen": 1,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 5.5
+  },
+  {
    "name": "Rieger, Rene",
    "verein": "TV Wächtersbach II",
-   "spiele": 5,
-   "tore": 25,
+   "spiele": 6,
+   "tore": 30,
    "tore7": 5,
    "versuche7": 5,
    "zeitstrafen": 1,
@@ -582,28 +699,16 @@
    "tore_pro_spiel": 5.0
   },
   {
-   "name": "Jacobsen, Ian",
-   "verein": "TV Wächtersbach II",
-   "spiele": 5,
-   "tore": 24,
-   "tore7": 0,
-   "versuche7": 1,
-   "zeitstrafen": 1,
-   "gelb": 0,
-   "rot": 0,
-   "tore_pro_spiel": 4.8
-  },
-  {
    "name": "Morina, Dren",
    "verein": "TV Wächtersbach II",
-   "spiele": 3,
+   "spiele": 4,
    "tore": 20,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 0,
-   "gelb": 1,
+   "gelb": 2,
    "rot": 0,
-   "tore_pro_spiel": 6.67
+   "tore_pro_spiel": 5.0
   },
   {
    "name": "Appl, Martin",
@@ -618,6 +723,18 @@
    "tore_pro_spiel": 3.0
   },
   {
+   "name": "Lehmann, Justin",
+   "verein": "TV Wächtersbach II",
+   "spiele": 6,
+   "tore": 12,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 1,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 2.0
+  },
+  {
    "name": "Dinkel, Paul",
    "verein": "TV Wächtersbach II",
    "spiele": 3,
@@ -628,6 +745,18 @@
    "gelb": 0,
    "rot": 0,
    "tore_pro_spiel": 3.33
+  },
+  {
+   "name": "Grüll, Nils",
+   "verein": "TV Wächtersbach II",
+   "spiele": 6,
+   "tore": 10,
+   "tore7": 1,
+   "versuche7": 2,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 1.67
   },
   {
    "name": "Nickels, Jonathan",
@@ -642,52 +771,52 @@
    "tore_pro_spiel": 2.0
   },
   {
-   "name": "Grüll, Nils",
-   "verein": "TV Wächtersbach II",
-   "spiele": 5,
-   "tore": 8,
-   "tore7": 1,
-   "versuche7": 2,
-   "zeitstrafen": 0,
-   "gelb": 0,
-   "rot": 0,
-   "tore_pro_spiel": 1.6
-  },
-  {
-   "name": "Lehmann, Justin",
-   "verein": "TV Wächtersbach II",
-   "spiele": 5,
-   "tore": 8,
-   "tore7": 0,
-   "versuche7": 0,
-   "zeitstrafen": 1,
-   "gelb": 0,
-   "rot": 0,
-   "tore_pro_spiel": 1.6
-  },
-  {
-   "name": "Lach, Simon",
-   "verein": "TV Wächtersbach II",
-   "spiele": 5,
-   "tore": 6,
-   "tore7": 0,
-   "versuche7": 0,
-   "zeitstrafen": 2,
-   "gelb": 0,
-   "rot": 0,
-   "tore_pro_spiel": 1.2
-  },
-  {
    "name": "Rodewald, Lars",
    "verein": "TV Wächtersbach II",
-   "spiele": 2,
-   "tore": 6,
+   "spiele": 3,
+   "tore": 9,
    "tore7": 0,
    "versuche7": 0,
    "zeitstrafen": 0,
    "gelb": 0,
    "rot": 0,
    "tore_pro_spiel": 3.0
+  },
+  {
+   "name": "Lach, Simon",
+   "verein": "TV Wächtersbach II",
+   "spiele": 6,
+   "tore": 8,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 2,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 1.33
+  },
+  {
+   "name": "Huth, Jonas",
+   "verein": "TV Wächtersbach II",
+   "spiele": 2,
+   "tore": 4,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 2.0
+  },
+  {
+   "name": "Storck, Julian",
+   "verein": "TV Wächtersbach II",
+   "spiele": 4,
+   "tore": 4,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
+   "rot": 0,
+   "tore_pro_spiel": 1.0
   },
   {
    "name": "Faupel, Felix",
@@ -714,28 +843,16 @@
    "tore_pro_spiel": 0.5
   },
   {
-   "name": "Huth, Jonas",
-   "verein": "TV Wächtersbach II",
-   "spiele": 1,
-   "tore": 1,
-   "tore7": 0,
-   "versuche7": 0,
-   "zeitstrafen": 0,
-   "gelb": 0,
-   "rot": 0,
-   "tore_pro_spiel": 1.0
-  },
-  {
    "name": "Lorbach, Eike",
    "verein": "TV Wächtersbach II",
-   "spiele": 3,
+   "spiele": 4,
    "tore": 1,
    "tore7": 1,
    "versuche7": 1,
    "zeitstrafen": 1,
    "gelb": 0,
    "rot": 0,
-   "tore_pro_spiel": 0.33
+   "tore_pro_spiel": 0.25
   },
   {
    "name": "Porebska, Daniel",
@@ -750,18 +867,6 @@
    "tore_pro_spiel": 1.0
   },
   {
-   "name": "Storck, Julian",
-   "verein": "TV Wächtersbach II",
-   "spiele": 3,
-   "tore": 1,
-   "tore7": 0,
-   "versuche7": 0,
-   "zeitstrafen": 0,
-   "gelb": 0,
-   "rot": 0,
-   "tore_pro_spiel": 0.33
-  },
-  {
    "name": "Bös, Christoph",
    "verein": "TV Wächtersbach II",
    "spiele": 2,
@@ -770,6 +875,18 @@
    "versuche7": 0,
    "zeitstrafen": 2,
    "gelb": 1,
+   "rot": 0,
+   "tore_pro_spiel": 0.0
+  },
+  {
+   "name": "Dullaart, Jonas",
+   "verein": "TV Wächtersbach II",
+   "spiele": 1,
+   "tore": 0,
+   "tore7": 0,
+   "versuche7": 0,
+   "zeitstrafen": 0,
+   "gelb": 0,
    "rot": 0,
    "tore_pro_spiel": 0.0
   },
@@ -788,7 +905,7 @@
   {
    "name": "Hellwig, Kai",
    "verein": "TV Wächtersbach II",
-   "spiele": 5,
+   "spiele": 6,
    "tore": 0,
    "tore7": 0,
    "versuche7": 0,
@@ -800,7 +917,7 @@
   {
    "name": "Klinger, Patric",
    "verein": "TV Wächtersbach II",
-   "spiele": 2,
+   "spiele": 3,
    "tore": 0,
    "tore7": 0,
    "versuche7": 0,
@@ -812,7 +929,7 @@
   {
    "name": "Kunst, Patrick",
    "verein": "TV Wächtersbach II",
-   "spiele": 2,
+   "spiele": 3,
    "tore": 0,
    "tore7": 0,
    "versuche7": 0,

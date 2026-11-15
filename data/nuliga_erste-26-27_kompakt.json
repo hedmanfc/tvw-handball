@@ -1,6 +1,6 @@
 {
  "team": "TV Wächtersbach",
- "erstellt": "2026-11-15T10:59",
+ "erstellt": "2026-11-15T21:02",
  "spiele": [
   {
    "nr": "3",
@@ -951,7 +951,7 @@
    "gegner": "HSG Hanau III",
    "tore_eigene": 35,
    "tore_gegner": 39,
-   "status": "offen",
+   "status": "genehmigt",
    "halbzeit": "15:21",
    "zweite_halbzeit": "20:18",
    "spieler": [
