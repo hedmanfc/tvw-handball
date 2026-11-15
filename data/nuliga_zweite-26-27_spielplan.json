@@ -474,9 +474,9 @@
   "nr": "48",
   "heim": "MSG Hanau/Erlensee",
   "gast": "HSG Preagberg III",
-  "ergebnis_roh": "3:4",
-  "tore_heim": 3,
-  "tore_gast": 4,
+  "ergebnis_roh": "25:23",
+  "tore_heim": 25,
+  "tore_gast": 23,
   "meeting": "8259327"
  },
  {
@@ -498,9 +498,9 @@
   "nr": "44",
   "heim": "TSG Offenbach-Bürgel III",
   "gast": "SG Hainburg II",
-  "ergebnis_roh": "Werk.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
