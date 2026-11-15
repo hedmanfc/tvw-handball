@@ -4,8 +4,8 @@
 Aufruf: python tools/live_check.py data
 Schreibt "go=true" oder "go=false" in die Datei $GITHUB_OUTPUT (sonst auf die Konsole).
 Läuft alle 5 Minuten, ist aber nur eine Dateiprüfung und dauert wenige Sekunden.
-Ein Update wird ausgelöst, wenn ein Spiel in den letzten 15 Minuten begonnen hat (Anpfiff bis 15 Minuten danach,
-also etwa beim Anpfiff und 5 und 10 Minuten später) und für dieses Spiel noch keine ID vorliegt.
+Ein Update wird ausgelöst, wenn ein Spiel in höchstens 5 Minuten beginnt oder vor höchstens 15 Minuten begonnen hat und für
+dieses Spiel noch keine ID vorliegt. Sobald die ID da ist, hören die Läufe für dieses Spiel auf.
 """
 import json
 import os
@@ -14,7 +14,8 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-FENSTER_MIN = 15
+VOR_MIN = 5    # ab 5 Minuten vor Anpfiff prüfen, ob nuLiga die Spiel-ID schon geliefert hat
+NACH_MIN = 15  # und bis 15 Minuten nach Anpfiff
 ordner = Path(sys.argv[1] if len(sys.argv) > 1 else "data")
 jetzt = datetime.now(ZoneInfo("Europe/Berlin"))
 heute = jetzt.strftime("%Y-%m-%d")
@@ -28,10 +29,10 @@ for datei in sorted(ordner.glob("nuliga_*-26-27_spielplan.json")):  # nur die la
         except ValueError:
             continue
         seit = (jetzt.hour * 60 + jetzt.minute) - (h * 60 + m)
-        if 0 <= seit < FENSTER_MIN:
+        if -VOR_MIN <= seit < NACH_MIN:
             treffer.append(f'{p["heim"]} - {p["gast"]} ({p["zeit"]}, seit {seit} Min.)')
 go = "true" if treffer else "false"
-print(f"{jetzt:%d.%m. %H:%M} Uhr: {len(treffer)} Spiel(e) ohne Ticker-ID im Anpfiff-Fenster", *treffer, sep="\n  ")
+print(f"{jetzt:%d.%m. %H:%M} Uhr: {len(treffer)} Spiel(e) ohne Ticker-ID im Zeitfenster", *treffer, sep="\n  ")
 ziel = os.environ.get("GITHUB_OUTPUT")
 if ziel:
     with open(ziel, "a") as f:
