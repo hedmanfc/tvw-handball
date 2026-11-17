@@ -1,7 +1,19 @@
 {
- "stand": "2026-11-16",
+ "stand": "2026-11-17",
  "quelle": "https://www.tvw-handballer.de/news/",
  "items": [
+  {
+   "d": "2026-11-15",
+   "t": "TV Wächtersbach II - SG Bruchköbel III 31:31 (15:14)",
+   "u": "https://www.tvw-handballer.de/2026/11/15/tv-w%C3%A4chtersbach-ii-sg-bruchk%C3%B6bel-iii-31-31-15-14/",
+   "x": "Verdientes Unentschieden nach starker Mannschaftsleistung Im Heimspiel gegen die SG Bruchköbel III zeigte die zweite Mannschaft des TV Wächtersbach eine starke Leistung in Angriff und Abwehr und belohnte sich am Ende …"
+  },
+  {
+   "d": "2026-11-07",
+   "t": "TV Wächtersbach II - MSG Hanau/Erlensee 29:30 (6:14)",
+   "u": "https://www.tvw-handballer.de/2026/11/07/tv-w%C3%A4chtersbach-ii-msg-hanau-erlensee-29-30-6-14/",
+   "x": "TV Wächtersbach II gibt Heimsieg in den Schlussminuten aus der Hand Eine bittere Niederlage musste die zweite Mannschaft des TV Wächtersbach im Heimspiel der Männer-Bezirksklasse gegen die MSG Hanau/Erlensee …"
+  },
   {
    "d": "2026-10-25",
    "t": "TV Wächtersbach II - SG Hainhausen 26:36 (10:18)",
@@ -49,18 +61,6 @@
    "t": "HSG Maintal II - TVW II 24:38 (14:18)",
    "u": "https://www.tvw-handballer.de/2026/02/21/hsg-maintal-ii-tvw-ii-24-38-14-18/",
    "x": "TV Wächtersbach II gewinnt torreiches Auswärtsspiel in Maintal mit 38:24 Der TV Wächtersbach II hat einen deutlichen Auswärtssieg eingefahren. Gegen die HSG Maintal II setzte sich die Mannschaft mit 38:24 (18:14) …"
-  },
-  {
-   "d": "2026-02-08",
-   "t": "TSG Offenbach-Bürgel III – TVW II 20:31 (9:14)",
-   "u": "https://www.tvw-handballer.de/2026/02/08/tsg-offenbach-b%C3%BCrgel-iii-tvw-ii-20-31-9-14/",
-   "x": "TV Wächtersbach II gewinnt auswärts klar mit 31:20 gegen Bürgel III Der TV Wächtersbach II hat einen wichtigen Auswärtssieg eingefahren. In der Sportfabrik Offenbach setzte sich die Mannschaft souverän mit 31:20 …"
-  },
-  {
-   "d": "2025-12-07",
-   "t": "TVW II – SG Hainhausen II 39:21 (18:12)",
-   "u": "https://www.tvw-handballer.de/2025/12/07/tvw-ii-sg-hainhausen-ii-39-21-18-12/",
-   "x": "TV Wächtersbach II gewinnt deutlich mit 39:21 gegen SG Hainhausen II Die zweite Herrenmannschaft des TV Wächtersbach feierte am 7. Dezember 2025 einen souveränen 39:21‑Heimsieg gegen die SG Hainhausen II. Bereits …"
   }
  ]
 }
