@@ -750,9 +750,9 @@
   "nr": "68",
   "heim": "TV Altenhaßlau",
   "gast": "TV Gelnhausen II",
-  "ergebnis_roh": "16:15",
-  "tore_heim": 16,
-  "tore_gast": 15,
+  "ergebnis_roh": "24:24",
+  "tore_heim": 24,
+  "tore_gast": 24,
   "meeting": "8259059"
  },
  {
@@ -762,10 +762,10 @@
   "nr": "69",
   "heim": "TSG Offenbach-Bürgel II",
   "gast": "HSG Hanau III",
-  "ergebnis_roh": "0:0",
-  "tore_heim": 0,
-  "tore_gast": 0,
-  "meeting": null
+  "ergebnis_roh": "21:21",
+  "tore_heim": 21,
+  "tore_gast": 21,
+  "meeting": "8259077"
  },
  {
   "datum": "2026-11-21",
@@ -777,7 +777,7 @@
   "ergebnis_roh": "0:0",
   "tore_heim": 0,
   "tore_gast": 0,
-  "meeting": null
+  "meeting": "8259108"
  },
  {
   "datum": "2026-11-21",
@@ -798,10 +798,10 @@
   "nr": "67",
   "heim": "HSG Dreieich",
   "gast": "HSG Oberhessen",
-  "ergebnis_roh": "0:0",
-  "tore_heim": 0,
-  "tore_gast": 0,
-  "meeting": null
+  "ergebnis_roh": "7:2",
+  "tore_heim": 7,
+  "tore_gast": 2,
+  "meeting": "8259087"
  },
  {
   "datum": "2026-11-21",
