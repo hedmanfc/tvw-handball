@@ -762,9 +762,9 @@
   "nr": "69",
   "heim": "TSG Offenbach-Bürgel II",
   "gast": "HSG Hanau III",
-  "ergebnis_roh": "21:21",
-  "tore_heim": 21,
-  "tore_gast": 21,
+  "ergebnis_roh": "34:37",
+  "tore_heim": 34,
+  "tore_gast": 37,
   "meeting": "8259077"
  },
  {
@@ -774,9 +774,9 @@
   "nr": "65",
   "heim": "TGS Seligenstadt",
   "gast": "SG Hainburg",
-  "ergebnis_roh": "0:0",
-  "tore_heim": 0,
-  "tore_gast": 0,
+  "ergebnis_roh": "29:31",
+  "tore_heim": 29,
+  "tore_gast": 31,
   "meeting": "8259108"
  },
  {
@@ -786,10 +786,10 @@
   "nr": "66",
   "heim": "TGS Niederrodenbach",
   "gast": "TV Langenselbold",
-  "ergebnis_roh": "0:0",
-  "tore_heim": 0,
-  "tore_gast": 0,
-  "meeting": null
+  "ergebnis_roh": "33:29",
+  "tore_heim": 33,
+  "tore_gast": 29,
+  "meeting": "8258977"
  },
  {
   "datum": "2026-11-21",
@@ -798,9 +798,9 @@
   "nr": "67",
   "heim": "HSG Dreieich",
   "gast": "HSG Oberhessen",
-  "ergebnis_roh": "7:2",
-  "tore_heim": 7,
-  "tore_gast": 2,
+  "ergebnis_roh": "49:39",
+  "tore_heim": 49,
+  "tore_gast": 39,
   "meeting": "8259087"
  },
  {
@@ -810,10 +810,10 @@
   "nr": "64",
   "heim": "HSG Preagberg",
   "gast": "HSG Dietzenbach",
-  "ergebnis_roh": "0:0",
-  "tore_heim": 0,
-  "tore_gast": 0,
-  "meeting": null
+  "ergebnis_roh": "29:31",
+  "tore_heim": 29,
+  "tore_gast": 31,
+  "meeting": "8259037"
  },
  {
   "datum": "2026-11-22",
