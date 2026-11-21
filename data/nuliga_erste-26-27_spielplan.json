@@ -750,10 +750,10 @@
   "nr": "68",
   "heim": "TV Altenhaßlau",
   "gast": "TV Gelnhausen II",
-  "ergebnis_roh": "Bött./Wern.",
-  "tore_heim": null,
-  "tore_gast": null,
-  "meeting": null
+  "ergebnis_roh": "16:15",
+  "tore_heim": 16,
+  "tore_gast": 15,
+  "meeting": "8259059"
  },
  {
   "datum": "2026-11-21",
@@ -762,9 +762,9 @@
   "nr": "69",
   "heim": "TSG Offenbach-Bürgel II",
   "gast": "HSG Hanau III",
-  "ergebnis_roh": "Kuhn/Wätz.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
@@ -774,9 +774,9 @@
   "nr": "65",
   "heim": "TGS Seligenstadt",
   "gast": "SG Hainburg",
-  "ergebnis_roh": "Kose./Voll.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
@@ -786,9 +786,9 @@
   "nr": "66",
   "heim": "TGS Niederrodenbach",
   "gast": "TV Langenselbold",
-  "ergebnis_roh": "Eben./Schw.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
@@ -798,9 +798,9 @@
   "nr": "67",
   "heim": "HSG Dreieich",
   "gast": "HSG Oberhessen",
-  "ergebnis_roh": "Höhn/Koll.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
@@ -810,9 +810,9 @@
   "nr": "64",
   "heim": "HSG Preagberg",
   "gast": "HSG Dietzenbach",
-  "ergebnis_roh": "Jüng./Lamp.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
@@ -834,7 +834,7 @@
   "nr": "75",
   "heim": "TV Gelnhausen II",
   "gast": "HSG Dreieich",
-  "ergebnis_roh": "Haus.",
+  "ergebnis_roh": "Marz./Seib",
   "tore_heim": null,
   "tore_gast": null,
   "meeting": null
@@ -846,7 +846,7 @@
   "nr": "77",
   "heim": "HSG Rodgau/N.-Roden III",
   "gast": "HSG Hanau III",
-  "ergebnis_roh": "Grot.",
+  "ergebnis_roh": "Beau/Erka.",
   "tore_heim": null,
   "tore_gast": null,
   "meeting": null
@@ -894,7 +894,7 @@
   "nr": "74",
   "heim": "HSG Oberhessen",
   "gast": "TGS Niederrodenbach",
-  "ergebnis_roh": "Bezi.",
+  "ergebnis_roh": "Kath/Sieb.",
   "tore_heim": null,
   "tore_gast": null,
   "meeting": null
