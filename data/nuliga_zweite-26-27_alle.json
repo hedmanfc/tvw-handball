@@ -12276,6 +12276,926 @@
   "gruppe": "492052"
  },
  {
+  "id": "8259318",
+  "status": "offen",
+  "nr": "3",
+  "datum": "2026-11-22",
+  "zeit": "14:00",
+  "ort": "Elisabeth-Schmitz-Schule",
+  "heim": "MSG Hanau/Erlensee",
+  "gast": "HSG Dietesh./Mühlh. II",
+  "tore_heim": 34,
+  "tore_gast": 42,
+  "hz_heim": 17,
+  "hz_gast": 17,
+  "spieler": {
+   "heim": [
+    {
+     "nr": 5,
+     "name": "Pest, Martin-Wolfgang",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 7,
+     "name": "Zach, Tim",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 8,
+     "name": "Sachtleber, Simon",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 9,
+     "name": "Butz, Marcel",
+     "tore": 1,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 11,
+     "name": "Pries, Fabian",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 12,
+     "name": "Schildger, Domenic",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 18,
+     "name": "Altstadt, Tobias",
+     "tore": 11,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 21,
+     "name": "Kohlmann, Christopher",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 89,
+     "name": "Rochelle, Mike",
+     "tore": 12,
+     "tore7": 3,
+     "versuche7": 3,
+     "gelb": true,
+     "zeitstrafen": 1,
+     "rot": false
+    },
+    {
+     "nr": 94,
+     "name": "Schilling, Björn",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ],
+   "gast": [
+    {
+     "nr": 3,
+     "name": "Richter, Roman",
+     "tore": 7,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 8,
+     "name": "Spahn, Christian",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 14,
+     "name": "Roesler, Johannes",
+     "tore": 11,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 15,
+     "name": "Ebert, Christian",
+     "tore": 3,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": true,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 16,
+     "name": "Spriestersbach, Jan",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 20,
+     "name": "Tybussek, Tobias",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 21,
+     "name": "Majstorovic, Patrik",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 25,
+     "name": "Kellermann, Robert",
+     "tore": 2,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 27,
+     "name": "Schmunck, Lukas",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 40,
+     "name": "Baier, Steven",
+     "tore": 13,
+     "tore7": 3,
+     "versuche7": 3,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 50,
+     "name": "Frey, Kevin",
+     "tore": 4,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 55,
+     "name": "Rieth, Max Mario",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 73,
+     "name": "Trabold, Tim",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    },
+    {
+     "nr": 76,
+     "name": "Wingerter, Sisco",
+     "tore": 0,
+     "tore7": 0,
+     "versuche7": 0,
+     "gelb": false,
+     "zeitstrafen": 0,
+     "rot": false
+    }
+   ]
+  },
+  "verlauf": [
+   {
+    "seite": "heim",
+    "zeit": "01:12",
+    "stand": "1:0",
+    "ereignis": "Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "gast",
+    "zeit": "01:51",
+    "stand": "1:1",
+    "ereignis": "Tor",
+    "nr": 8,
+    "name": "Spahn, Christian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "03:39",
+    "stand": "2:1",
+    "ereignis": "Tor",
+    "nr": 94,
+    "name": "Schilling, Björn"
+   },
+   {
+    "seite": "gast",
+    "zeit": "03:51",
+    "stand": "2:2",
+    "ereignis": "Tor",
+    "nr": 8,
+    "name": "Spahn, Christian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "04:38",
+    "stand": "2:3",
+    "ereignis": "Tor",
+    "nr": 50,
+    "name": "Frey, Kevin"
+   },
+   {
+    "seite": "heim",
+    "zeit": "05:01",
+    "stand": "3:3",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "06:05",
+    "stand": "3:4",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Richter, Roman"
+   },
+   {
+    "seite": "heim",
+    "zeit": "08:45",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "gast",
+    "zeit": "08:45",
+    "stand": "3:5",
+    "ereignis": "7m mit Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "heim",
+    "zeit": "09:12",
+    "stand": "4:5",
+    "ereignis": "Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "gast",
+    "zeit": "09:41",
+    "stand": "4:6",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Richter, Roman"
+   },
+   {
+    "seite": "heim",
+    "zeit": "10:16",
+    "stand": "5:6",
+    "ereignis": "7m mit Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "gast",
+    "zeit": "12:51",
+    "stand": "5:7",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "gast",
+    "zeit": "13:22",
+    "stand": "5:8",
+    "ereignis": "Tor",
+    "nr": 15,
+    "name": "Ebert, Christian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "13:40",
+    "stand": "6:8",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "14:20",
+    "stand": "6:9",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   },
+   {
+    "seite": "heim",
+    "zeit": "15:39",
+    "stand": "7:9",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Kohlmann, Christopher"
+   },
+   {
+    "seite": "gast",
+    "zeit": "16:06",
+    "stand": "7:10",
+    "ereignis": "Tor",
+    "nr": 15,
+    "name": "Ebert, Christian"
+   },
+   {
+    "seite": "",
+    "zeit": "16:15",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "gast",
+    "zeit": "17:13",
+    "stand": "7:11",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   },
+   {
+    "seite": "heim",
+    "zeit": "18:27",
+    "stand": "8:11",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Kohlmann, Christopher"
+   },
+   {
+    "seite": "heim",
+    "zeit": "19:17",
+    "stand": "9:11",
+    "ereignis": "Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "heim",
+    "zeit": "20:05",
+    "stand": "10:11",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "heim",
+    "zeit": "21:18",
+    "stand": "11:11",
+    "ereignis": "Tor",
+    "nr": 8,
+    "name": "Sachtleber, Simon"
+   },
+   {
+    "seite": "gast",
+    "zeit": "21:36",
+    "stand": "11:12",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   },
+   {
+    "seite": "gast",
+    "zeit": "22:08",
+    "stand": "11:13",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   },
+   {
+    "seite": "heim",
+    "zeit": "24:20",
+    "stand": "12:13",
+    "ereignis": "Tor",
+    "nr": 7,
+    "name": "Zach, Tim"
+   },
+   {
+    "seite": "gast",
+    "zeit": "24:54",
+    "stand": "12:14",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   },
+   {
+    "seite": "heim",
+    "zeit": "25:23",
+    "stand": "13:14",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "25:49",
+    "stand": "13:15",
+    "ereignis": "Tor",
+    "nr": 25,
+    "name": "Kellermann, Robert"
+   },
+   {
+    "seite": "heim",
+    "zeit": "26:16",
+    "stand": "14:15",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "27:17",
+    "stand": "",
+    "ereignis": "Verwarnung",
+    "nr": 15,
+    "name": "Ebert, Christian"
+   },
+   {
+    "seite": "heim",
+    "zeit": "27:27",
+    "stand": "15:15",
+    "ereignis": "7m mit Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "gast",
+    "zeit": "28:22",
+    "stand": "15:16",
+    "ereignis": "Tor",
+    "nr": 25,
+    "name": "Kellermann, Robert"
+   },
+   {
+    "seite": "heim",
+    "zeit": "28:43",
+    "stand": "16:16",
+    "ereignis": "Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "",
+    "zeit": "28:50",
+    "stand": "",
+    "ereignis": "Auszeit Gast",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "heim",
+    "zeit": "29:39",
+    "stand": "17:16",
+    "ereignis": "Tor",
+    "nr": 7,
+    "name": "Zach, Tim"
+   },
+   {
+    "seite": "gast",
+    "zeit": "29:49",
+    "stand": "17:17",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "gast",
+    "zeit": "31:28",
+    "stand": "17:18",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "gast",
+    "zeit": "32:03",
+    "stand": "17:19",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   },
+   {
+    "seite": "heim",
+    "zeit": "32:24",
+    "stand": "18:19",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "33:17",
+    "stand": "18:20",
+    "ereignis": "Tor",
+    "nr": 15,
+    "name": "Ebert, Christian"
+   },
+   {
+    "seite": "gast",
+    "zeit": "34:49",
+    "stand": "18:21",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   },
+   {
+    "seite": "heim",
+    "zeit": "35:08",
+    "stand": "19:21",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "heim",
+    "zeit": "35:29",
+    "stand": "20:21",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Kohlmann, Christopher"
+   },
+   {
+    "seite": "heim",
+    "zeit": "36:12",
+    "stand": "21:21",
+    "ereignis": "Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "gast",
+    "zeit": "36:23",
+    "stand": "21:22",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "gast",
+    "zeit": "41:18",
+    "stand": "21:23",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Richter, Roman"
+   },
+   {
+    "seite": "heim",
+    "zeit": "41:44",
+    "stand": "22:23",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "42:12",
+    "stand": "22:24",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "heim",
+    "zeit": "42:44",
+    "stand": "23:24",
+    "ereignis": "Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "gast",
+    "zeit": "43:27",
+    "stand": "23:25",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   },
+   {
+    "seite": "gast",
+    "zeit": "44:08",
+    "stand": "23:26",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "heim",
+    "zeit": "44:43",
+    "stand": "24:26",
+    "ereignis": "Tor",
+    "nr": 9,
+    "name": "Butz, Marcel"
+   },
+   {
+    "seite": "gast",
+    "zeit": "45:16",
+    "stand": "24:27",
+    "ereignis": "7m mit Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "",
+    "zeit": "45:27",
+    "stand": "",
+    "ereignis": "Auszeit Heim",
+    "nr": null,
+    "name": ""
+   },
+   {
+    "seite": "gast",
+    "zeit": "47:08",
+    "stand": "24:28",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Richter, Roman"
+   },
+   {
+    "seite": "heim",
+    "zeit": "47:25",
+    "stand": "25:28",
+    "ereignis": "Tor",
+    "nr": 8,
+    "name": "Sachtleber, Simon"
+   },
+   {
+    "seite": "heim",
+    "zeit": "48:45",
+    "stand": "26:28",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "49:13",
+    "stand": "26:29",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Richter, Roman"
+   },
+   {
+    "seite": "gast",
+    "zeit": "49:35",
+    "stand": "26:30",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   },
+   {
+    "seite": "heim",
+    "zeit": "50:05",
+    "stand": "27:30",
+    "ereignis": "Tor",
+    "nr": 94,
+    "name": "Schilling, Björn"
+   },
+   {
+    "seite": "gast",
+    "zeit": "50:35",
+    "stand": "27:31",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Richter, Roman"
+   },
+   {
+    "seite": "heim",
+    "zeit": "51:20",
+    "stand": "28:31",
+    "ereignis": "Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "gast",
+    "zeit": "51:49",
+    "stand": "28:32",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "gast",
+    "zeit": "52:16",
+    "stand": "28:33",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "gast",
+    "zeit": "53:00",
+    "stand": "28:34",
+    "ereignis": "Tor",
+    "nr": 3,
+    "name": "Richter, Roman"
+   },
+   {
+    "seite": "heim",
+    "zeit": "53:26",
+    "stand": "29:34",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "gast",
+    "zeit": "53:38",
+    "stand": "29:35",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "gast",
+    "zeit": "54:17",
+    "stand": "29:36",
+    "ereignis": "Tor",
+    "nr": 50,
+    "name": "Frey, Kevin"
+   },
+   {
+    "seite": "heim",
+    "zeit": "54:49",
+    "stand": "30:36",
+    "ereignis": "Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "heim",
+    "zeit": "55:00",
+    "stand": "",
+    "ereignis": "2 Minuten",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "gast",
+    "zeit": "55:09",
+    "stand": "30:37",
+    "ereignis": "7m mit Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "heim",
+    "zeit": "55:32",
+    "stand": "31:37",
+    "ereignis": "Tor",
+    "nr": 21,
+    "name": "Kohlmann, Christopher"
+   },
+   {
+    "seite": "gast",
+    "zeit": "56:12",
+    "stand": "31:38",
+    "ereignis": "Tor",
+    "nr": 50,
+    "name": "Frey, Kevin"
+   },
+   {
+    "seite": "gast",
+    "zeit": "57:04",
+    "stand": "31:39",
+    "ereignis": "Tor",
+    "nr": 40,
+    "name": "Baier, Steven"
+   },
+   {
+    "seite": "gast",
+    "zeit": "57:39",
+    "stand": "31:40",
+    "ereignis": "Tor",
+    "nr": 50,
+    "name": "Frey, Kevin"
+   },
+   {
+    "seite": "gast",
+    "zeit": "58:01",
+    "stand": "31:41",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   },
+   {
+    "seite": "heim",
+    "zeit": "58:22",
+    "stand": "32:41",
+    "ereignis": "Tor",
+    "nr": 18,
+    "name": "Altstadt, Tobias"
+   },
+   {
+    "seite": "heim",
+    "zeit": "58:57",
+    "stand": "33:41",
+    "ereignis": "7m mit Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "heim",
+    "zeit": "59:39",
+    "stand": "34:41",
+    "ereignis": "Tor",
+    "nr": 89,
+    "name": "Rochelle, Mike"
+   },
+   {
+    "seite": "gast",
+    "zeit": "59:54",
+    "stand": "34:42",
+    "ereignis": "Tor",
+    "nr": 14,
+    "name": "Roesler, Johannes"
+   }
+  ],
+  "saison": "Offenbach-Hanau 26/27",
+  "gruppe": "492052"
+ },
+ {
   "id": "8259319",
   "status": "genehmigt",
   "nr": "16",
