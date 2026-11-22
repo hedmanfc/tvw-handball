@@ -822,10 +822,10 @@
   "nr": "70",
   "heim": "TV Wächtersbach",
   "gast": "HSG Rodgau/N.-Roden III",
-  "ergebnis_roh": "Turs.",
-  "tore_heim": null,
-  "tore_gast": null,
-  "meeting": null
+  "ergebnis_roh": "0:1",
+  "tore_heim": 0,
+  "tore_gast": 1,
+  "meeting": "8259076"
  },
  {
   "datum": "2026-11-28",

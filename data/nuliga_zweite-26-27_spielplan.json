@@ -534,10 +534,10 @@
   "nr": "3",
   "heim": "MSG Hanau/Erlensee",
   "gast": "HSG Dietesh./Mühlh. II",
-  "ergebnis_roh": "0:0",
-  "tore_heim": 0,
-  "tore_gast": 0,
-  "meeting": null
+  "ergebnis_roh": "34:42",
+  "tore_heim": 34,
+  "tore_gast": 42,
+  "meeting": "8259318"
  },
  {
   "datum": "2026-11-28",
