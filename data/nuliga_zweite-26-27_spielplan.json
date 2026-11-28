@@ -558,9 +558,9 @@
   "nr": "52",
   "heim": "HSG Dietesh./Mühlh. II",
   "gast": "TV Altenhaßlau II",
-  "ergebnis_roh": "",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
@@ -570,9 +570,9 @@
   "nr": "53",
   "heim": "SG Bruchköbel III",
   "gast": "TV Langenselbold III",
-  "ergebnis_roh": "Sach.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
