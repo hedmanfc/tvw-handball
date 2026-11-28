@@ -834,10 +834,10 @@
   "nr": "75",
   "heim": "TV Gelnhausen II",
   "gast": "HSG Dreieich",
-  "ergebnis_roh": "Marz./Seib",
-  "tore_heim": null,
-  "tore_gast": null,
-  "meeting": null
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
+  "meeting": "8259057"
  },
  {
   "datum": "2026-11-28",
@@ -846,9 +846,9 @@
   "nr": "77",
   "heim": "HSG Rodgau/N.-Roden III",
   "gast": "HSG Hanau III",
-  "ergebnis_roh": "Beau/Erka.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
