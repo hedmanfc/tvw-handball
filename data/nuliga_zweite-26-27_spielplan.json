@@ -546,9 +546,9 @@
   "nr": "49",
   "heim": "HSG Dietzenbach II",
   "gast": "MSG Hanau/Erlensee",
-  "ergebnis_roh": "Merg.",
-  "tore_heim": null,
-  "tore_gast": null,
+  "ergebnis_roh": "0:0",
+  "tore_heim": 0,
+  "tore_gast": 0,
   "meeting": null
  },
  {
@@ -558,7 +558,7 @@
   "nr": "52",
   "heim": "HSG Dietesh./Mühlh. II",
   "gast": "TV Altenhaßlau II",
-  "ergebnis_roh": "Werk.",
+  "ergebnis_roh": "",
   "tore_heim": null,
   "tore_gast": null,
   "meeting": null
